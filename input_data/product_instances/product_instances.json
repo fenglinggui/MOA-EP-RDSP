@@ -1,0 +1,8792 @@
+{
+  "product1": {
+    "name": "product1",
+    "component_products": [
+      "product1"
+    ],
+    "n_screws": 10,
+    "n_tables": 1,
+    "dependencies": {
+      "T1": [
+        "S1",
+        "S10",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "S1": [],
+      "S2": [],
+      "S3": [],
+      "S4": [],
+      "S5": [],
+      "S6": [],
+      "S7": [],
+      "S8": [],
+      "S9": [],
+      "S10": []
+    },
+    "tables": [
+      {
+        "id": "T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      }
+    ]
+  },
+  "product2": {
+    "name": "product2",
+    "component_products": [
+      "product2"
+    ],
+    "n_screws": 13,
+    "n_tables": 1,
+    "dependencies": {
+      "T1": [
+        "S1",
+        "S10",
+        "S11",
+        "S12",
+        "S13",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "S9"
+      ],
+      "S1": [],
+      "S2": [],
+      "S3": [],
+      "S4": [],
+      "S5": [],
+      "S6": [],
+      "S7": [],
+      "S8": [],
+      "S9": [],
+      "S10": [],
+      "S11": [],
+      "S12": [],
+      "S13": []
+    },
+    "tables": [
+      {
+        "id": "T1",
+        "position": [
+          0.26,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "S1",
+        "screw_type": "M6",
+        "position": [
+          0.365,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S2",
+        "screw_type": "M3",
+        "position": [
+          0.355,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S3",
+        "screw_type": "M3",
+        "position": [
+          0.329,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S4",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S5",
+        "screw_type": "M6",
+        "position": [
+          0.25,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S6",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S7",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S8",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S9",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S10",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S11",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S12",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "S13",
+        "screw_type": "M6",
+        "position": [
+          0.329,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "T1"
+          ],
+          "group": "outer_ring"
+        }
+      }
+    ]
+  },
+  "product3": {
+    "name": "product3",
+    "component_products": [
+      "product3"
+    ],
+    "n_screws": 4,
+    "n_tables": 7,
+    "dependencies": {
+      "T1": [
+        "S1",
+        "S2"
+      ],
+      "T2": [
+        "S3",
+        "S4"
+      ],
+      "T3": [
+        "T1"
+      ],
+      "T4": [
+        "T1",
+        "T2"
+      ],
+      "T5": [
+        "T2"
+      ],
+      "T6": [
+        "T3",
+        "T5"
+      ],
+      "T7": [
+        "T6"
+      ],
+      "S1": [],
+      "S2": [],
+      "S3": [],
+      "S4": []
+    },
+    "tables": [
+      {
+        "id": "T1",
+        "position": [
+          0.18,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "T2",
+        "position": [
+          0.3,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "T3",
+        "position": [
+          0.17,
+          -0.05,
+          0.255
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "T4",
+        "position": [
+          0.24,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "T1",
+          "T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "T5",
+        "position": [
+          0.31,
+          0.05,
+          0.255
+        ],
+        "dependencies": [
+          "T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "T6",
+        "position": [
+          0.24,
+          0.0,
+          0.215
+        ],
+        "dependencies": [
+          "T3",
+          "T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "T7",
+        "position": [
+          0.24,
+          0.0,
+          0.165
+        ],
+        "dependencies": [
+          "T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "S1",
+        "screw_type": "M6",
+        "position": [
+          0.16,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "S2",
+        "screw_type": "M6",
+        "position": [
+          0.2,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "S3",
+        "screw_type": "M6",
+        "position": [
+          0.28,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "S4",
+        "screw_type": "M6",
+        "position": [
+          0.32,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "T2"
+          ],
+          "group": "right_bracket"
+        }
+      }
+    ]
+  },
+  "product4": {
+    "name": "product4",
+    "component_products": [
+      "product4"
+    ],
+    "n_screws": 7,
+    "n_tables": 10,
+    "dependencies": {
+      "T1": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "T2": [
+        "T1"
+      ],
+      "T3": [
+        "T2"
+      ],
+      "T4": [
+        "S5",
+        "S6",
+        "S7",
+        "T3"
+      ],
+      "T5": [
+        "T4"
+      ],
+      "T6": [
+        "T5"
+      ],
+      "T7": [
+        "T6"
+      ],
+      "T8": [
+        "T7"
+      ],
+      "T9": [
+        "T8"
+      ],
+      "T10": [
+        "T9"
+      ],
+      "S1": [],
+      "S2": [],
+      "S3": [],
+      "S4": [],
+      "S5": [],
+      "S6": [],
+      "S7": []
+    },
+    "tables": [
+      {
+        "id": "T1",
+        "position": [
+          0.18,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_cover",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "T2",
+        "position": [
+          0.2,
+          0.0,
+          0.315
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "seal_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "T3",
+        "position": [
+          0.225,
+          0.0,
+          0.29
+        ],
+        "dependencies": [
+          "T2"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "housing_part_a",
+          "shape": "housing"
+        }
+      },
+      {
+        "id": "T4",
+        "position": [
+          0.255,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "T3"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "gear_camera_core",
+          "shape": "core_module"
+        }
+      },
+      {
+        "id": "T5",
+        "position": [
+          0.285,
+          0.0,
+          0.23
+        ],
+        "dependencies": [
+          "T4"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_g",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "T6",
+        "position": [
+          0.315,
+          0.0,
+          0.21
+        ],
+        "dependencies": [
+          "T5"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_h",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "T7",
+        "position": [
+          0.345,
+          0.0,
+          0.19
+        ],
+        "dependencies": [
+          "T6"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "bolt_d_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "T8",
+        "position": [
+          0.375,
+          0.0,
+          0.17
+        ],
+        "dependencies": [
+          "T7"
+        ],
+        "meta": {
+          "part_label": "P15",
+          "component": "bolt_e_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "T9",
+        "position": [
+          0.405,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "T8"
+        ],
+        "meta": {
+          "part_label": "P16",
+          "component": "end_cover_left",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "T10",
+        "position": [
+          0.405,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "T9"
+        ],
+        "meta": {
+          "part_label": "P17",
+          "component": "end_cover_right",
+          "shape": "cover"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "S1",
+        "screw_type": "M3",
+        "position": [
+          0.145,
+          -0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "S2",
+        "screw_type": "M3",
+        "position": [
+          0.175,
+          0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "S3",
+        "screw_type": "M3",
+        "position": [
+          0.205,
+          -0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "S4",
+        "screw_type": "M3",
+        "position": [
+          0.235,
+          0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "S5",
+        "screw_type": "M6",
+        "position": [
+          0.33,
+          -0.06,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "S6",
+        "screw_type": "M6",
+        "position": [
+          0.36,
+          0.0,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "S7",
+        "screw_type": "M6",
+        "position": [
+          0.39,
+          0.06,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "T4"
+          ],
+          "group": "core_lock"
+        }
+      }
+    ]
+  },
+  "product5": {
+    "name": "product5",
+    "component_products": [
+      "product5"
+    ],
+    "n_screws": 8,
+    "n_tables": 15,
+    "dependencies": {
+      "T1": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "T2": [
+        "T1"
+      ],
+      "T3": [
+        "T1"
+      ],
+      "T4": [
+        "T1"
+      ],
+      "T5": [
+        "T1"
+      ],
+      "T6": [
+        "T1"
+      ],
+      "T7": [
+        "T2"
+      ],
+      "T8": [
+        "T7"
+      ],
+      "T9": [
+        "T6"
+      ],
+      "T10": [
+        "T8"
+      ],
+      "T11": [
+        "S5",
+        "S6",
+        "S7",
+        "S8",
+        "T10",
+        "T15"
+      ],
+      "T12": [
+        "T11"
+      ],
+      "T13": [
+        "T11"
+      ],
+      "T14": [
+        "T11"
+      ],
+      "T15": [
+        "T9"
+      ],
+      "S1": [],
+      "S2": [],
+      "S3": [],
+      "S4": [],
+      "S5": [],
+      "S6": [],
+      "S7": [],
+      "S8": []
+    },
+    "tables": [
+      {
+        "id": "T1",
+        "position": [
+          0.16,
+          0.0,
+          0.36
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "T2",
+        "position": [
+          0.14,
+          -0.08,
+          0.325
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "part_b",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "T3",
+        "position": [
+          0.18,
+          -0.03,
+          0.323
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "part_c",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "T4",
+        "position": [
+          0.21,
+          0.0,
+          0.321
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "part_d",
+          "shape": "gear_plate"
+        }
+      },
+      {
+        "id": "T5",
+        "position": [
+          0.24,
+          0.03,
+          0.323
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "part_e",
+          "shape": "part"
+        }
+      },
+      {
+        "id": "T6",
+        "position": [
+          0.28,
+          0.08,
+          0.325
+        ],
+        "dependencies": [
+          "T1"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "part_f",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "T7",
+        "position": [
+          0.15,
+          -0.08,
+          0.285
+        ],
+        "dependencies": [
+          "T2"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "part_g",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "T8",
+        "position": [
+          0.16,
+          -0.08,
+          0.25
+        ],
+        "dependencies": [
+          "T7"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_h",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "T9",
+        "position": [
+          0.3,
+          0.08,
+          0.285
+        ],
+        "dependencies": [
+          "T6"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_i",
+          "shape": "bracket"
+        }
+      },
+      {
+        "id": "T10",
+        "position": [
+          0.17,
+          -0.08,
+          0.215
+        ],
+        "dependencies": [
+          "T8"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "part_j",
+          "shape": "carrier"
+        }
+      },
+      {
+        "id": "T11",
+        "position": [
+          0.25,
+          0.0,
+          0.18
+        ],
+        "dependencies": [
+          "T10",
+          "T15"
+        ],
+        "meta": {
+          "part_label": "P20",
+          "component": "middle_hub",
+          "shape": "hub"
+        }
+      },
+      {
+        "id": "T12",
+        "position": [
+          0.34,
+          -0.05,
+          0.15
+        ],
+        "dependencies": [
+          "T11"
+        ],
+        "meta": {
+          "part_label": "P21",
+          "component": "part_l",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "T13",
+        "position": [
+          0.37,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "T11"
+        ],
+        "meta": {
+          "part_label": "P22",
+          "component": "part_m",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "T14",
+        "position": [
+          0.36,
+          0.03,
+          0.17
+        ],
+        "dependencies": [
+          "T11"
+        ],
+        "meta": {
+          "part_label": "P23",
+          "component": "part_n",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "T15",
+        "position": [
+          0.32,
+          0.08,
+          0.215
+        ],
+        "dependencies": [
+          "T9"
+        ],
+        "meta": {
+          "part_label": "P19",
+          "component": "part_k",
+          "shape": "carrier"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "S1",
+        "screw_type": "M3",
+        "position": [
+          0.12,
+          -0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "S2",
+        "screw_type": "M3",
+        "position": [
+          0.15,
+          0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "S3",
+        "screw_type": "M3",
+        "position": [
+          0.18,
+          -0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "S4",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "S5",
+        "screw_type": "M6",
+        "position": [
+          0.225,
+          -0.06,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P15",
+          "connect": [
+            "T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "S6",
+        "screw_type": "M6",
+        "position": [
+          0.25,
+          -0.02,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P16",
+          "connect": [
+            "T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "S7",
+        "screw_type": "M6",
+        "position": [
+          0.28,
+          0.02,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P17",
+          "connect": [
+            "T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "S8",
+        "screw_type": "M6",
+        "position": [
+          0.305,
+          0.06,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P18",
+          "connect": [
+            "T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      }
+    ]
+  },
+  "product6": {
+    "name": "product6",
+    "component_products": [
+      "product1",
+      "product2"
+    ],
+    "n_screws": 23,
+    "n_tables": 2,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S10",
+        "B_S11",
+        "B_S12",
+        "B_S13",
+        "B_S2",
+        "B_S3",
+        "B_S4",
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_S8",
+        "B_S9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": [],
+      "B_S8": [],
+      "B_S9": [],
+      "B_S10": [],
+      "B_S11": [],
+      "B_S12": [],
+      "B_S13": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5800000000000001,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M6",
+        "position": [
+          0.685,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.675,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.649,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.612,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.5700000000000001,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.499,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S8",
+        "screw_type": "M3",
+        "position": [
+          0.482,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S9",
+        "screw_type": "M3",
+        "position": [
+          0.482,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S10",
+        "screw_type": "M6",
+        "position": [
+          0.499,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S11",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S12",
+        "screw_type": "M3",
+        "position": [
+          0.612,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S13",
+        "screw_type": "M6",
+        "position": [
+          0.649,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      }
+    ]
+  },
+  "product7": {
+    "name": "product7",
+    "component_products": [
+      "product1",
+      "product3"
+    ],
+    "n_screws": 14,
+    "n_tables": 8,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2"
+      ],
+      "B_T2": [
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T3": [
+        "B_T1"
+      ],
+      "B_T4": [
+        "B_T1",
+        "B_T2"
+      ],
+      "B_T5": [
+        "B_T2"
+      ],
+      "B_T6": [
+        "B_T3",
+        "B_T5"
+      ],
+      "B_T7": [
+        "B_T6"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.62,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.49,
+          -0.05,
+          0.255
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.56,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "B_T1",
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.63,
+          0.05,
+          0.255
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.56,
+          0.0,
+          0.215
+        ],
+        "dependencies": [
+          "B_T3",
+          "B_T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.56,
+          0.0,
+          0.165
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M6",
+        "position": [
+          0.48,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M6",
+        "position": [
+          0.52,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M6",
+        "position": [
+          0.6000000000000001,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M6",
+        "position": [
+          0.64,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T2"
+          ],
+          "group": "right_bracket"
+        }
+      }
+    ]
+  },
+  "product8": {
+    "name": "product8",
+    "component_products": [
+      "product1",
+      "product4"
+    ],
+    "n_screws": 17,
+    "n_tables": 11,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2",
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T2": [
+        "B_T1"
+      ],
+      "B_T3": [
+        "B_T2"
+      ],
+      "B_T4": [
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_T3"
+      ],
+      "B_T5": [
+        "B_T4"
+      ],
+      "B_T6": [
+        "B_T5"
+      ],
+      "B_T7": [
+        "B_T6"
+      ],
+      "B_T8": [
+        "B_T7"
+      ],
+      "B_T9": [
+        "B_T8"
+      ],
+      "B_T10": [
+        "B_T9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_cover",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.52,
+          0.0,
+          0.315
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "seal_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.545,
+          0.0,
+          0.29
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "housing_part_a",
+          "shape": "housing"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.575,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "B_T3"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "gear_camera_core",
+          "shape": "core_module"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.605,
+          0.0,
+          0.23
+        ],
+        "dependencies": [
+          "B_T4"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_g",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.635,
+          0.0,
+          0.21
+        ],
+        "dependencies": [
+          "B_T5"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_h",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.665,
+          0.0,
+          0.19
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "bolt_d_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "B_T8",
+        "position": [
+          0.6950000000000001,
+          0.0,
+          0.17
+        ],
+        "dependencies": [
+          "B_T7"
+        ],
+        "meta": {
+          "part_label": "P15",
+          "component": "bolt_e_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "B_T9",
+        "position": [
+          0.7250000000000001,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "B_T8"
+        ],
+        "meta": {
+          "part_label": "P16",
+          "component": "end_cover_left",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "B_T10",
+        "position": [
+          0.7250000000000001,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "B_T9"
+        ],
+        "meta": {
+          "part_label": "P17",
+          "component": "end_cover_right",
+          "shape": "cover"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M3",
+        "position": [
+          0.46499999999999997,
+          -0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.495,
+          0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.525,
+          -0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.5549999999999999,
+          0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.65,
+          -0.06,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "B_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M6",
+        "position": [
+          0.6799999999999999,
+          0.0,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "B_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.71,
+          0.06,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "B_T4"
+          ],
+          "group": "core_lock"
+        }
+      }
+    ]
+  },
+  "product9": {
+    "name": "product9",
+    "component_products": [
+      "product1",
+      "product5"
+    ],
+    "n_screws": 18,
+    "n_tables": 16,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2",
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T2": [
+        "B_T1"
+      ],
+      "B_T3": [
+        "B_T1"
+      ],
+      "B_T4": [
+        "B_T1"
+      ],
+      "B_T5": [
+        "B_T1"
+      ],
+      "B_T6": [
+        "B_T1"
+      ],
+      "B_T7": [
+        "B_T2"
+      ],
+      "B_T8": [
+        "B_T7"
+      ],
+      "B_T9": [
+        "B_T6"
+      ],
+      "B_T10": [
+        "B_T8"
+      ],
+      "B_T11": [
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_S8",
+        "B_T10",
+        "B_T15"
+      ],
+      "B_T12": [
+        "B_T11"
+      ],
+      "B_T13": [
+        "B_T11"
+      ],
+      "B_T14": [
+        "B_T11"
+      ],
+      "B_T15": [
+        "B_T9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": [],
+      "B_S8": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.48,
+          0.0,
+          0.36
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.46,
+          -0.08,
+          0.325
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "part_b",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.5,
+          -0.03,
+          0.323
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "part_c",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.53,
+          0.0,
+          0.321
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "part_d",
+          "shape": "gear_plate"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.56,
+          0.03,
+          0.323
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "part_e",
+          "shape": "part"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.6000000000000001,
+          0.08,
+          0.325
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "part_f",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.47,
+          -0.08,
+          0.285
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "part_g",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "B_T8",
+        "position": [
+          0.48,
+          -0.08,
+          0.25
+        ],
+        "dependencies": [
+          "B_T7"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_h",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "B_T9",
+        "position": [
+          0.62,
+          0.08,
+          0.285
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_i",
+          "shape": "bracket"
+        }
+      },
+      {
+        "id": "B_T10",
+        "position": [
+          0.49,
+          -0.08,
+          0.215
+        ],
+        "dependencies": [
+          "B_T8"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "part_j",
+          "shape": "carrier"
+        }
+      },
+      {
+        "id": "B_T11",
+        "position": [
+          0.5700000000000001,
+          0.0,
+          0.18
+        ],
+        "dependencies": [
+          "B_T10",
+          "B_T15"
+        ],
+        "meta": {
+          "part_label": "P20",
+          "component": "middle_hub",
+          "shape": "hub"
+        }
+      },
+      {
+        "id": "B_T12",
+        "position": [
+          0.66,
+          -0.05,
+          0.15
+        ],
+        "dependencies": [
+          "B_T11"
+        ],
+        "meta": {
+          "part_label": "P21",
+          "component": "part_l",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "B_T13",
+        "position": [
+          0.69,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "B_T11"
+        ],
+        "meta": {
+          "part_label": "P22",
+          "component": "part_m",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "B_T14",
+        "position": [
+          0.6799999999999999,
+          0.03,
+          0.17
+        ],
+        "dependencies": [
+          "B_T11"
+        ],
+        "meta": {
+          "part_label": "P23",
+          "component": "part_n",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "B_T15",
+        "position": [
+          0.64,
+          0.08,
+          0.215
+        ],
+        "dependencies": [
+          "B_T9"
+        ],
+        "meta": {
+          "part_label": "P19",
+          "component": "part_k",
+          "shape": "carrier"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M3",
+        "position": [
+          0.44,
+          -0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.47,
+          0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.5,
+          -0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.545,
+          -0.06,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P15",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M6",
+        "position": [
+          0.5700000000000001,
+          -0.02,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P16",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.6000000000000001,
+          0.02,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P17",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "B_S8",
+        "screw_type": "M6",
+        "position": [
+          0.625,
+          0.06,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P18",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      }
+    ]
+  },
+  "product10": {
+    "name": "product10",
+    "component_products": [
+      "product2",
+      "product3"
+    ],
+    "n_screws": 17,
+    "n_tables": 8,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S11",
+        "A_S12",
+        "A_S13",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2"
+      ],
+      "B_T2": [
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T3": [
+        "B_T1"
+      ],
+      "B_T4": [
+        "B_T1",
+        "B_T2"
+      ],
+      "B_T5": [
+        "B_T2"
+      ],
+      "B_T6": [
+        "B_T3",
+        "B_T5"
+      ],
+      "B_T7": [
+        "B_T6"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "A_S11": [],
+      "A_S12": [],
+      "A_S13": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.26,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.62,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.49,
+          -0.05,
+          0.255
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.56,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "B_T1",
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.63,
+          0.05,
+          0.255
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.56,
+          0.0,
+          0.215
+        ],
+        "dependencies": [
+          "B_T3",
+          "B_T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.56,
+          0.0,
+          0.165
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.365,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.355,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.329,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.25,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S11",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S12",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S13",
+        "screw_type": "M6",
+        "position": [
+          0.329,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M6",
+        "position": [
+          0.48,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M6",
+        "position": [
+          0.52,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M6",
+        "position": [
+          0.6000000000000001,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M6",
+        "position": [
+          0.64,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T2"
+          ],
+          "group": "right_bracket"
+        }
+      }
+    ]
+  },
+  "product11": {
+    "name": "product11",
+    "component_products": [
+      "product2",
+      "product4"
+    ],
+    "n_screws": 20,
+    "n_tables": 11,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S11",
+        "A_S12",
+        "A_S13",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2",
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T2": [
+        "B_T1"
+      ],
+      "B_T3": [
+        "B_T2"
+      ],
+      "B_T4": [
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_T3"
+      ],
+      "B_T5": [
+        "B_T4"
+      ],
+      "B_T6": [
+        "B_T5"
+      ],
+      "B_T7": [
+        "B_T6"
+      ],
+      "B_T8": [
+        "B_T7"
+      ],
+      "B_T9": [
+        "B_T8"
+      ],
+      "B_T10": [
+        "B_T9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "A_S11": [],
+      "A_S12": [],
+      "A_S13": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.26,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_cover",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.52,
+          0.0,
+          0.315
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "seal_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.545,
+          0.0,
+          0.29
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "housing_part_a",
+          "shape": "housing"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.575,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "B_T3"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "gear_camera_core",
+          "shape": "core_module"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.605,
+          0.0,
+          0.23
+        ],
+        "dependencies": [
+          "B_T4"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_g",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.635,
+          0.0,
+          0.21
+        ],
+        "dependencies": [
+          "B_T5"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_h",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.665,
+          0.0,
+          0.19
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "bolt_d_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "B_T8",
+        "position": [
+          0.6950000000000001,
+          0.0,
+          0.17
+        ],
+        "dependencies": [
+          "B_T7"
+        ],
+        "meta": {
+          "part_label": "P15",
+          "component": "bolt_e_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "B_T9",
+        "position": [
+          0.7250000000000001,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "B_T8"
+        ],
+        "meta": {
+          "part_label": "P16",
+          "component": "end_cover_left",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "B_T10",
+        "position": [
+          0.7250000000000001,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "B_T9"
+        ],
+        "meta": {
+          "part_label": "P17",
+          "component": "end_cover_right",
+          "shape": "cover"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.365,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.355,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.329,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.25,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S11",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S12",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S13",
+        "screw_type": "M6",
+        "position": [
+          0.329,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M3",
+        "position": [
+          0.46499999999999997,
+          -0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.495,
+          0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.525,
+          -0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.5549999999999999,
+          0.045,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.65,
+          -0.06,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "B_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M6",
+        "position": [
+          0.6799999999999999,
+          0.0,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "B_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.71,
+          0.06,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "B_T4"
+          ],
+          "group": "core_lock"
+        }
+      }
+    ]
+  },
+  "product12": {
+    "name": "product12",
+    "component_products": [
+      "product3",
+      "product5"
+    ],
+    "n_screws": 12,
+    "n_tables": 22,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S2"
+      ],
+      "A_T2": [
+        "A_S3",
+        "A_S4"
+      ],
+      "A_T3": [
+        "A_T1"
+      ],
+      "A_T4": [
+        "A_T1",
+        "A_T2"
+      ],
+      "A_T5": [
+        "A_T2"
+      ],
+      "A_T6": [
+        "A_T3",
+        "A_T5"
+      ],
+      "A_T7": [
+        "A_T6"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2",
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T2": [
+        "B_T1"
+      ],
+      "B_T3": [
+        "B_T1"
+      ],
+      "B_T4": [
+        "B_T1"
+      ],
+      "B_T5": [
+        "B_T1"
+      ],
+      "B_T6": [
+        "B_T1"
+      ],
+      "B_T7": [
+        "B_T2"
+      ],
+      "B_T8": [
+        "B_T7"
+      ],
+      "B_T9": [
+        "B_T6"
+      ],
+      "B_T10": [
+        "B_T8"
+      ],
+      "B_T11": [
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_S8",
+        "B_T10",
+        "B_T15"
+      ],
+      "B_T12": [
+        "B_T11"
+      ],
+      "B_T13": [
+        "B_T11"
+      ],
+      "B_T14": [
+        "B_T11"
+      ],
+      "B_T15": [
+        "B_T9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": [],
+      "B_S8": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.18,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "A_T2",
+        "position": [
+          0.3,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "A_T3",
+        "position": [
+          0.17,
+          -0.05,
+          0.255
+        ],
+        "dependencies": [
+          "A_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "A_T4",
+        "position": [
+          0.24,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "A_T1",
+          "A_T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "A_T5",
+        "position": [
+          0.31,
+          0.05,
+          0.255
+        ],
+        "dependencies": [
+          "A_T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "A_T6",
+        "position": [
+          0.24,
+          0.0,
+          0.215
+        ],
+        "dependencies": [
+          "A_T3",
+          "A_T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "A_T7",
+        "position": [
+          0.24,
+          0.0,
+          0.165
+        ],
+        "dependencies": [
+          "A_T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.48,
+          0.0,
+          0.36
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.46,
+          -0.08,
+          0.325
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "part_b",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.5,
+          -0.03,
+          0.323
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "part_c",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.53,
+          0.0,
+          0.321
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "part_d",
+          "shape": "gear_plate"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.56,
+          0.03,
+          0.323
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "part_e",
+          "shape": "part"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.6000000000000001,
+          0.08,
+          0.325
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "part_f",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.47,
+          -0.08,
+          0.285
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "part_g",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "B_T8",
+        "position": [
+          0.48,
+          -0.08,
+          0.25
+        ],
+        "dependencies": [
+          "B_T7"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_h",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "B_T9",
+        "position": [
+          0.62,
+          0.08,
+          0.285
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_i",
+          "shape": "bracket"
+        }
+      },
+      {
+        "id": "B_T10",
+        "position": [
+          0.49,
+          -0.08,
+          0.215
+        ],
+        "dependencies": [
+          "B_T8"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "part_j",
+          "shape": "carrier"
+        }
+      },
+      {
+        "id": "B_T11",
+        "position": [
+          0.5700000000000001,
+          0.0,
+          0.18
+        ],
+        "dependencies": [
+          "B_T10",
+          "B_T15"
+        ],
+        "meta": {
+          "part_label": "P20",
+          "component": "middle_hub",
+          "shape": "hub"
+        }
+      },
+      {
+        "id": "B_T12",
+        "position": [
+          0.66,
+          -0.05,
+          0.15
+        ],
+        "dependencies": [
+          "B_T11"
+        ],
+        "meta": {
+          "part_label": "P21",
+          "component": "part_l",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "B_T13",
+        "position": [
+          0.69,
+          0.0,
+          0.15
+        ],
+        "dependencies": [
+          "B_T11"
+        ],
+        "meta": {
+          "part_label": "P22",
+          "component": "part_m",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "B_T14",
+        "position": [
+          0.6799999999999999,
+          0.03,
+          0.17
+        ],
+        "dependencies": [
+          "B_T11"
+        ],
+        "meta": {
+          "part_label": "P23",
+          "component": "part_n",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "B_T15",
+        "position": [
+          0.64,
+          0.08,
+          0.215
+        ],
+        "dependencies": [
+          "B_T9"
+        ],
+        "meta": {
+          "part_label": "P19",
+          "component": "part_k",
+          "shape": "carrier"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.16,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M6",
+        "position": [
+          0.2,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M6",
+        "position": [
+          0.28,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M6",
+        "position": [
+          0.32,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M3",
+        "position": [
+          0.44,
+          -0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.47,
+          0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.5,
+          -0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          0.055,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.545,
+          -0.06,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P15",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M6",
+        "position": [
+          0.5700000000000001,
+          -0.02,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P16",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.6000000000000001,
+          0.02,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P17",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "B_S8",
+        "screw_type": "M6",
+        "position": [
+          0.625,
+          0.06,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P18",
+          "connect": [
+            "B_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      }
+    ]
+  },
+  "product13": {
+    "name": "product13",
+    "component_products": [
+      "product1",
+      "product2",
+      "product3"
+    ],
+    "n_screws": 27,
+    "n_tables": 9,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S10",
+        "B_S11",
+        "B_S12",
+        "B_S13",
+        "B_S2",
+        "B_S3",
+        "B_S4",
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_S8",
+        "B_S9"
+      ],
+      "C_T1": [
+        "C_S1",
+        "C_S2"
+      ],
+      "C_T2": [
+        "C_S3",
+        "C_S4"
+      ],
+      "C_T3": [
+        "C_T1"
+      ],
+      "C_T4": [
+        "C_T1",
+        "C_T2"
+      ],
+      "C_T5": [
+        "C_T2"
+      ],
+      "C_T6": [
+        "C_T3",
+        "C_T5"
+      ],
+      "C_T7": [
+        "C_T6"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": [],
+      "B_S8": [],
+      "B_S9": [],
+      "B_S10": [],
+      "B_S11": [],
+      "B_S12": [],
+      "B_S13": [],
+      "C_S1": [],
+      "C_S2": [],
+      "C_S3": [],
+      "C_S4": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5800000000000001,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      },
+      {
+        "id": "C_T1",
+        "position": [
+          0.18,
+          0.22,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "C_T2",
+        "position": [
+          0.3,
+          0.22,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "C_T3",
+        "position": [
+          0.17,
+          0.16999999999999998,
+          0.255
+        ],
+        "dependencies": [
+          "C_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "C_T4",
+        "position": [
+          0.24,
+          0.22,
+          0.255
+        ],
+        "dependencies": [
+          "C_T1",
+          "C_T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "C_T5",
+        "position": [
+          0.31,
+          0.27,
+          0.255
+        ],
+        "dependencies": [
+          "C_T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "C_T6",
+        "position": [
+          0.24,
+          0.22,
+          0.215
+        ],
+        "dependencies": [
+          "C_T3",
+          "C_T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "C_T7",
+        "position": [
+          0.24,
+          0.22,
+          0.165
+        ],
+        "dependencies": [
+          "C_T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M6",
+        "position": [
+          0.685,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.675,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.649,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.612,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.5700000000000001,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.499,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S8",
+        "screw_type": "M3",
+        "position": [
+          0.482,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S9",
+        "screw_type": "M3",
+        "position": [
+          0.482,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S10",
+        "screw_type": "M6",
+        "position": [
+          0.499,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S11",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S12",
+        "screw_type": "M3",
+        "position": [
+          0.612,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S13",
+        "screw_type": "M6",
+        "position": [
+          0.649,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "C_S1",
+        "screw_type": "M6",
+        "position": [
+          0.16,
+          0.28,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "C_S2",
+        "screw_type": "M6",
+        "position": [
+          0.2,
+          0.16,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "C_S3",
+        "screw_type": "M6",
+        "position": [
+          0.28,
+          0.28,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "C_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "C_S4",
+        "screw_type": "M6",
+        "position": [
+          0.32,
+          0.16,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "C_T2"
+          ],
+          "group": "right_bracket"
+        }
+      }
+    ]
+  },
+  "product14": {
+    "name": "product14",
+    "component_products": [
+      "product2",
+      "product3",
+      "product4",
+      "product5"
+    ],
+    "n_screws": 32,
+    "n_tables": 33,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S11",
+        "A_S12",
+        "A_S13",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S2"
+      ],
+      "B_T2": [
+        "B_S3",
+        "B_S4"
+      ],
+      "B_T3": [
+        "B_T1"
+      ],
+      "B_T4": [
+        "B_T1",
+        "B_T2"
+      ],
+      "B_T5": [
+        "B_T2"
+      ],
+      "B_T6": [
+        "B_T3",
+        "B_T5"
+      ],
+      "B_T7": [
+        "B_T6"
+      ],
+      "C_T1": [
+        "C_S1",
+        "C_S2",
+        "C_S3",
+        "C_S4"
+      ],
+      "C_T2": [
+        "C_T1"
+      ],
+      "C_T3": [
+        "C_T2"
+      ],
+      "C_T4": [
+        "C_S5",
+        "C_S6",
+        "C_S7",
+        "C_T3"
+      ],
+      "C_T5": [
+        "C_T4"
+      ],
+      "C_T6": [
+        "C_T5"
+      ],
+      "C_T7": [
+        "C_T6"
+      ],
+      "C_T8": [
+        "C_T7"
+      ],
+      "C_T9": [
+        "C_T8"
+      ],
+      "C_T10": [
+        "C_T9"
+      ],
+      "D_T1": [
+        "D_S1",
+        "D_S2",
+        "D_S3",
+        "D_S4"
+      ],
+      "D_T2": [
+        "D_T1"
+      ],
+      "D_T3": [
+        "D_T1"
+      ],
+      "D_T4": [
+        "D_T1"
+      ],
+      "D_T5": [
+        "D_T1"
+      ],
+      "D_T6": [
+        "D_T1"
+      ],
+      "D_T7": [
+        "D_T2"
+      ],
+      "D_T8": [
+        "D_T7"
+      ],
+      "D_T9": [
+        "D_T6"
+      ],
+      "D_T10": [
+        "D_T8"
+      ],
+      "D_T11": [
+        "D_S5",
+        "D_S6",
+        "D_S7",
+        "D_S8",
+        "D_T10",
+        "D_T15"
+      ],
+      "D_T12": [
+        "D_T11"
+      ],
+      "D_T13": [
+        "D_T11"
+      ],
+      "D_T14": [
+        "D_T11"
+      ],
+      "D_T15": [
+        "D_T9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "A_S11": [],
+      "A_S12": [],
+      "A_S13": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "C_S1": [],
+      "C_S2": [],
+      "C_S3": [],
+      "C_S4": [],
+      "C_S5": [],
+      "C_S6": [
+        "D_T1"
+      ],
+      "C_S7": [
+        "D_T1"
+      ],
+      "D_S1": [],
+      "D_S2": [],
+      "D_S3": [],
+      "D_S4": [],
+      "D_S5": [],
+      "D_S6": [],
+      "D_S7": [],
+      "D_S8": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.26,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "B_T2",
+        "position": [
+          0.62,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "B_T3",
+        "position": [
+          0.49,
+          -0.05,
+          0.255
+        ],
+        "dependencies": [
+          "B_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "B_T4",
+        "position": [
+          0.56,
+          0.0,
+          0.255
+        ],
+        "dependencies": [
+          "B_T1",
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "B_T5",
+        "position": [
+          0.63,
+          0.05,
+          0.255
+        ],
+        "dependencies": [
+          "B_T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "B_T6",
+        "position": [
+          0.56,
+          0.0,
+          0.215
+        ],
+        "dependencies": [
+          "B_T3",
+          "B_T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "B_T7",
+        "position": [
+          0.56,
+          0.0,
+          0.165
+        ],
+        "dependencies": [
+          "B_T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      },
+      {
+        "id": "C_T1",
+        "position": [
+          0.18,
+          0.22,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_cover",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "C_T2",
+        "position": [
+          0.2,
+          0.22,
+          0.315
+        ],
+        "dependencies": [
+          "C_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "seal_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "C_T3",
+        "position": [
+          0.225,
+          0.22,
+          0.29
+        ],
+        "dependencies": [
+          "C_T2"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "housing_part_a",
+          "shape": "housing"
+        }
+      },
+      {
+        "id": "C_T4",
+        "position": [
+          0.255,
+          0.22,
+          0.255
+        ],
+        "dependencies": [
+          "C_T3"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "gear_camera_core",
+          "shape": "core_module"
+        }
+      },
+      {
+        "id": "C_T5",
+        "position": [
+          0.285,
+          0.22,
+          0.23
+        ],
+        "dependencies": [
+          "C_T4"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_g",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "C_T6",
+        "position": [
+          0.315,
+          0.22,
+          0.21
+        ],
+        "dependencies": [
+          "C_T5"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_h",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "C_T7",
+        "position": [
+          0.345,
+          0.22,
+          0.19
+        ],
+        "dependencies": [
+          "C_T6"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "bolt_d_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "C_T8",
+        "position": [
+          0.375,
+          0.22,
+          0.17
+        ],
+        "dependencies": [
+          "C_T7"
+        ],
+        "meta": {
+          "part_label": "P15",
+          "component": "bolt_e_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "C_T9",
+        "position": [
+          0.405,
+          0.22,
+          0.15
+        ],
+        "dependencies": [
+          "C_T8"
+        ],
+        "meta": {
+          "part_label": "P16",
+          "component": "end_cover_left",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "C_T10",
+        "position": [
+          0.405,
+          0.22,
+          0.15
+        ],
+        "dependencies": [
+          "C_T9"
+        ],
+        "meta": {
+          "part_label": "P17",
+          "component": "end_cover_right",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "D_T1",
+        "position": [
+          0.48,
+          0.22,
+          0.36
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "D_T2",
+        "position": [
+          0.46,
+          0.14,
+          0.325
+        ],
+        "dependencies": [
+          "D_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "part_b",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "D_T3",
+        "position": [
+          0.5,
+          0.19,
+          0.323
+        ],
+        "dependencies": [
+          "D_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "part_c",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "D_T4",
+        "position": [
+          0.53,
+          0.22,
+          0.321
+        ],
+        "dependencies": [
+          "D_T1"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "part_d",
+          "shape": "gear_plate"
+        }
+      },
+      {
+        "id": "D_T5",
+        "position": [
+          0.56,
+          0.25,
+          0.323
+        ],
+        "dependencies": [
+          "D_T1"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "part_e",
+          "shape": "part"
+        }
+      },
+      {
+        "id": "D_T6",
+        "position": [
+          0.6000000000000001,
+          0.3,
+          0.325
+        ],
+        "dependencies": [
+          "D_T1"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "part_f",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "D_T7",
+        "position": [
+          0.47,
+          0.14,
+          0.285
+        ],
+        "dependencies": [
+          "D_T2"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "part_g",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "D_T8",
+        "position": [
+          0.48,
+          0.14,
+          0.25
+        ],
+        "dependencies": [
+          "D_T7"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_h",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "D_T9",
+        "position": [
+          0.62,
+          0.3,
+          0.285
+        ],
+        "dependencies": [
+          "D_T6"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_i",
+          "shape": "bracket"
+        }
+      },
+      {
+        "id": "D_T10",
+        "position": [
+          0.49,
+          0.14,
+          0.215
+        ],
+        "dependencies": [
+          "D_T8"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "part_j",
+          "shape": "carrier"
+        }
+      },
+      {
+        "id": "D_T11",
+        "position": [
+          0.5700000000000001,
+          0.22,
+          0.18
+        ],
+        "dependencies": [
+          "D_T10",
+          "D_T15"
+        ],
+        "meta": {
+          "part_label": "P20",
+          "component": "middle_hub",
+          "shape": "hub"
+        }
+      },
+      {
+        "id": "D_T12",
+        "position": [
+          0.66,
+          0.16999999999999998,
+          0.15
+        ],
+        "dependencies": [
+          "D_T11"
+        ],
+        "meta": {
+          "part_label": "P21",
+          "component": "part_l",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "D_T13",
+        "position": [
+          0.69,
+          0.22,
+          0.15
+        ],
+        "dependencies": [
+          "D_T11"
+        ],
+        "meta": {
+          "part_label": "P22",
+          "component": "part_m",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "D_T14",
+        "position": [
+          0.6799999999999999,
+          0.25,
+          0.17
+        ],
+        "dependencies": [
+          "D_T11"
+        ],
+        "meta": {
+          "part_label": "P23",
+          "component": "part_n",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "D_T15",
+        "position": [
+          0.64,
+          0.3,
+          0.215
+        ],
+        "dependencies": [
+          "D_T9"
+        ],
+        "meta": {
+          "part_label": "P19",
+          "component": "part_k",
+          "shape": "carrier"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.365,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.355,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.329,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.25,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.162,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.179,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S11",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S12",
+        "screw_type": "M3",
+        "position": [
+          0.292,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S13",
+        "screw_type": "M6",
+        "position": [
+          0.329,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M6",
+        "position": [
+          0.48,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M6",
+        "position": [
+          0.52,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M6",
+        "position": [
+          0.6000000000000001,
+          0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M6",
+        "position": [
+          0.64,
+          -0.06,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "C_S1",
+        "screw_type": "M3",
+        "position": [
+          0.145,
+          0.175,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "C_S2",
+        "screw_type": "M3",
+        "position": [
+          0.175,
+          0.265,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "C_S3",
+        "screw_type": "M3",
+        "position": [
+          0.205,
+          0.175,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "C_S4",
+        "screw_type": "M3",
+        "position": [
+          0.235,
+          0.265,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "C_S5",
+        "screw_type": "M6",
+        "position": [
+          0.33,
+          0.16,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "C_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "C_S6",
+        "screw_type": "M6",
+        "position": [
+          0.36,
+          0.22,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "C_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "C_S7",
+        "screw_type": "M6",
+        "position": [
+          0.39,
+          0.28,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "C_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "D_S1",
+        "screw_type": "M3",
+        "position": [
+          0.44,
+          0.165,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "D_S2",
+        "screw_type": "M3",
+        "position": [
+          0.47,
+          0.275,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "D_S3",
+        "screw_type": "M3",
+        "position": [
+          0.5,
+          0.165,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "D_S4",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          0.275,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "D_S5",
+        "screw_type": "M6",
+        "position": [
+          0.545,
+          0.16,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P15",
+          "connect": [
+            "D_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "D_S6",
+        "screw_type": "M6",
+        "position": [
+          0.5700000000000001,
+          0.2,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P16",
+          "connect": [
+            "D_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "D_S7",
+        "screw_type": "M6",
+        "position": [
+          0.6000000000000001,
+          0.24,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P17",
+          "connect": [
+            "D_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "D_S8",
+        "screw_type": "M6",
+        "position": [
+          0.625,
+          0.28,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P18",
+          "connect": [
+            "D_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      }
+    ]
+  },
+  "product15": {
+    "name": "product15",
+    "component_products": [
+      "product1",
+      "product2",
+      "product3",
+      "product4",
+      "product5"
+    ],
+    "n_screws": 42,
+    "n_tables": 34,
+    "dependencies": {
+      "A_T1": [
+        "A_S1",
+        "A_S10",
+        "A_S2",
+        "A_S3",
+        "A_S4",
+        "A_S5",
+        "A_S6",
+        "A_S7",
+        "A_S8",
+        "A_S9"
+      ],
+      "B_T1": [
+        "B_S1",
+        "B_S10",
+        "B_S11",
+        "B_S12",
+        "B_S13",
+        "B_S2",
+        "B_S3",
+        "B_S4",
+        "B_S5",
+        "B_S6",
+        "B_S7",
+        "B_S8",
+        "B_S9"
+      ],
+      "C_T1": [
+        "C_S1",
+        "C_S2"
+      ],
+      "C_T2": [
+        "C_S3",
+        "C_S4"
+      ],
+      "C_T3": [
+        "C_T1"
+      ],
+      "C_T4": [
+        "C_T1",
+        "C_T2"
+      ],
+      "C_T5": [
+        "C_T2"
+      ],
+      "C_T6": [
+        "C_T3",
+        "C_T5"
+      ],
+      "C_T7": [
+        "C_T6"
+      ],
+      "D_T1": [
+        "D_S1",
+        "D_S2",
+        "D_S3",
+        "D_S4"
+      ],
+      "D_T2": [
+        "D_T1"
+      ],
+      "D_T3": [
+        "D_T2"
+      ],
+      "D_T4": [
+        "D_S5",
+        "D_S6",
+        "D_S7",
+        "D_T3"
+      ],
+      "D_T5": [
+        "D_T4"
+      ],
+      "D_T6": [
+        "D_T5"
+      ],
+      "D_T7": [
+        "D_T6"
+      ],
+      "D_T8": [
+        "D_T7"
+      ],
+      "D_T9": [
+        "D_T8"
+      ],
+      "D_T10": [
+        "D_T9"
+      ],
+      "E_T1": [
+        "E_S1",
+        "E_S2",
+        "E_S3",
+        "E_S4"
+      ],
+      "E_T2": [
+        "E_T1"
+      ],
+      "E_T3": [
+        "E_T1"
+      ],
+      "E_T4": [
+        "E_T1"
+      ],
+      "E_T5": [
+        "E_T1"
+      ],
+      "E_T6": [
+        "E_T1"
+      ],
+      "E_T7": [
+        "E_T2"
+      ],
+      "E_T8": [
+        "E_T7"
+      ],
+      "E_T9": [
+        "E_T6"
+      ],
+      "E_T10": [
+        "E_T8"
+      ],
+      "E_T11": [
+        "E_S5",
+        "E_S6",
+        "E_S7",
+        "E_S8",
+        "E_T10",
+        "E_T15"
+      ],
+      "E_T12": [
+        "E_T11"
+      ],
+      "E_T13": [
+        "E_T11"
+      ],
+      "E_T14": [
+        "E_T11"
+      ],
+      "E_T15": [
+        "E_T9"
+      ],
+      "A_S1": [],
+      "A_S2": [],
+      "A_S3": [],
+      "A_S4": [],
+      "A_S5": [],
+      "A_S6": [],
+      "A_S7": [],
+      "A_S8": [],
+      "A_S9": [],
+      "A_S10": [],
+      "B_S1": [],
+      "B_S2": [],
+      "B_S3": [],
+      "B_S4": [],
+      "B_S5": [],
+      "B_S6": [],
+      "B_S7": [],
+      "B_S8": [],
+      "B_S9": [],
+      "B_S10": [],
+      "B_S11": [],
+      "B_S12": [],
+      "B_S13": [],
+      "C_S1": [],
+      "C_S2": [],
+      "C_S3": [],
+      "C_S4": [],
+      "D_S1": [],
+      "D_S2": [],
+      "D_S3": [],
+      "D_S4": [],
+      "D_S5": [],
+      "D_S6": [],
+      "D_S7": [],
+      "E_S1": [],
+      "E_S2": [],
+      "E_S3": [],
+      "E_S4": [],
+      "E_S5": [],
+      "E_S6": [],
+      "E_S7": [],
+      "E_S8": []
+    },
+    "tables": [
+      {
+        "id": "A_T1",
+        "position": [
+          0.3,
+          0.0,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "component": "front_mounting_flange",
+          "shape": "circular_flange",
+          "note": "central part connected by P1-P10"
+        }
+      },
+      {
+        "id": "B_T1",
+        "position": [
+          0.5800000000000001,
+          0.0,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P14",
+          "component": "filter_screen_assembly",
+          "shape": "ring_filter",
+          "note": "core graspable part fixed by P1-P13"
+        }
+      },
+      {
+        "id": "C_T1",
+        "position": [
+          0.18,
+          0.22,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "left_bracket",
+          "shape": "support_bracket",
+          "note": "left support bracket after removing P1-P2"
+        }
+      },
+      {
+        "id": "C_T2",
+        "position": [
+          0.3,
+          0.22,
+          0.3
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "component": "right_bracket",
+          "shape": "support_bracket",
+          "note": "right support bracket after removing P3-P4"
+        }
+      },
+      {
+        "id": "C_T3",
+        "position": [
+          0.17,
+          0.16999999999999998,
+          0.255
+        ],
+        "dependencies": [
+          "C_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "left_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "C_T4",
+        "position": [
+          0.24,
+          0.22,
+          0.255
+        ],
+        "dependencies": [
+          "C_T1",
+          "C_T2"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "roller",
+          "shape": "belt_roller"
+        }
+      },
+      {
+        "id": "C_T5",
+        "position": [
+          0.31,
+          0.27,
+          0.255
+        ],
+        "dependencies": [
+          "C_T2"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "right_bush",
+          "shape": "bush"
+        }
+      },
+      {
+        "id": "C_T6",
+        "position": [
+          0.24,
+          0.22,
+          0.215
+        ],
+        "dependencies": [
+          "C_T3",
+          "C_T5"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "shaft",
+          "shape": "shaft"
+        }
+      },
+      {
+        "id": "C_T7",
+        "position": [
+          0.24,
+          0.22,
+          0.165
+        ],
+        "dependencies": [
+          "C_T6"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "base_plate",
+          "shape": "base"
+        }
+      },
+      {
+        "id": "D_T1",
+        "position": [
+          0.5,
+          0.22,
+          0.34
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_cover",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "D_T2",
+        "position": [
+          0.52,
+          0.22,
+          0.315
+        ],
+        "dependencies": [
+          "D_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "seal_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "D_T3",
+        "position": [
+          0.545,
+          0.22,
+          0.29
+        ],
+        "dependencies": [
+          "D_T2"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "housing_part_a",
+          "shape": "housing"
+        }
+      },
+      {
+        "id": "D_T4",
+        "position": [
+          0.575,
+          0.22,
+          0.255
+        ],
+        "dependencies": [
+          "D_T3"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "gear_camera_core",
+          "shape": "core_module"
+        }
+      },
+      {
+        "id": "D_T5",
+        "position": [
+          0.605,
+          0.22,
+          0.23
+        ],
+        "dependencies": [
+          "D_T4"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_g",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "D_T6",
+        "position": [
+          0.635,
+          0.22,
+          0.21
+        ],
+        "dependencies": [
+          "D_T5"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_h",
+          "shape": "plate"
+        }
+      },
+      {
+        "id": "D_T7",
+        "position": [
+          0.665,
+          0.22,
+          0.19
+        ],
+        "dependencies": [
+          "D_T6"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "bolt_d_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "D_T8",
+        "position": [
+          0.6950000000000001,
+          0.22,
+          0.17
+        ],
+        "dependencies": [
+          "D_T7"
+        ],
+        "meta": {
+          "part_label": "P15",
+          "component": "bolt_e_side_part",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "D_T9",
+        "position": [
+          0.7250000000000001,
+          0.22,
+          0.15
+        ],
+        "dependencies": [
+          "D_T8"
+        ],
+        "meta": {
+          "part_label": "P16",
+          "component": "end_cover_left",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "D_T10",
+        "position": [
+          0.7250000000000001,
+          0.22,
+          0.15
+        ],
+        "dependencies": [
+          "D_T9"
+        ],
+        "meta": {
+          "part_label": "P17",
+          "component": "end_cover_right",
+          "shape": "cover"
+        }
+      },
+      {
+        "id": "E_T1",
+        "position": [
+          0.16,
+          0.44,
+          0.36
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "component": "front_frame",
+          "shape": "frame"
+        }
+      },
+      {
+        "id": "E_T2",
+        "position": [
+          0.14,
+          0.36,
+          0.325
+        ],
+        "dependencies": [
+          "E_T1"
+        ],
+        "meta": {
+          "part_label": "P6",
+          "component": "part_b",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "E_T3",
+        "position": [
+          0.18,
+          0.41000000000000003,
+          0.323
+        ],
+        "dependencies": [
+          "E_T1"
+        ],
+        "meta": {
+          "part_label": "P7",
+          "component": "part_c",
+          "shape": "disc"
+        }
+      },
+      {
+        "id": "E_T4",
+        "position": [
+          0.21,
+          0.44,
+          0.321
+        ],
+        "dependencies": [
+          "E_T1"
+        ],
+        "meta": {
+          "part_label": "P8",
+          "component": "part_d",
+          "shape": "gear_plate"
+        }
+      },
+      {
+        "id": "E_T5",
+        "position": [
+          0.24,
+          0.47,
+          0.323
+        ],
+        "dependencies": [
+          "E_T1"
+        ],
+        "meta": {
+          "part_label": "P9",
+          "component": "part_e",
+          "shape": "part"
+        }
+      },
+      {
+        "id": "E_T6",
+        "position": [
+          0.28,
+          0.52,
+          0.325
+        ],
+        "dependencies": [
+          "E_T1"
+        ],
+        "meta": {
+          "part_label": "P10",
+          "component": "part_f",
+          "shape": "support"
+        }
+      },
+      {
+        "id": "E_T7",
+        "position": [
+          0.15,
+          0.36,
+          0.285
+        ],
+        "dependencies": [
+          "E_T2"
+        ],
+        "meta": {
+          "part_label": "P11",
+          "component": "part_g",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "E_T8",
+        "position": [
+          0.16,
+          0.36,
+          0.25
+        ],
+        "dependencies": [
+          "E_T7"
+        ],
+        "meta": {
+          "part_label": "P12",
+          "component": "part_h",
+          "shape": "gear"
+        }
+      },
+      {
+        "id": "E_T9",
+        "position": [
+          0.3,
+          0.52,
+          0.285
+        ],
+        "dependencies": [
+          "E_T6"
+        ],
+        "meta": {
+          "part_label": "P13",
+          "component": "part_i",
+          "shape": "bracket"
+        }
+      },
+      {
+        "id": "E_T10",
+        "position": [
+          0.17,
+          0.36,
+          0.215
+        ],
+        "dependencies": [
+          "E_T8"
+        ],
+        "meta": {
+          "part_label": "P14",
+          "component": "part_j",
+          "shape": "carrier"
+        }
+      },
+      {
+        "id": "E_T11",
+        "position": [
+          0.25,
+          0.44,
+          0.18
+        ],
+        "dependencies": [
+          "E_T10",
+          "E_T15"
+        ],
+        "meta": {
+          "part_label": "P20",
+          "component": "middle_hub",
+          "shape": "hub"
+        }
+      },
+      {
+        "id": "E_T12",
+        "position": [
+          0.34,
+          0.39,
+          0.15
+        ],
+        "dependencies": [
+          "E_T11"
+        ],
+        "meta": {
+          "part_label": "P21",
+          "component": "part_l",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "E_T13",
+        "position": [
+          0.37,
+          0.44,
+          0.15
+        ],
+        "dependencies": [
+          "E_T11"
+        ],
+        "meta": {
+          "part_label": "P22",
+          "component": "part_m",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "E_T14",
+        "position": [
+          0.36,
+          0.47,
+          0.17
+        ],
+        "dependencies": [
+          "E_T11"
+        ],
+        "meta": {
+          "part_label": "P23",
+          "component": "part_n",
+          "shape": "end_module"
+        }
+      },
+      {
+        "id": "E_T15",
+        "position": [
+          0.32,
+          0.52,
+          0.215
+        ],
+        "dependencies": [
+          "E_T9"
+        ],
+        "meta": {
+          "part_label": "P19",
+          "component": "part_k",
+          "shape": "carrier"
+        }
+      }
+    ],
+    "screws": [
+      {
+        "id": "A_S1",
+        "screw_type": "M6",
+        "position": [
+          0.355,
+          0.0,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S2",
+        "screw_type": "M3",
+        "position": [
+          0.35,
+          0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S3",
+        "screw_type": "M3",
+        "position": [
+          0.336,
+          0.049,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S4",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          0.055,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S5",
+        "screw_type": "M6",
+        "position": [
+          0.302,
+          0.049,
+          0.315
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S6",
+        "screw_type": "M6",
+        "position": [
+          0.284,
+          0.03,
+          0.305
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S7",
+        "screw_type": "M3",
+        "position": [
+          0.266,
+          0.0,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S8",
+        "screw_type": "M3",
+        "position": [
+          0.284,
+          -0.03,
+          0.314
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S9",
+        "screw_type": "M3",
+        "position": [
+          0.319,
+          -0.049,
+          0.334
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "A_S10",
+        "screw_type": "M6",
+        "position": [
+          0.35,
+          -0.03,
+          0.374
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "A_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S1",
+        "screw_type": "M6",
+        "position": [
+          0.685,
+          0.0,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S2",
+        "screw_type": "M3",
+        "position": [
+          0.675,
+          0.046,
+          0.363
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S3",
+        "screw_type": "M3",
+        "position": [
+          0.649,
+          0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S4",
+        "screw_type": "M3",
+        "position": [
+          0.612,
+          0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S5",
+        "screw_type": "M6",
+        "position": [
+          0.5700000000000001,
+          0.108,
+          0.332
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P5",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S6",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P6",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S7",
+        "screw_type": "M6",
+        "position": [
+          0.499,
+          0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P7",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S8",
+        "screw_type": "M3",
+        "position": [
+          0.482,
+          0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S9",
+        "screw_type": "M3",
+        "position": [
+          0.482,
+          -0.027,
+          0.304
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S10",
+        "screw_type": "M6",
+        "position": [
+          0.499,
+          -0.067,
+          0.309
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S11",
+        "screw_type": "M3",
+        "position": [
+          0.53,
+          -0.096,
+          0.319
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P11",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S12",
+        "screw_type": "M3",
+        "position": [
+          0.612,
+          -0.103,
+          0.345
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P12",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "B_S13",
+        "screw_type": "M6",
+        "position": [
+          0.649,
+          -0.083,
+          0.356
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P13",
+          "connect": [
+            "B_T1"
+          ],
+          "group": "outer_ring"
+        }
+      },
+      {
+        "id": "C_S1",
+        "screw_type": "M6",
+        "position": [
+          0.16,
+          0.28,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "C_S2",
+        "screw_type": "M6",
+        "position": [
+          0.2,
+          0.16,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "C_T1"
+          ],
+          "group": "left_bracket"
+        }
+      },
+      {
+        "id": "C_S3",
+        "screw_type": "M6",
+        "position": [
+          0.28,
+          0.28,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "C_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "C_S4",
+        "screw_type": "M6",
+        "position": [
+          0.32,
+          0.16,
+          0.335
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "C_T2"
+          ],
+          "group": "right_bracket"
+        }
+      },
+      {
+        "id": "D_S1",
+        "screw_type": "M3",
+        "position": [
+          0.46499999999999997,
+          0.175,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "D_S2",
+        "screw_type": "M3",
+        "position": [
+          0.495,
+          0.265,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "D_S3",
+        "screw_type": "M3",
+        "position": [
+          0.525,
+          0.175,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "D_S4",
+        "screw_type": "M3",
+        "position": [
+          0.5549999999999999,
+          0.265,
+          0.365
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "D_T1"
+          ],
+          "group": "front_cover"
+        }
+      },
+      {
+        "id": "D_S5",
+        "screw_type": "M6",
+        "position": [
+          0.65,
+          0.16,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P8",
+          "connect": [
+            "D_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "D_S6",
+        "screw_type": "M6",
+        "position": [
+          0.6799999999999999,
+          0.22,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P9",
+          "connect": [
+            "D_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "D_S7",
+        "screw_type": "M6",
+        "position": [
+          0.71,
+          0.28,
+          0.275
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P10",
+          "connect": [
+            "D_T4"
+          ],
+          "group": "core_lock"
+        }
+      },
+      {
+        "id": "E_S1",
+        "screw_type": "M3",
+        "position": [
+          0.12,
+          0.385,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P1",
+          "connect": [
+            "E_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "E_S2",
+        "screw_type": "M3",
+        "position": [
+          0.15,
+          0.495,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P2",
+          "connect": [
+            "E_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "E_S3",
+        "screw_type": "M3",
+        "position": [
+          0.18,
+          0.385,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P3",
+          "connect": [
+            "E_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "E_S4",
+        "screw_type": "M3",
+        "position": [
+          0.21,
+          0.495,
+          0.385
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P4",
+          "connect": [
+            "E_T1"
+          ],
+          "group": "front_frame"
+        }
+      },
+      {
+        "id": "E_S5",
+        "screw_type": "M6",
+        "position": [
+          0.225,
+          0.38,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P15",
+          "connect": [
+            "E_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "E_S6",
+        "screw_type": "M6",
+        "position": [
+          0.25,
+          0.42,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P16",
+          "connect": [
+            "E_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "E_S7",
+        "screw_type": "M6",
+        "position": [
+          0.28,
+          0.46,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P17",
+          "connect": [
+            "E_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      },
+      {
+        "id": "E_S8",
+        "screw_type": "M6",
+        "position": [
+          0.305,
+          0.5,
+          0.215
+        ],
+        "dependencies": [],
+        "meta": {
+          "part_label": "P18",
+          "connect": [
+            "E_T11"
+          ],
+          "group": "middle_hub",
+          "disable_occlusion": true
+        }
+      }
+    ]
+  }
+}

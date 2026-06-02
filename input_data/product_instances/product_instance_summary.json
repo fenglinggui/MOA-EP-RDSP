@@ -1,0 +1,142 @@
+{
+  "source": "product.py from the formal experiment server code",
+  "n_products": 15,
+  "products": [
+    {
+      "product": "product1",
+      "component_products": [
+        "product1"
+      ],
+      "n_screws": 10,
+      "n_tables": 1
+    },
+    {
+      "product": "product2",
+      "component_products": [
+        "product2"
+      ],
+      "n_screws": 13,
+      "n_tables": 1
+    },
+    {
+      "product": "product3",
+      "component_products": [
+        "product3"
+      ],
+      "n_screws": 4,
+      "n_tables": 7
+    },
+    {
+      "product": "product4",
+      "component_products": [
+        "product4"
+      ],
+      "n_screws": 7,
+      "n_tables": 10
+    },
+    {
+      "product": "product5",
+      "component_products": [
+        "product5"
+      ],
+      "n_screws": 8,
+      "n_tables": 15
+    },
+    {
+      "product": "product6",
+      "component_products": [
+        "product1",
+        "product2"
+      ],
+      "n_screws": 23,
+      "n_tables": 2
+    },
+    {
+      "product": "product7",
+      "component_products": [
+        "product1",
+        "product3"
+      ],
+      "n_screws": 14,
+      "n_tables": 8
+    },
+    {
+      "product": "product8",
+      "component_products": [
+        "product1",
+        "product4"
+      ],
+      "n_screws": 17,
+      "n_tables": 11
+    },
+    {
+      "product": "product9",
+      "component_products": [
+        "product1",
+        "product5"
+      ],
+      "n_screws": 18,
+      "n_tables": 16
+    },
+    {
+      "product": "product10",
+      "component_products": [
+        "product2",
+        "product3"
+      ],
+      "n_screws": 17,
+      "n_tables": 8
+    },
+    {
+      "product": "product11",
+      "component_products": [
+        "product2",
+        "product4"
+      ],
+      "n_screws": 20,
+      "n_tables": 11
+    },
+    {
+      "product": "product12",
+      "component_products": [
+        "product3",
+        "product5"
+      ],
+      "n_screws": 12,
+      "n_tables": 22
+    },
+    {
+      "product": "product13",
+      "component_products": [
+        "product1",
+        "product2",
+        "product3"
+      ],
+      "n_screws": 27,
+      "n_tables": 9
+    },
+    {
+      "product": "product14",
+      "component_products": [
+        "product2",
+        "product3",
+        "product4",
+        "product5"
+      ],
+      "n_screws": 32,
+      "n_tables": 33
+    },
+    {
+      "product": "product15",
+      "component_products": [
+        "product1",
+        "product2",
+        "product3",
+        "product4",
+        "product5"
+      ],
+      "n_screws": 42,
+      "n_tables": 34
+    }
+  ]
+}
