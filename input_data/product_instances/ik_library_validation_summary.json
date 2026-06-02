@@ -1,0 +1,129 @@
+{
+  "pos_tol": 0.001,
+  "ori_tol_deg": 1.0,
+  "product_count": 15,
+  "bad_total": 0,
+  "all_valid": true,
+  "results": [
+    {
+      "product": "product10",
+      "candidate_count": 281,
+      "bad_count": 0,
+      "max_pos_error": 0.0008409402263429041,
+      "max_ori_error": 0.30664048892860146,
+      "bad_ops": []
+    },
+    {
+      "product": "product11",
+      "candidate_count": 303,
+      "bad_count": 0,
+      "max_pos_error": 0.0002701958880800469,
+      "max_ori_error": 0.04168363406472822,
+      "bad_ops": []
+    },
+    {
+      "product": "product12",
+      "candidate_count": 330,
+      "bad_count": 0,
+      "max_pos_error": 7.027495773639113e-07,
+      "max_ori_error": 0.00020036777863145138,
+      "bad_ops": []
+    },
+    {
+      "product": "product13",
+      "candidate_count": 365,
+      "bad_count": 0,
+      "max_pos_error": 0.0009505461593994069,
+      "max_ori_error": 0.27731860044076634,
+      "bad_ops": []
+    },
+    {
+      "product": "product14",
+      "candidate_count": 647,
+      "bad_count": 0,
+      "max_pos_error": 0.000851607593240146,
+      "max_ori_error": 0.30663530074906703,
+      "bad_ops": []
+    },
+    {
+      "product": "product15",
+      "candidate_count": 716,
+      "bad_count": 0,
+      "max_pos_error": 0.000950642126659116,
+      "max_ori_error": 0.27729697502960415,
+      "bad_ops": []
+    },
+    {
+      "product": "product1",
+      "candidate_count": 116,
+      "bad_count": 0,
+      "max_pos_error": 0.0006524547537487601,
+      "max_ori_error": 0.2133209655114248,
+      "bad_ops": []
+    },
+    {
+      "product": "product2",
+      "candidate_count": 168,
+      "bad_count": 0,
+      "max_pos_error": 0.0002701552705141372,
+      "max_ori_error": 0.04170079862025029,
+      "bad_ops": []
+    },
+    {
+      "product": "product3",
+      "candidate_count": 134,
+      "bad_count": 0,
+      "max_pos_error": 6.497673292168997e-07,
+      "max_ori_error": 0.00017947938536167727,
+      "bad_ops": []
+    },
+    {
+      "product": "product4",
+      "candidate_count": 192,
+      "bad_count": 0,
+      "max_pos_error": 0.0004139049747095639,
+      "max_ori_error": 0.08245607578930543,
+      "bad_ops": []
+    },
+    {
+      "product": "product5",
+      "candidate_count": 274,
+      "bad_count": 0,
+      "max_pos_error": 0.0004898654194417225,
+      "max_ori_error": 0.11968567839008826,
+      "bad_ops": []
+    },
+    {
+      "product": "product6",
+      "candidate_count": 242,
+      "bad_count": 0,
+      "max_pos_error": 0.0009505319364292847,
+      "max_ori_error": 0.277321828592119,
+      "bad_ops": []
+    },
+    {
+      "product": "product7",
+      "candidate_count": 223,
+      "bad_count": 0,
+      "max_pos_error": 0.0008408872308660771,
+      "max_ori_error": 0.30665002960401316,
+      "bad_ops": []
+    },
+    {
+      "product": "product8",
+      "candidate_count": 244,
+      "bad_count": 0,
+      "max_pos_error": 0.0006526613416571712,
+      "max_ori_error": 0.21327943607701158,
+      "bad_ops": []
+    },
+    {
+      "product": "product9",
+      "candidate_count": 307,
+      "bad_count": 0,
+      "max_pos_error": 0.0006528070206107134,
+      "max_ori_error": 0.21325018513354976,
+      "bad_ops": []
+    }
+  ]
+}
