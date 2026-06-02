@@ -1,6 +1,6 @@
-﻿# MOA-EP-RDSP
+﻿# MOA-EP-RDSP Dataset and Experimental Results
 
-This repository is prepared for the paper **Meta-operation-assisted optimization for execution-parameterized robotic disassembly sequence planning**.
+Data and experimental results for **Meta-operation-assisted optimization for execution-parameterized robotic disassembly sequence planning**.
 
 Only data and experimental results will be released here. Implementation code for the compared algorithms is not included.
 
@@ -15,3 +15,4 @@ Only data and experimental results will be released here. Implementation code fo
 - `docs/`: notes for data format, metrics, and reproduction details.
 
 The folders currently contain only placeholders. Files will be added gradually.
+
