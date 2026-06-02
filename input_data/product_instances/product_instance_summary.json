@@ -1,6 +1,16 @@
 {
   "source": "product.py from the formal experiment server code",
   "n_products": 15,
+  "field_notes": {
+    "position": "3D operation/part coordinate [x, y, z].",
+    "orientation": "operation normal/direction vector used by the robot target model.",
+    "mass": "table/graspable-part mass parameter.",
+    "d_grip": "grasping distance/diameter parameter for table operations.",
+    "screw_type": "screw specification label for unscrewing operations.",
+    "turns": "number of screw turns used by the unscrewing operation model.",
+    "dependencies": "explicit and derived precedence constraints returned by Product.build_dependencies().",
+    "meta.connect": "part-connection relation used to derive precedence constraints."
+  },
   "products": [
     {
       "product": "product1",

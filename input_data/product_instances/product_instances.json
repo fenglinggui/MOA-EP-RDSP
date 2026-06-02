@@ -33,10 +33,17 @@
     "tables": [
       {
         "id": "T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -56,6 +63,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -73,6 +86,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -90,6 +109,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -107,6 +132,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -124,6 +155,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -141,6 +178,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -158,6 +201,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -175,6 +224,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -192,6 +247,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -209,6 +270,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -260,10 +327,17 @@
     "tables": [
       {
         "id": "T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.26,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -283,6 +357,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -300,6 +380,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -317,6 +403,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -334,6 +426,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -351,6 +449,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -368,6 +472,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -385,6 +495,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -402,6 +518,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -419,6 +541,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -436,6 +564,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -453,6 +587,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -470,6 +610,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -487,6 +633,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -539,10 +691,17 @@
     "tables": [
       {
         "id": "T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.18,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -554,10 +713,17 @@
       },
       {
         "id": "T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.3,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -569,10 +735,17 @@
       },
       {
         "id": "T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.17,
           -0.05,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "T1"
@@ -585,10 +758,17 @@
       },
       {
         "id": "T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.24,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "T1",
@@ -602,10 +782,17 @@
       },
       {
         "id": "T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.31,
           0.05,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "T2"
@@ -618,10 +805,17 @@
       },
       {
         "id": "T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.24,
           0.0,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "T3",
@@ -635,10 +829,17 @@
       },
       {
         "id": "T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.24,
           0.0,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "T6"
@@ -659,6 +860,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -676,6 +883,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -693,6 +906,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -710,6 +929,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -776,10 +1001,17 @@
     "tables": [
       {
         "id": "T1",
+        "mass": 0.08,
+        "d_grip": 0.05,
         "position": [
           0.18,
           0.0,
           0.34
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -790,10 +1022,17 @@
       },
       {
         "id": "T2",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.2,
           0.0,
           0.315
+        ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
         ],
         "dependencies": [
           "T1"
@@ -806,10 +1045,17 @@
       },
       {
         "id": "T3",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.225,
           0.0,
           0.29
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "T2"
@@ -822,10 +1068,17 @@
       },
       {
         "id": "T4",
+        "mass": 0.18,
+        "d_grip": 0.08,
         "position": [
           0.255,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "T3"
@@ -838,10 +1091,17 @@
       },
       {
         "id": "T5",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.285,
           0.0,
           0.23
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "T4"
@@ -854,10 +1114,17 @@
       },
       {
         "id": "T6",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.315,
           0.0,
           0.21
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "T5"
@@ -870,10 +1137,17 @@
       },
       {
         "id": "T7",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.345,
           0.0,
           0.19
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "T6"
@@ -886,10 +1160,17 @@
       },
       {
         "id": "T8",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.375,
           0.0,
           0.17
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "T7"
@@ -902,10 +1183,17 @@
       },
       {
         "id": "T9",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.405,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "T8"
@@ -918,10 +1206,17 @@
       },
       {
         "id": "T10",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.405,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "T9"
@@ -942,6 +1237,12 @@
           -0.045,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -959,6 +1260,12 @@
           0.045,
           0.365
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -976,6 +1283,12 @@
           -0.045,
           0.365
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -993,6 +1306,12 @@
           0.045,
           0.365
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -1010,6 +1329,12 @@
           -0.06,
           0.275
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -1027,6 +1352,12 @@
           0.0,
           0.275
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -1044,6 +1375,12 @@
           0.06,
           0.275
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -1128,10 +1465,17 @@
     "tables": [
       {
         "id": "T1",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.16,
           0.0,
           0.36
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -1142,9 +1486,16 @@
       },
       {
         "id": "T2",
+        "mass": 0.08,
+        "d_grip": 0.04,
         "position": [
           0.14,
           -0.08,
+          0.325
+        ],
+        "orientation": [
+          0.917,
+          0.231,
           0.325
         ],
         "dependencies": [
@@ -1158,10 +1509,17 @@
       },
       {
         "id": "T3",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.18,
           -0.03,
           0.323
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "T1"
@@ -1174,10 +1532,17 @@
       },
       {
         "id": "T4",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.21,
           0.0,
           0.321
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "T1"
@@ -1190,10 +1555,17 @@
       },
       {
         "id": "T5",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.24,
           0.03,
           0.323
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "T1"
@@ -1206,10 +1578,17 @@
       },
       {
         "id": "T6",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.28,
           0.08,
           0.325
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "T1"
@@ -1222,10 +1601,17 @@
       },
       {
         "id": "T7",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.15,
           -0.08,
           0.285
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "T2"
@@ -1238,10 +1624,17 @@
       },
       {
         "id": "T8",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.16,
           -0.08,
           0.25
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "T7"
@@ -1254,10 +1647,17 @@
       },
       {
         "id": "T9",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.3,
           0.08,
           0.285
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "T6"
@@ -1270,10 +1670,17 @@
       },
       {
         "id": "T10",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.17,
           -0.08,
           0.215
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "T8"
@@ -1286,10 +1693,17 @@
       },
       {
         "id": "T11",
+        "mass": 0.14,
+        "d_grip": 0.07,
         "position": [
           0.25,
           0.0,
           0.18
+        ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
         ],
         "dependencies": [
           "T10",
@@ -1303,10 +1717,17 @@
       },
       {
         "id": "T12",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.34,
           -0.05,
           0.15
+        ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
         ],
         "dependencies": [
           "T11"
@@ -1319,10 +1740,17 @@
       },
       {
         "id": "T13",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.37,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
         ],
         "dependencies": [
           "T11"
@@ -1335,10 +1763,17 @@
       },
       {
         "id": "T14",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.36,
           0.03,
           0.17
+        ],
+        "orientation": [
+          0.917,
+          -0.231,
+          0.325
         ],
         "dependencies": [
           "T11"
@@ -1351,10 +1786,17 @@
       },
       {
         "id": "T15",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.32,
           0.08,
           0.215
+        ],
+        "orientation": [
+          0.553,
+          -0.691,
+          -0.467
         ],
         "dependencies": [
           "T9"
@@ -1375,6 +1817,12 @@
           -0.055,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -1392,6 +1840,12 @@
           0.055,
           0.385
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -1409,6 +1863,12 @@
           -0.055,
           0.385
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -1426,6 +1886,12 @@
           0.055,
           0.385
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -1443,6 +1909,12 @@
           -0.06,
           0.215
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P15",
@@ -1461,6 +1933,12 @@
           -0.02,
           0.215
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P16",
@@ -1479,6 +1957,12 @@
           0.02,
           0.215
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P17",
@@ -1497,6 +1981,12 @@
           0.06,
           0.215
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P18",
@@ -1572,10 +2062,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -1587,10 +2084,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.5800000000000001,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -1610,6 +2114,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -1627,6 +2137,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -1644,6 +2160,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -1661,6 +2183,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -1678,6 +2206,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -1695,6 +2229,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -1712,6 +2252,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -1729,6 +2275,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -1746,6 +2298,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -1763,6 +2321,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -1780,6 +2344,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -1797,6 +2367,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -1814,6 +2390,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -1831,6 +2413,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -1848,6 +2436,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -1865,6 +2459,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -1882,6 +2482,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -1899,6 +2505,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -1916,6 +2528,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -1933,6 +2551,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -1950,6 +2574,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -1967,6 +2597,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -1984,6 +2620,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -2059,10 +2701,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -2074,10 +2723,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.5,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -2089,10 +2745,17 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.62,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -2104,10 +2767,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.49,
           -0.05,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T1"
@@ -2120,10 +2790,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.56,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T1",
@@ -2137,10 +2814,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.63,
           0.05,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T2"
@@ -2153,10 +2837,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.56,
           0.0,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T3",
@@ -2170,10 +2861,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.56,
           0.0,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T6"
@@ -2194,6 +2892,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -2211,6 +2915,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -2228,6 +2938,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -2245,6 +2961,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -2262,6 +2984,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -2279,6 +3007,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -2296,6 +3030,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -2313,6 +3053,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -2330,6 +3076,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -2347,6 +3099,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -2364,6 +3122,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -2381,6 +3145,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -2398,6 +3168,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -2415,6 +3191,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -2504,10 +3286,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -2519,10 +3308,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.08,
+        "d_grip": 0.05,
         "position": [
           0.5,
           0.0,
           0.34
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -2533,10 +3329,17 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.52,
           0.0,
           0.315
+        ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
         ],
         "dependencies": [
           "B_T1"
@@ -2549,10 +3352,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.545,
           0.0,
           0.29
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "B_T2"
@@ -2565,10 +3375,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.18,
+        "d_grip": 0.08,
         "position": [
           0.575,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T3"
@@ -2581,10 +3398,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.605,
           0.0,
           0.23
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T4"
@@ -2597,10 +3421,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.635,
           0.0,
           0.21
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T5"
@@ -2613,10 +3444,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.665,
           0.0,
           0.19
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T6"
@@ -2629,10 +3467,17 @@
       },
       {
         "id": "B_T8",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.6950000000000001,
           0.0,
           0.17
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "B_T7"
@@ -2645,10 +3490,17 @@
       },
       {
         "id": "B_T9",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.7250000000000001,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T8"
@@ -2661,10 +3513,17 @@
       },
       {
         "id": "B_T10",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.7250000000000001,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "B_T9"
@@ -2685,6 +3544,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -2702,6 +3567,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -2719,6 +3590,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -2736,6 +3613,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -2753,6 +3636,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -2770,6 +3659,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -2787,6 +3682,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -2804,6 +3705,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -2821,6 +3728,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -2838,6 +3751,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -2855,6 +3774,12 @@
           -0.045,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -2872,6 +3797,12 @@
           0.045,
           0.365
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -2889,6 +3820,12 @@
           -0.045,
           0.365
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -2906,6 +3843,12 @@
           0.045,
           0.365
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -2923,6 +3866,12 @@
           -0.06,
           0.275
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -2940,6 +3889,12 @@
           0.0,
           0.275
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -2957,6 +3912,12 @@
           0.06,
           0.275
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -3064,10 +4025,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -3079,10 +4047,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.48,
           0.0,
           0.36
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -3093,9 +4068,16 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.08,
+        "d_grip": 0.04,
         "position": [
           0.46,
           -0.08,
+          0.325
+        ],
+        "orientation": [
+          0.917,
+          0.231,
           0.325
         ],
         "dependencies": [
@@ -3109,10 +4091,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.5,
           -0.03,
           0.323
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "B_T1"
@@ -3125,10 +4114,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.53,
           0.0,
           0.321
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T1"
@@ -3141,10 +4137,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.56,
           0.03,
           0.323
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T1"
@@ -3157,10 +4160,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.6000000000000001,
           0.08,
           0.325
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T1"
@@ -3173,10 +4183,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.47,
           -0.08,
           0.285
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T2"
@@ -3189,10 +4206,17 @@
       },
       {
         "id": "B_T8",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.48,
           -0.08,
           0.25
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "B_T7"
@@ -3205,10 +4229,17 @@
       },
       {
         "id": "B_T9",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.62,
           0.08,
           0.285
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T6"
@@ -3221,10 +4252,17 @@
       },
       {
         "id": "B_T10",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.49,
           -0.08,
           0.215
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "B_T8"
@@ -3237,10 +4275,17 @@
       },
       {
         "id": "B_T11",
+        "mass": 0.14,
+        "d_grip": 0.07,
         "position": [
           0.5700000000000001,
           0.0,
           0.18
+        ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
         ],
         "dependencies": [
           "B_T10",
@@ -3254,10 +4299,17 @@
       },
       {
         "id": "B_T12",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.66,
           -0.05,
           0.15
+        ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
         ],
         "dependencies": [
           "B_T11"
@@ -3270,10 +4322,17 @@
       },
       {
         "id": "B_T13",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.69,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
         ],
         "dependencies": [
           "B_T11"
@@ -3286,10 +4345,17 @@
       },
       {
         "id": "B_T14",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.6799999999999999,
           0.03,
           0.17
+        ],
+        "orientation": [
+          0.917,
+          -0.231,
+          0.325
         ],
         "dependencies": [
           "B_T11"
@@ -3302,10 +4368,17 @@
       },
       {
         "id": "B_T15",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.64,
           0.08,
           0.215
+        ],
+        "orientation": [
+          0.553,
+          -0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T9"
@@ -3326,6 +4399,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -3343,6 +4422,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -3360,6 +4445,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -3377,6 +4468,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -3394,6 +4491,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -3411,6 +4514,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -3428,6 +4537,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -3445,6 +4560,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -3462,6 +4583,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -3479,6 +4606,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -3496,6 +4629,12 @@
           -0.055,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -3513,6 +4652,12 @@
           0.055,
           0.385
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -3530,6 +4675,12 @@
           -0.055,
           0.385
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -3547,6 +4698,12 @@
           0.055,
           0.385
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -3564,6 +4721,12 @@
           -0.06,
           0.215
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P15",
@@ -3582,6 +4745,12 @@
           -0.02,
           0.215
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P16",
@@ -3600,6 +4769,12 @@
           0.02,
           0.215
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P17",
@@ -3618,6 +4793,12 @@
           0.06,
           0.215
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P18",
@@ -3700,10 +4881,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.26,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -3715,10 +4903,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.5,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -3730,10 +4925,17 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.62,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -3745,10 +4947,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.49,
           -0.05,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T1"
@@ -3761,10 +4970,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.56,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T1",
@@ -3778,10 +4994,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.63,
           0.05,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T2"
@@ -3794,10 +5017,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.56,
           0.0,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T3",
@@ -3811,10 +5041,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.56,
           0.0,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T6"
@@ -3835,6 +5072,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -3852,6 +5095,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -3869,6 +5118,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -3886,6 +5141,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -3903,6 +5164,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -3920,6 +5187,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -3937,6 +5210,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -3954,6 +5233,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -3971,6 +5256,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -3988,6 +5279,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -4005,6 +5302,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -4022,6 +5325,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -4039,6 +5348,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -4056,6 +5371,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -4073,6 +5394,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -4090,6 +5417,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -4107,6 +5440,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -4202,10 +5541,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.26,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -4217,10 +5563,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.08,
+        "d_grip": 0.05,
         "position": [
           0.5,
           0.0,
           0.34
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -4231,10 +5584,17 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.52,
           0.0,
           0.315
+        ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
         ],
         "dependencies": [
           "B_T1"
@@ -4247,10 +5607,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.545,
           0.0,
           0.29
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "B_T2"
@@ -4263,10 +5630,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.18,
+        "d_grip": 0.08,
         "position": [
           0.575,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T3"
@@ -4279,10 +5653,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.605,
           0.0,
           0.23
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T4"
@@ -4295,10 +5676,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.635,
           0.0,
           0.21
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T5"
@@ -4311,10 +5699,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.665,
           0.0,
           0.19
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T6"
@@ -4327,10 +5722,17 @@
       },
       {
         "id": "B_T8",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.6950000000000001,
           0.0,
           0.17
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "B_T7"
@@ -4343,10 +5745,17 @@
       },
       {
         "id": "B_T9",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.7250000000000001,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T8"
@@ -4359,10 +5768,17 @@
       },
       {
         "id": "B_T10",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.7250000000000001,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "B_T9"
@@ -4383,6 +5799,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -4400,6 +5822,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -4417,6 +5845,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -4434,6 +5868,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -4451,6 +5891,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -4468,6 +5914,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -4485,6 +5937,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -4502,6 +5960,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -4519,6 +5983,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -4536,6 +6006,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -4553,6 +6029,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -4570,6 +6052,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -4587,6 +6075,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -4604,6 +6098,12 @@
           -0.045,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -4621,6 +6121,12 @@
           0.045,
           0.365
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -4638,6 +6144,12 @@
           -0.045,
           0.365
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -4655,6 +6167,12 @@
           0.045,
           0.365
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -4672,6 +6190,12 @@
           -0.06,
           0.275
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -4689,6 +6213,12 @@
           0.0,
           0.275
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -4706,6 +6236,12 @@
           0.06,
           0.275
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -4820,10 +6356,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.18,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -4835,10 +6378,17 @@
       },
       {
         "id": "A_T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.3,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -4850,10 +6400,17 @@
       },
       {
         "id": "A_T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.17,
           -0.05,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "A_T1"
@@ -4866,10 +6423,17 @@
       },
       {
         "id": "A_T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.24,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "A_T1",
@@ -4883,10 +6447,17 @@
       },
       {
         "id": "A_T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.31,
           0.05,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "A_T2"
@@ -4899,10 +6470,17 @@
       },
       {
         "id": "A_T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.24,
           0.0,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "A_T3",
@@ -4916,10 +6494,17 @@
       },
       {
         "id": "A_T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.24,
           0.0,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "A_T6"
@@ -4932,10 +6517,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.48,
           0.0,
           0.36
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -4946,9 +6538,16 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.08,
+        "d_grip": 0.04,
         "position": [
           0.46,
           -0.08,
+          0.325
+        ],
+        "orientation": [
+          0.917,
+          0.231,
           0.325
         ],
         "dependencies": [
@@ -4962,10 +6561,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.5,
           -0.03,
           0.323
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "B_T1"
@@ -4978,10 +6584,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.53,
           0.0,
           0.321
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T1"
@@ -4994,10 +6607,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.56,
           0.03,
           0.323
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T1"
@@ -5010,10 +6630,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.6000000000000001,
           0.08,
           0.325
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T1"
@@ -5026,10 +6653,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.47,
           -0.08,
           0.285
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T2"
@@ -5042,10 +6676,17 @@
       },
       {
         "id": "B_T8",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.48,
           -0.08,
           0.25
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "B_T7"
@@ -5058,10 +6699,17 @@
       },
       {
         "id": "B_T9",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.62,
           0.08,
           0.285
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T6"
@@ -5074,10 +6722,17 @@
       },
       {
         "id": "B_T10",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.49,
           -0.08,
           0.215
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "B_T8"
@@ -5090,10 +6745,17 @@
       },
       {
         "id": "B_T11",
+        "mass": 0.14,
+        "d_grip": 0.07,
         "position": [
           0.5700000000000001,
           0.0,
           0.18
+        ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
         ],
         "dependencies": [
           "B_T10",
@@ -5107,10 +6769,17 @@
       },
       {
         "id": "B_T12",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.66,
           -0.05,
           0.15
+        ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
         ],
         "dependencies": [
           "B_T11"
@@ -5123,10 +6792,17 @@
       },
       {
         "id": "B_T13",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.69,
           0.0,
           0.15
+        ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
         ],
         "dependencies": [
           "B_T11"
@@ -5139,10 +6815,17 @@
       },
       {
         "id": "B_T14",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.6799999999999999,
           0.03,
           0.17
+        ],
+        "orientation": [
+          0.917,
+          -0.231,
+          0.325
         ],
         "dependencies": [
           "B_T11"
@@ -5155,10 +6838,17 @@
       },
       {
         "id": "B_T15",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.64,
           0.08,
           0.215
+        ],
+        "orientation": [
+          0.553,
+          -0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T9"
@@ -5179,6 +6869,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -5196,6 +6892,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -5213,6 +6915,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -5230,6 +6938,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -5247,6 +6961,12 @@
           -0.055,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -5264,6 +6984,12 @@
           0.055,
           0.385
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -5281,6 +7007,12 @@
           -0.055,
           0.385
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -5298,6 +7030,12 @@
           0.055,
           0.385
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -5315,6 +7053,12 @@
           -0.06,
           0.215
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P15",
@@ -5333,6 +7077,12 @@
           -0.02,
           0.215
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P16",
@@ -5351,6 +7101,12 @@
           0.02,
           0.215
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P17",
@@ -5369,6 +7125,12 @@
           0.06,
           0.215
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P18",
@@ -5474,10 +7236,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -5489,10 +7258,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.5800000000000001,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -5504,10 +7280,17 @@
       },
       {
         "id": "C_T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.18,
           0.22,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -5519,10 +7302,17 @@
       },
       {
         "id": "C_T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.3,
           0.22,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -5534,10 +7324,17 @@
       },
       {
         "id": "C_T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.17,
           0.16999999999999998,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "C_T1"
@@ -5550,10 +7347,17 @@
       },
       {
         "id": "C_T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.24,
           0.22,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "C_T1",
@@ -5567,10 +7371,17 @@
       },
       {
         "id": "C_T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.31,
           0.27,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "C_T2"
@@ -5583,10 +7394,17 @@
       },
       {
         "id": "C_T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.24,
           0.22,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "C_T3",
@@ -5600,10 +7418,17 @@
       },
       {
         "id": "C_T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.24,
           0.22,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "C_T6"
@@ -5624,6 +7449,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -5641,6 +7472,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -5658,6 +7495,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -5675,6 +7518,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -5692,6 +7541,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -5709,6 +7564,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -5726,6 +7587,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -5743,6 +7610,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -5760,6 +7633,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -5777,6 +7656,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -5794,6 +7679,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -5811,6 +7702,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -5828,6 +7725,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -5845,6 +7748,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -5862,6 +7771,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -5879,6 +7794,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -5896,6 +7817,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -5913,6 +7840,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -5930,6 +7863,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -5947,6 +7886,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -5964,6 +7909,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -5981,6 +7932,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -5998,6 +7955,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -6015,6 +7978,12 @@
           0.28,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -6032,6 +8001,12 @@
           0.16,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -6049,6 +8024,12 @@
           0.28,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -6066,6 +8047,12 @@
           0.16,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -6257,10 +8244,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.26,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -6272,10 +8266,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.5,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -6287,10 +8288,17 @@
       },
       {
         "id": "B_T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.62,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -6302,10 +8310,17 @@
       },
       {
         "id": "B_T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.49,
           -0.05,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "B_T1"
@@ -6318,10 +8333,17 @@
       },
       {
         "id": "B_T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.56,
           0.0,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "B_T1",
@@ -6335,10 +8357,17 @@
       },
       {
         "id": "B_T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.63,
           0.05,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "B_T2"
@@ -6351,10 +8380,17 @@
       },
       {
         "id": "B_T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.56,
           0.0,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "B_T3",
@@ -6368,10 +8404,17 @@
       },
       {
         "id": "B_T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.56,
           0.0,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "B_T6"
@@ -6384,10 +8427,17 @@
       },
       {
         "id": "C_T1",
+        "mass": 0.08,
+        "d_grip": 0.05,
         "position": [
           0.18,
           0.22,
           0.34
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -6398,10 +8448,17 @@
       },
       {
         "id": "C_T2",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.2,
           0.22,
           0.315
+        ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
         ],
         "dependencies": [
           "C_T1"
@@ -6414,10 +8471,17 @@
       },
       {
         "id": "C_T3",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.225,
           0.22,
           0.29
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "C_T2"
@@ -6430,10 +8494,17 @@
       },
       {
         "id": "C_T4",
+        "mass": 0.18,
+        "d_grip": 0.08,
         "position": [
           0.255,
           0.22,
           0.255
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "C_T3"
@@ -6446,10 +8517,17 @@
       },
       {
         "id": "C_T5",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.285,
           0.22,
           0.23
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "C_T4"
@@ -6462,10 +8540,17 @@
       },
       {
         "id": "C_T6",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.315,
           0.22,
           0.21
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "C_T5"
@@ -6478,10 +8563,17 @@
       },
       {
         "id": "C_T7",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.345,
           0.22,
           0.19
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "C_T6"
@@ -6494,10 +8586,17 @@
       },
       {
         "id": "C_T8",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.375,
           0.22,
           0.17
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "C_T7"
@@ -6510,10 +8609,17 @@
       },
       {
         "id": "C_T9",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.405,
           0.22,
           0.15
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "C_T8"
@@ -6526,10 +8632,17 @@
       },
       {
         "id": "C_T10",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.405,
           0.22,
           0.15
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "C_T9"
@@ -6542,10 +8655,17 @@
       },
       {
         "id": "D_T1",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.48,
           0.22,
           0.36
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -6556,9 +8676,16 @@
       },
       {
         "id": "D_T2",
+        "mass": 0.08,
+        "d_grip": 0.04,
         "position": [
           0.46,
           0.14,
+          0.325
+        ],
+        "orientation": [
+          0.917,
+          0.231,
           0.325
         ],
         "dependencies": [
@@ -6572,10 +8699,17 @@
       },
       {
         "id": "D_T3",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.5,
           0.19,
           0.323
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "D_T1"
@@ -6588,10 +8722,17 @@
       },
       {
         "id": "D_T4",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.53,
           0.22,
           0.321
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "D_T1"
@@ -6604,10 +8745,17 @@
       },
       {
         "id": "D_T5",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.56,
           0.25,
           0.323
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "D_T1"
@@ -6620,10 +8768,17 @@
       },
       {
         "id": "D_T6",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.6000000000000001,
           0.3,
           0.325
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "D_T1"
@@ -6636,10 +8791,17 @@
       },
       {
         "id": "D_T7",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.47,
           0.14,
           0.285
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "D_T2"
@@ -6652,10 +8814,17 @@
       },
       {
         "id": "D_T8",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.48,
           0.14,
           0.25
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "D_T7"
@@ -6668,10 +8837,17 @@
       },
       {
         "id": "D_T9",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.62,
           0.3,
           0.285
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "D_T6"
@@ -6684,10 +8860,17 @@
       },
       {
         "id": "D_T10",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.49,
           0.14,
           0.215
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "D_T8"
@@ -6700,10 +8883,17 @@
       },
       {
         "id": "D_T11",
+        "mass": 0.14,
+        "d_grip": 0.07,
         "position": [
           0.5700000000000001,
           0.22,
           0.18
+        ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
         ],
         "dependencies": [
           "D_T10",
@@ -6717,10 +8907,17 @@
       },
       {
         "id": "D_T12",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.66,
           0.16999999999999998,
           0.15
+        ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
         ],
         "dependencies": [
           "D_T11"
@@ -6733,10 +8930,17 @@
       },
       {
         "id": "D_T13",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.69,
           0.22,
           0.15
+        ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
         ],
         "dependencies": [
           "D_T11"
@@ -6749,10 +8953,17 @@
       },
       {
         "id": "D_T14",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.6799999999999999,
           0.25,
           0.17
+        ],
+        "orientation": [
+          0.917,
+          -0.231,
+          0.325
         ],
         "dependencies": [
           "D_T11"
@@ -6765,10 +8976,17 @@
       },
       {
         "id": "D_T15",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.64,
           0.3,
           0.215
+        ],
+        "orientation": [
+          0.553,
+          -0.691,
+          -0.467
         ],
         "dependencies": [
           "D_T9"
@@ -6789,6 +9007,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -6806,6 +9030,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -6823,6 +9053,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -6840,6 +9076,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -6857,6 +9099,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -6874,6 +9122,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -6891,6 +9145,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -6908,6 +9168,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -6925,6 +9191,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -6942,6 +9214,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -6959,6 +9237,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -6976,6 +9260,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -6993,6 +9283,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -7010,6 +9306,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -7027,6 +9329,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -7044,6 +9352,12 @@
           0.06,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -7061,6 +9375,12 @@
           -0.06,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -7078,6 +9398,12 @@
           0.175,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -7095,6 +9421,12 @@
           0.265,
           0.365
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -7112,6 +9444,12 @@
           0.175,
           0.365
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -7129,6 +9467,12 @@
           0.265,
           0.365
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -7146,6 +9490,12 @@
           0.16,
           0.275
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -7163,6 +9513,12 @@
           0.22,
           0.275
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -7180,6 +9536,12 @@
           0.28,
           0.275
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -7197,6 +9559,12 @@
           0.165,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -7214,6 +9582,12 @@
           0.275,
           0.385
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -7231,6 +9605,12 @@
           0.165,
           0.385
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -7248,6 +9628,12 @@
           0.275,
           0.385
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -7265,6 +9651,12 @@
           0.16,
           0.215
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P15",
@@ -7283,6 +9675,12 @@
           0.2,
           0.215
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P16",
@@ -7301,6 +9699,12 @@
           0.24,
           0.215
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P17",
@@ -7319,6 +9723,12 @@
           0.28,
           0.215
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P18",
@@ -7530,10 +9940,17 @@
     "tables": [
       {
         "id": "A_T1",
+        "mass": 0.22,
+        "d_grip": 0.08,
         "position": [
           0.3,
           0.0,
           0.34
+        ],
+        "orientation": [
+          1.0,
+          0.0,
+          0.0
         ],
         "dependencies": [],
         "meta": {
@@ -7545,10 +9962,17 @@
       },
       {
         "id": "B_T1",
+        "mass": 0.32,
+        "d_grip": 0.1,
         "position": [
           0.5800000000000001,
           0.0,
           0.3
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [],
         "meta": {
@@ -7560,10 +9984,17 @@
       },
       {
         "id": "C_T1",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.18,
           0.22,
           0.3
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -7575,10 +10006,17 @@
       },
       {
         "id": "C_T2",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.3,
           0.22,
           0.3
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [],
         "meta": {
@@ -7590,10 +10028,17 @@
       },
       {
         "id": "C_T3",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.17,
           0.16999999999999998,
           0.255
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "C_T1"
@@ -7606,10 +10051,17 @@
       },
       {
         "id": "C_T4",
+        "mass": 0.09,
+        "d_grip": 0.04,
         "position": [
           0.24,
           0.22,
           0.255
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "C_T1",
@@ -7623,10 +10075,17 @@
       },
       {
         "id": "C_T5",
+        "mass": 0.05,
+        "d_grip": 0.03,
         "position": [
           0.31,
           0.27,
           0.255
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "C_T2"
@@ -7639,10 +10098,17 @@
       },
       {
         "id": "C_T6",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.24,
           0.22,
           0.215
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "C_T3",
@@ -7656,10 +10122,17 @@
       },
       {
         "id": "C_T7",
+        "mass": 0.16,
+        "d_grip": 0.12,
         "position": [
           0.24,
           0.22,
           0.165
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "C_T6"
@@ -7672,10 +10145,17 @@
       },
       {
         "id": "D_T1",
+        "mass": 0.08,
+        "d_grip": 0.05,
         "position": [
           0.5,
           0.22,
           0.34
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -7686,10 +10166,17 @@
       },
       {
         "id": "D_T2",
+        "mass": 0.07,
+        "d_grip": 0.05,
         "position": [
           0.52,
           0.22,
           0.315
+        ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
         ],
         "dependencies": [
           "D_T1"
@@ -7702,10 +10189,17 @@
       },
       {
         "id": "D_T3",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.545,
           0.22,
           0.29
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "D_T2"
@@ -7718,10 +10212,17 @@
       },
       {
         "id": "D_T4",
+        "mass": 0.18,
+        "d_grip": 0.08,
         "position": [
           0.575,
           0.22,
           0.255
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "D_T3"
@@ -7734,10 +10235,17 @@
       },
       {
         "id": "D_T5",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.605,
           0.22,
           0.23
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "D_T4"
@@ -7750,10 +10258,17 @@
       },
       {
         "id": "D_T6",
+        "mass": 0.06,
+        "d_grip": 0.04,
         "position": [
           0.635,
           0.22,
           0.21
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "D_T5"
@@ -7766,10 +10281,17 @@
       },
       {
         "id": "D_T7",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.665,
           0.22,
           0.19
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "D_T6"
@@ -7782,10 +10304,17 @@
       },
       {
         "id": "D_T8",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.6950000000000001,
           0.22,
           0.17
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "D_T7"
@@ -7798,10 +10327,17 @@
       },
       {
         "id": "D_T9",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.7250000000000001,
           0.22,
           0.15
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "D_T8"
@@ -7814,10 +10350,17 @@
       },
       {
         "id": "D_T10",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.7250000000000001,
           0.22,
           0.15
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "D_T9"
@@ -7830,10 +10373,17 @@
       },
       {
         "id": "E_T1",
+        "mass": 0.12,
+        "d_grip": 0.06,
         "position": [
           0.16,
           0.44,
           0.36
+        ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
         ],
         "dependencies": [],
         "meta": {
@@ -7844,9 +10394,16 @@
       },
       {
         "id": "E_T2",
+        "mass": 0.08,
+        "d_grip": 0.04,
         "position": [
           0.14,
           0.36,
+          0.325
+        ],
+        "orientation": [
+          0.917,
+          0.231,
           0.325
         ],
         "dependencies": [
@@ -7860,10 +10417,17 @@
       },
       {
         "id": "E_T3",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.18,
           0.41000000000000003,
           0.323
+        ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
         ],
         "dependencies": [
           "E_T1"
@@ -7876,10 +10440,17 @@
       },
       {
         "id": "E_T4",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.21,
           0.44,
           0.321
+        ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
         ],
         "dependencies": [
           "E_T1"
@@ -7892,10 +10463,17 @@
       },
       {
         "id": "E_T5",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.24,
           0.47,
           0.323
+        ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
         ],
         "dependencies": [
           "E_T1"
@@ -7908,10 +10486,17 @@
       },
       {
         "id": "E_T6",
+        "mass": 0.11,
+        "d_grip": 0.05,
         "position": [
           0.28,
           0.52,
           0.325
+        ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
         ],
         "dependencies": [
           "E_T1"
@@ -7924,10 +10509,17 @@
       },
       {
         "id": "E_T7",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.15,
           0.36,
           0.285
+        ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
         ],
         "dependencies": [
           "E_T2"
@@ -7940,10 +10532,17 @@
       },
       {
         "id": "E_T8",
+        "mass": 0.07,
+        "d_grip": 0.04,
         "position": [
           0.16,
           0.36,
           0.25
+        ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
         ],
         "dependencies": [
           "E_T7"
@@ -7956,10 +10555,17 @@
       },
       {
         "id": "E_T9",
+        "mass": 0.1,
+        "d_grip": 0.05,
         "position": [
           0.3,
           0.52,
           0.285
+        ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
         ],
         "dependencies": [
           "E_T6"
@@ -7972,10 +10578,17 @@
       },
       {
         "id": "E_T10",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.17,
           0.36,
           0.215
+        ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
         ],
         "dependencies": [
           "E_T8"
@@ -7988,10 +10601,17 @@
       },
       {
         "id": "E_T11",
+        "mass": 0.14,
+        "d_grip": 0.07,
         "position": [
           0.25,
           0.44,
           0.18
+        ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
         ],
         "dependencies": [
           "E_T10",
@@ -8005,10 +10625,17 @@
       },
       {
         "id": "E_T12",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.34,
           0.39,
           0.15
+        ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
         ],
         "dependencies": [
           "E_T11"
@@ -8021,10 +10648,17 @@
       },
       {
         "id": "E_T13",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.37,
           0.44,
           0.15
+        ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
         ],
         "dependencies": [
           "E_T11"
@@ -8037,10 +10671,17 @@
       },
       {
         "id": "E_T14",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.36,
           0.47,
           0.17
+        ],
+        "orientation": [
+          0.917,
+          -0.231,
+          0.325
         ],
         "dependencies": [
           "E_T11"
@@ -8053,10 +10694,17 @@
       },
       {
         "id": "E_T15",
+        "mass": 0.09,
+        "d_grip": 0.05,
         "position": [
           0.32,
           0.52,
           0.215
+        ],
+        "orientation": [
+          0.553,
+          -0.691,
+          -0.467
         ],
         "dependencies": [
           "E_T9"
@@ -8077,6 +10725,12 @@
           0.0,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -8094,6 +10748,12 @@
           0.03,
           0.374
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -8111,6 +10771,12 @@
           0.049,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -8128,6 +10794,12 @@
           0.055,
           0.334
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -8145,6 +10817,12 @@
           0.049,
           0.315
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -8162,6 +10840,12 @@
           0.03,
           0.305
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 13,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -8179,6 +10863,12 @@
           0.0,
           0.304
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -8196,6 +10886,12 @@
           -0.03,
           0.314
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -8213,6 +10909,12 @@
           -0.049,
           0.334
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 7,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -8230,6 +10932,12 @@
           -0.03,
           0.374
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -8247,6 +10955,12 @@
           0.0,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -8264,6 +10978,12 @@
           0.046,
           0.363
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -8281,6 +11001,12 @@
           0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 9,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -8298,6 +11024,12 @@
           0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -8315,6 +11047,12 @@
           0.108,
           0.332
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 15,
         "dependencies": [],
         "meta": {
           "part_label": "P5",
@@ -8332,6 +11070,12 @@
           0.096,
           0.319
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P6",
@@ -8349,6 +11093,12 @@
           0.067,
           0.309
         ],
+        "orientation": [
+          0.663,
+          -0.569,
+          -0.486
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P7",
@@ -8366,6 +11116,12 @@
           0.027,
           0.304
         ],
+        "orientation": [
+          0.803,
+          -0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -8383,6 +11139,12 @@
           -0.027,
           0.304
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -8400,6 +11162,12 @@
           -0.067,
           0.309
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 14,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -8417,6 +11185,12 @@
           -0.096,
           0.319
         ],
+        "orientation": [
+          0.803,
+          0.443,
+          -0.401
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P11",
@@ -8434,6 +11208,12 @@
           -0.103,
           0.345
         ],
+        "orientation": [
+          0.636,
+          -0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P12",
@@ -8451,6 +11231,12 @@
           -0.083,
           0.356
         ],
+        "orientation": [
+          0.789,
+          -0.455,
+          0.413
+        ],
+        "turns": 16,
         "dependencies": [],
         "meta": {
           "part_label": "P13",
@@ -8468,6 +11254,12 @@
           0.28,
           0.335
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -8485,6 +11277,12 @@
           0.16,
           0.335
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -8502,6 +11300,12 @@
           0.28,
           0.335
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -8519,6 +11323,12 @@
           0.16,
           0.335
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -8536,6 +11346,12 @@
           0.175,
           0.365
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -8553,6 +11369,12 @@
           0.265,
           0.365
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -8570,6 +11392,12 @@
           0.175,
           0.365
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -8587,6 +11415,12 @@
           0.265,
           0.365
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -8604,6 +11438,12 @@
           0.16,
           0.275
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P8",
@@ -8621,6 +11461,12 @@
           0.22,
           0.275
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P9",
@@ -8638,6 +11484,12 @@
           0.28,
           0.275
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P10",
@@ -8655,6 +11507,12 @@
           0.385,
           0.385
         ],
+        "orientation": [
+          0.975,
+          0.0,
+          0.223
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P1",
@@ -8672,6 +11530,12 @@
           0.495,
           0.385
         ],
+        "orientation": [
+          0.917,
+          0.231,
+          0.325
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P2",
@@ -8689,6 +11553,12 @@
           0.385,
           0.385
         ],
+        "orientation": [
+          0.789,
+          0.455,
+          0.413
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P3",
@@ -8706,6 +11576,12 @@
           0.495,
           0.385
         ],
+        "orientation": [
+          0.636,
+          0.534,
+          0.557
+        ],
+        "turns": 8,
         "dependencies": [],
         "meta": {
           "part_label": "P4",
@@ -8723,6 +11599,12 @@
           0.38,
           0.215
         ],
+        "orientation": [
+          0.553,
+          0.691,
+          -0.467
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P15",
@@ -8741,6 +11623,12 @@
           0.42,
           0.215
         ],
+        "orientation": [
+          0.524,
+          -0.698,
+          -0.489
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P16",
@@ -8759,6 +11647,12 @@
           0.46,
           0.215
         ],
+        "orientation": [
+          0.89,
+          -0.243,
+          0.384
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P17",
@@ -8777,6 +11671,12 @@
           0.5,
           0.215
         ],
+        "orientation": [
+          0.944,
+          -0.126,
+          0.304
+        ],
+        "turns": 12,
         "dependencies": [],
         "meta": {
           "part_label": "P18",
