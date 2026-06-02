@@ -1,17 +1,17 @@
-{
-  "experiment_design": "exp2: MOPG-NSGAII vs CMOEMT, TriP, ARACMO under the same time budget; LERD excluded; empty Pareto fronts excluded; compare HV and IGD",
+﻿{
+  "experiment_design": "exp2: MOA(ours) vs CMOEMT, TriP, ARACMO under the same time budget; LERD excluded; empty Pareto fronts excluded; compare HV and IGD",
   "included_methods": [
     "CMOEMT",
     "TriP",
     "ARACMO",
-    "MOPG-NSGAII"
+    "MOA(ours)"
   ],
   "excluded_methods": [
     "LERD"
   ],
-  "hv_calculation": "normalized HV using per-product min/max over CMOEMT, TriP, ARACMO, and MOPG-NSGAII Pareto fronts only; LERD excluded; empty fronts excluded; expanded by 10% on both sides",
-  "igd_reference": "per-product nondominated union of CMOEMT, TriP, ARACMO, and MOPG-NSGAII final fronts only; LERD excluded; empty fronts excluded; normalized by PRODUCT_HV_BOXES",
-  "significance_test": "paired two-sided Wilcoxon signed-rank test, alpha=0.05, comparing each remaining baseline with MOPG-NSGAII by product and metric",
+  "hv_calculation": "normalized HV using per-product min/max over CMOEMT, TriP, ARACMO, and MOA(ours) Pareto fronts only; LERD excluded; empty fronts excluded; expanded by 10% on both sides",
+  "igd_reference": "per-product nondominated union of CMOEMT, TriP, ARACMO, and MOA(ours) final fronts only; LERD excluded; empty fronts excluded; normalized by PRODUCT_HV_BOXES",
+  "significance_test": "paired two-sided Wilcoxon signed-rank test, alpha=0.05, comparing each remaining baseline with MOA(ours) by product and metric",
   "hv_boxes": {
     "product1": {
       "ideal": [
@@ -796,7 +796,7 @@
       "igd": 0.5439150711215525
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 0,
       "time_budget_s": 50.0,
@@ -817,7 +817,7 @@
       "igd": 0.05364003926140751
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 1,
       "time_budget_s": 50.0,
@@ -838,7 +838,7 @@
       "igd": 0.22899052708474754
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 2,
       "time_budget_s": 50.0,
@@ -859,7 +859,7 @@
       "igd": 0.1044549088789398
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 3,
       "time_budget_s": 50.0,
@@ -880,7 +880,7 @@
       "igd": 0.2198247774681289
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 4,
       "time_budget_s": 50.0,
@@ -901,7 +901,7 @@
       "igd": 0.05884888490886007
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 5,
       "time_budget_s": 50.0,
@@ -922,7 +922,7 @@
       "igd": 0.042029458541685556
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 6,
       "time_budget_s": 50.0,
@@ -943,7 +943,7 @@
       "igd": 0.0963731375321819
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 7,
       "time_budget_s": 50.0,
@@ -964,7 +964,7 @@
       "igd": 0.08420213313334655
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 8,
       "time_budget_s": 50.0,
@@ -985,7 +985,7 @@
       "igd": 0.08251318768222492
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "run_id": 9,
       "time_budget_s": 50.0,
@@ -1636,7 +1636,7 @@
       "igd": 0.17721004159937656
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 0,
       "time_budget_s": 50.0,
@@ -1657,7 +1657,7 @@
       "igd": 0.05904752084270265
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 1,
       "time_budget_s": 50.0,
@@ -1678,7 +1678,7 @@
       "igd": 0.10383432972877547
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 2,
       "time_budget_s": 50.0,
@@ -1699,7 +1699,7 @@
       "igd": 0.19202847484165483
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 3,
       "time_budget_s": 50.0,
@@ -1720,7 +1720,7 @@
       "igd": 0.10811428965624655
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 4,
       "time_budget_s": 50.0,
@@ -1741,7 +1741,7 @@
       "igd": 0.09648285205689862
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 5,
       "time_budget_s": 50.0,
@@ -1762,7 +1762,7 @@
       "igd": 0.15944227605471853
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 6,
       "time_budget_s": 50.0,
@@ -1783,7 +1783,7 @@
       "igd": 0.191458672493405
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 7,
       "time_budget_s": 50.0,
@@ -1804,7 +1804,7 @@
       "igd": 0.03603855005301194
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 8,
       "time_budget_s": 50.0,
@@ -1825,7 +1825,7 @@
       "igd": 0.1385317680437427
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "run_id": 9,
       "time_budget_s": 50.0,
@@ -2476,7 +2476,7 @@
       "igd": 0.18809613563451266
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 0,
       "time_budget_s": 50.0,
@@ -2497,7 +2497,7 @@
       "igd": 0.08983905149587279
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 1,
       "time_budget_s": 50.0,
@@ -2518,7 +2518,7 @@
       "igd": 0.05738725388303545
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 2,
       "time_budget_s": 50.0,
@@ -2539,7 +2539,7 @@
       "igd": 0.030208795369323062
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 3,
       "time_budget_s": 50.0,
@@ -2560,7 +2560,7 @@
       "igd": 0.0050667987837317175
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 4,
       "time_budget_s": 50.0,
@@ -2581,7 +2581,7 @@
       "igd": 0.022603858370537567
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 5,
       "time_budget_s": 50.0,
@@ -2602,7 +2602,7 @@
       "igd": 0.1242712504661092
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 6,
       "time_budget_s": 50.0,
@@ -2623,7 +2623,7 @@
       "igd": 0.048827618902185996
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 7,
       "time_budget_s": 50.0,
@@ -2644,7 +2644,7 @@
       "igd": 0.06031173541398007
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 8,
       "time_budget_s": 50.0,
@@ -2665,7 +2665,7 @@
       "igd": 0.10408458643127569
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "run_id": 9,
       "time_budget_s": 50.0,
@@ -3316,7 +3316,7 @@
       "igd": 0.1710779352228004
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 0,
       "time_budget_s": 50.0,
@@ -3337,7 +3337,7 @@
       "igd": 0.11529006549017368
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 1,
       "time_budget_s": 50.0,
@@ -3358,7 +3358,7 @@
       "igd": 0.08955832002384562
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 2,
       "time_budget_s": 50.0,
@@ -3379,7 +3379,7 @@
       "igd": 0.10700161629998964
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 3,
       "time_budget_s": 50.0,
@@ -3400,7 +3400,7 @@
       "igd": 0.09968674920897767
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 4,
       "time_budget_s": 50.0,
@@ -3421,7 +3421,7 @@
       "igd": 0.13024864027598554
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 5,
       "time_budget_s": 50.0,
@@ -3442,7 +3442,7 @@
       "igd": 0.10231261428412407
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 6,
       "time_budget_s": 50.0,
@@ -3463,7 +3463,7 @@
       "igd": 0.14094430492367824
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 7,
       "time_budget_s": 50.0,
@@ -3484,7 +3484,7 @@
       "igd": 0.06259242451355723
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 8,
       "time_budget_s": 50.0,
@@ -3505,7 +3505,7 @@
       "igd": 0.1428750921378653
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "run_id": 9,
       "time_budget_s": 50.0,
@@ -4156,7 +4156,7 @@
       "igd": 0.28707438016082004
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 0,
       "time_budget_s": 50.0,
@@ -4177,7 +4177,7 @@
       "igd": 0.13989283814824083
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 1,
       "time_budget_s": 50.0,
@@ -4198,7 +4198,7 @@
       "igd": 0.11533095399667426
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 2,
       "time_budget_s": 50.0,
@@ -4219,7 +4219,7 @@
       "igd": 0.13277760050955742
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 3,
       "time_budget_s": 50.0,
@@ -4240,7 +4240,7 @@
       "igd": 0.12894035379285165
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 4,
       "time_budget_s": 50.0,
@@ -4261,7 +4261,7 @@
       "igd": 0.21490909159731272
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 5,
       "time_budget_s": 50.0,
@@ -4282,7 +4282,7 @@
       "igd": 0.07270421718773239
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 6,
       "time_budget_s": 50.0,
@@ -4303,7 +4303,7 @@
       "igd": 0.05491527929058667
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 7,
       "time_budget_s": 50.0,
@@ -4324,7 +4324,7 @@
       "igd": 0.054566998405549634
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 8,
       "time_budget_s": 50.0,
@@ -4345,7 +4345,7 @@
       "igd": 0.18857777833017597
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "run_id": 9,
       "time_budget_s": 50.0,
@@ -4996,7 +4996,7 @@
       "igd": 0.3051470648215549
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -5017,7 +5017,7 @@
       "igd": 0.10780393887156414
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -5038,7 +5038,7 @@
       "igd": 0.12839071568124447
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -5059,7 +5059,7 @@
       "igd": 0.15755204167328216
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -5080,7 +5080,7 @@
       "igd": 0.06264775505811188
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -5101,7 +5101,7 @@
       "igd": 0.11193796240852781
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -5122,7 +5122,7 @@
       "igd": 0.13077438044816042
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -5143,7 +5143,7 @@
       "igd": 0.11555298171754808
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -5164,7 +5164,7 @@
       "igd": 0.14944668872495068
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -5185,7 +5185,7 @@
       "igd": 0.14894523235681112
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -5836,7 +5836,7 @@
       "igd": 0.29272800725167936
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -5857,7 +5857,7 @@
       "igd": 0.1757120107662833
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -5878,7 +5878,7 @@
       "igd": 0.0017963308635868184
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -5899,7 +5899,7 @@
       "igd": 0.1407451095897811
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -5920,7 +5920,7 @@
       "igd": 0.09364348284266796
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -5941,7 +5941,7 @@
       "igd": 0.08828114295169064
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -5962,7 +5962,7 @@
       "igd": 0.12181475125873657
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -5983,7 +5983,7 @@
       "igd": 0.09431331583568202
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -6004,7 +6004,7 @@
       "igd": 0.12078142720990034
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -6025,7 +6025,7 @@
       "igd": 0.04818090722314554
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -6655,7 +6655,7 @@
       "igd": 0.24861364207557066
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -6676,7 +6676,7 @@
       "igd": 0.1421957349030317
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -6697,7 +6697,7 @@
       "igd": 0.2904583283175127
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -6718,7 +6718,7 @@
       "igd": 0.18811214570178017
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -6739,7 +6739,7 @@
       "igd": 0.23115527477945252
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -6760,7 +6760,7 @@
       "igd": 0.09193931639473281
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -6781,7 +6781,7 @@
       "igd": 0.16161209539512444
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -6802,7 +6802,7 @@
       "igd": 0.21879718885714844
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -6823,7 +6823,7 @@
       "igd": 0.14007940565304786
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -6844,7 +6844,7 @@
       "igd": 0.15239123559297063
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -7495,7 +7495,7 @@
       "igd": 0.24246804308129183
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -7516,7 +7516,7 @@
       "igd": 0.1799396213475236
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -7537,7 +7537,7 @@
       "igd": 0.20643901455744604
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -7558,7 +7558,7 @@
       "igd": 0.21574947538614464
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -7579,7 +7579,7 @@
       "igd": 0.21881511849280186
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -7600,7 +7600,7 @@
       "igd": 0.22580247634798317
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -7621,7 +7621,7 @@
       "igd": 0.2141502881251545
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -7642,7 +7642,7 @@
       "igd": 0.09739439435331473
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -7663,7 +7663,7 @@
       "igd": 0.22741488674723054
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -7684,7 +7684,7 @@
       "igd": 0.0907021941619183
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -8335,7 +8335,7 @@
       "igd": 0.37651871741081705
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -8356,7 +8356,7 @@
       "igd": 0.20046812912539083
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -8377,7 +8377,7 @@
       "igd": 0.19274868988580096
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -8398,7 +8398,7 @@
       "igd": 0.14795532314980214
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -8419,7 +8419,7 @@
       "igd": 0.1880452692551829
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -8440,7 +8440,7 @@
       "igd": 0.17230001540530404
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -8461,7 +8461,7 @@
       "igd": 0.13391921737804183
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -8482,7 +8482,7 @@
       "igd": 0.23976662135576501
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -8503,7 +8503,7 @@
       "igd": 0.0952470349485426
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -8524,7 +8524,7 @@
       "igd": 0.13167258643869645
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -9175,7 +9175,7 @@
       "igd": 0.1620753109340008
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -9196,7 +9196,7 @@
       "igd": 0.062986756839576
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -9217,7 +9217,7 @@
       "igd": 0.1021216689278915
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -9238,7 +9238,7 @@
       "igd": 0.0934339569741321
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -9259,7 +9259,7 @@
       "igd": 0.08341263238703955
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -9280,7 +9280,7 @@
       "igd": 0.07414596831111238
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -9301,7 +9301,7 @@
       "igd": 0.08014613935360962
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -9322,7 +9322,7 @@
       "igd": 0.0694226831913257
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -9343,7 +9343,7 @@
       "igd": 0.05204116927749896
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -9364,7 +9364,7 @@
       "igd": 0.05050586805312204
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -10015,7 +10015,7 @@
       "igd": 0.2828203741989487
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 0,
       "time_budget_s": 100.0,
@@ -10036,7 +10036,7 @@
       "igd": 0.17852924197973
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 1,
       "time_budget_s": 100.0,
@@ -10057,7 +10057,7 @@
       "igd": 0.12535798062040404
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 2,
       "time_budget_s": 100.0,
@@ -10078,7 +10078,7 @@
       "igd": 0.19317362788322068
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 3,
       "time_budget_s": 100.0,
@@ -10099,7 +10099,7 @@
       "igd": 0.09005922524252222
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 4,
       "time_budget_s": 100.0,
@@ -10120,7 +10120,7 @@
       "igd": 0.19071118100948198
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 5,
       "time_budget_s": 100.0,
@@ -10141,7 +10141,7 @@
       "igd": 0.18208033968508422
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 6,
       "time_budget_s": 100.0,
@@ -10162,7 +10162,7 @@
       "igd": 0.15411824995177564
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 7,
       "time_budget_s": 100.0,
@@ -10183,7 +10183,7 @@
       "igd": 0.17066612464415698
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 8,
       "time_budget_s": 100.0,
@@ -10204,7 +10204,7 @@
       "igd": 0.14038551690293707
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "run_id": 9,
       "time_budget_s": 100.0,
@@ -10855,7 +10855,7 @@
       "igd": 0.5235356212712389
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 0,
       "time_budget_s": 200.0,
@@ -10876,7 +10876,7 @@
       "igd": 0.1404034169919074
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 1,
       "time_budget_s": 200.0,
@@ -10897,7 +10897,7 @@
       "igd": 0.1413170625974916
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 2,
       "time_budget_s": 200.0,
@@ -10918,7 +10918,7 @@
       "igd": 0.15390263177476807
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 3,
       "time_budget_s": 200.0,
@@ -10939,7 +10939,7 @@
       "igd": 0.07716225100370289
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 4,
       "time_budget_s": 200.0,
@@ -10960,7 +10960,7 @@
       "igd": 0.11896997416949971
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 5,
       "time_budget_s": 200.0,
@@ -10981,7 +10981,7 @@
       "igd": 0.1394086164449871
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 6,
       "time_budget_s": 200.0,
@@ -11002,7 +11002,7 @@
       "igd": 0.1394697255686166
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 7,
       "time_budget_s": 200.0,
@@ -11023,7 +11023,7 @@
       "igd": 0.08200566550265065
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 8,
       "time_budget_s": 200.0,
@@ -11044,7 +11044,7 @@
       "igd": 0.13966394967999501
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "run_id": 9,
       "time_budget_s": 200.0,
@@ -11695,7 +11695,7 @@
       "igd": 0.36330544179096813
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 0,
       "time_budget_s": 200.0,
@@ -11716,7 +11716,7 @@
       "igd": 0.2209258320576891
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 1,
       "time_budget_s": 200.0,
@@ -11737,7 +11737,7 @@
       "igd": 0.15247712499081298
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 2,
       "time_budget_s": 200.0,
@@ -11758,7 +11758,7 @@
       "igd": 0.2541809542059319
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 3,
       "time_budget_s": 200.0,
@@ -11779,7 +11779,7 @@
       "igd": 0.22299120687634172
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 4,
       "time_budget_s": 200.0,
@@ -11800,7 +11800,7 @@
       "igd": 0.2450403977432899
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 5,
       "time_budget_s": 200.0,
@@ -11821,7 +11821,7 @@
       "igd": 0.14802314937092467
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 6,
       "time_budget_s": 200.0,
@@ -11842,7 +11842,7 @@
       "igd": 0.25124440150544014
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 7,
       "time_budget_s": 200.0,
@@ -11863,7 +11863,7 @@
       "igd": 0.13680577661040155
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 8,
       "time_budget_s": 200.0,
@@ -11884,7 +11884,7 @@
       "igd": 0.23227504072608182
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "run_id": 9,
       "time_budget_s": 200.0,
@@ -12514,7 +12514,7 @@
       "igd": 0.5641932279081412
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 0,
       "time_budget_s": 200.0,
@@ -12535,7 +12535,7 @@
       "igd": 0.5279389770542096
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 1,
       "time_budget_s": 200.0,
@@ -12556,7 +12556,7 @@
       "igd": 0.47230291807671027
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 2,
       "time_budget_s": 200.0,
@@ -12577,7 +12577,7 @@
       "igd": 0.35469141239130775
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 3,
       "time_budget_s": 200.0,
@@ -12598,7 +12598,7 @@
       "igd": 0.41972246822829273
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 4,
       "time_budget_s": 200.0,
@@ -12619,7 +12619,7 @@
       "igd": 0.28109714552703974
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 5,
       "time_budget_s": 200.0,
@@ -12640,7 +12640,7 @@
       "igd": 0.3093578331652567
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 6,
       "time_budget_s": 200.0,
@@ -12661,7 +12661,7 @@
       "igd": 0.5496045492999659
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 7,
       "time_budget_s": 200.0,
@@ -12682,7 +12682,7 @@
       "igd": 0.36592006276412437
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 8,
       "time_budget_s": 200.0,
@@ -12703,7 +12703,7 @@
       "igd": 0.4144352192311678
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "run_id": 9,
       "time_budget_s": 200.0,
@@ -13266,7 +13266,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product1",
       "time_budget_s": 50.0,
       "hv": {
@@ -13284,7 +13284,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product10",
       "time_budget_s": 100.0,
       "hv": {
@@ -13302,7 +13302,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product11",
       "time_budget_s": 100.0,
       "hv": {
@@ -13320,7 +13320,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product12",
       "time_budget_s": 100.0,
       "hv": {
@@ -13338,7 +13338,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product13",
       "time_budget_s": 200.0,
       "hv": {
@@ -13356,7 +13356,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product14",
       "time_budget_s": 200.0,
       "hv": {
@@ -13374,7 +13374,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product15",
       "time_budget_s": 200.0,
       "hv": {
@@ -13392,7 +13392,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product2",
       "time_budget_s": 50.0,
       "hv": {
@@ -13410,7 +13410,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product3",
       "time_budget_s": 50.0,
       "hv": {
@@ -13428,7 +13428,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product4",
       "time_budget_s": 50.0,
       "hv": {
@@ -13446,7 +13446,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product5",
       "time_budget_s": 50.0,
       "hv": {
@@ -13464,7 +13464,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product6",
       "time_budget_s": 100.0,
       "hv": {
@@ -13482,7 +13482,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product7",
       "time_budget_s": 100.0,
       "hv": {
@@ -13500,7 +13500,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product8",
       "time_budget_s": 100.0,
       "hv": {
@@ -13518,7 +13518,7 @@
       "run_count": 10
     },
     {
-      "method": "MOPG-NSGAII",
+      "method": "MOA(ours)",
       "product": "product9",
       "time_budget_s": 100.0,
       "hv": {
@@ -13810,7 +13810,7 @@
     {
       "product": "product1",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.7200205399414684,
@@ -13823,7 +13823,7 @@
     {
       "product": "product1",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.10041605311327154,
@@ -13836,7 +13836,7 @@
     {
       "product": "product1",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.7200205399414684,
@@ -13849,7 +13849,7 @@
     {
       "product": "product1",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.10041605311327154,
@@ -13862,7 +13862,7 @@
     {
       "product": "product1",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.7200205399414684,
@@ -13875,7 +13875,7 @@
     {
       "product": "product1",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.10041605311327154,
@@ -13888,7 +13888,7 @@
     {
       "product": "product10",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6725489624209985,
@@ -13901,7 +13901,7 @@
     {
       "product": "product10",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.16279860390462758,
@@ -13914,7 +13914,7 @@
     {
       "product": "product10",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6725489624209985,
@@ -13927,7 +13927,7 @@
     {
       "product": "product10",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.16279860390462758,
@@ -13940,7 +13940,7 @@
     {
       "product": "product10",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6725489624209985,
@@ -13953,7 +13953,7 @@
     {
       "product": "product10",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.16279860390462758,
@@ -13966,7 +13966,7 @@
     {
       "product": "product11",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6810498685619443,
@@ -13979,7 +13979,7 @@
     {
       "product": "product11",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.07386585640139659,
@@ -13992,7 +13992,7 @@
     {
       "product": "product11",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6810498685619443,
@@ -14005,7 +14005,7 @@
     {
       "product": "product11",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.07386585640139659,
@@ -14018,7 +14018,7 @@
     {
       "product": "product11",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6810498685619443,
@@ -14031,7 +14031,7 @@
     {
       "product": "product11",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.07386585640139659,
@@ -14044,7 +14044,7 @@
     {
       "product": "product12",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6890669656473318,
@@ -14057,7 +14057,7 @@
     {
       "product": "product12",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.15534913278595835,
@@ -14070,7 +14070,7 @@
     {
       "product": "product12",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6890669656473318,
@@ -14083,7 +14083,7 @@
     {
       "product": "product12",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.15534913278595835,
@@ -14096,7 +14096,7 @@
     {
       "product": "product12",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6890669656473318,
@@ -14109,7 +14109,7 @@
     {
       "product": "product12",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.15534913278595835,
@@ -14122,7 +14122,7 @@
     {
       "product": "product13",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6351112460734649,
@@ -14135,7 +14135,7 @@
     {
       "product": "product13",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.12438866911821247,
@@ -14148,7 +14148,7 @@
     {
       "product": "product13",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6351112460734649,
@@ -14161,7 +14161,7 @@
     {
       "product": "product13",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.12438866911821247,
@@ -14174,7 +14174,7 @@
     {
       "product": "product13",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6351112460734649,
@@ -14187,7 +14187,7 @@
     {
       "product": "product13",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.12438866911821247,
@@ -14200,7 +14200,7 @@
     {
       "product": "product14",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6206347370685439,
@@ -14213,7 +14213,7 @@
     {
       "product": "product14",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.2108333984712238,
@@ -14226,7 +14226,7 @@
     {
       "product": "product14",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6206347370685439,
@@ -14239,7 +14239,7 @@
     {
       "product": "product14",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.2108333984712238,
@@ -14252,7 +14252,7 @@
     {
       "product": "product14",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6206347370685439,
@@ -14265,7 +14265,7 @@
     {
       "product": "product14",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.2108333984712238,
@@ -14278,7 +14278,7 @@
     {
       "product": "product15",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 9,
       "ours_mean": 0.576799584731373,
@@ -14291,7 +14291,7 @@
     {
       "product": "product15",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 9,
       "ours_mean": 0.42596686003008544,
@@ -14304,7 +14304,7 @@
     {
       "product": "product15",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.570771733188153,
@@ -14317,7 +14317,7 @@
     {
       "product": "product15",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.4143059573436026,
@@ -14330,7 +14330,7 @@
     {
       "product": "product15",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.570771733188153,
@@ -14343,7 +14343,7 @@
     {
       "product": "product15",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.4143059573436026,
@@ -14356,7 +14356,7 @@
     {
       "product": "product2",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.694666248576128,
@@ -14369,7 +14369,7 @@
     {
       "product": "product2",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.12608744708622915,
@@ -14382,7 +14382,7 @@
     {
       "product": "product2",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.694666248576128,
@@ -14395,7 +14395,7 @@
     {
       "product": "product2",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.12608744708622915,
@@ -14408,7 +14408,7 @@
     {
       "product": "product2",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.694666248576128,
@@ -14421,7 +14421,7 @@
     {
       "product": "product2",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.12608744708622915,
@@ -14434,7 +14434,7 @@
     {
       "product": "product3",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.7486868642292881,
@@ -14447,7 +14447,7 @@
     {
       "product": "product3",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.06347649790993252,
@@ -14460,7 +14460,7 @@
     {
       "product": "product3",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.7486868642292881,
@@ -14473,7 +14473,7 @@
     {
       "product": "product3",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.06347649790993252,
@@ -14486,7 +14486,7 @@
     {
       "product": "product3",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.7486868642292881,
@@ -14499,7 +14499,7 @@
     {
       "product": "product3",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.06347649790993252,
@@ -14512,7 +14512,7 @@
     {
       "product": "product4",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.7560953611694401,
@@ -14525,7 +14525,7 @@
     {
       "product": "product4",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.10621726837677328,
@@ -14538,7 +14538,7 @@
     {
       "product": "product4",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.7560953611694401,
@@ -14551,7 +14551,7 @@
     {
       "product": "product4",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.10621726837677328,
@@ -14564,7 +14564,7 @@
     {
       "product": "product4",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.7560953611694401,
@@ -14577,7 +14577,7 @@
     {
       "product": "product4",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.10621726837677328,
@@ -14590,7 +14590,7 @@
     {
       "product": "product5",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.7215090281912246,
@@ -14603,7 +14603,7 @@
     {
       "product": "product5",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.12710464014579792,
@@ -14616,7 +14616,7 @@
     {
       "product": "product5",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.7215090281912246,
@@ -14629,7 +14629,7 @@
     {
       "product": "product5",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.12710464014579792,
@@ -14642,7 +14642,7 @@
     {
       "product": "product5",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.7215090281912246,
@@ -14655,7 +14655,7 @@
     {
       "product": "product5",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.12710464014579792,
@@ -14668,7 +14668,7 @@
     {
       "product": "product6",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.599772785604281,
@@ -14681,7 +14681,7 @@
     {
       "product": "product6",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.1269384176504351,
@@ -14694,7 +14694,7 @@
     {
       "product": "product6",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.599772785604281,
@@ -14707,7 +14707,7 @@
     {
       "product": "product6",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.1269384176504351,
@@ -14720,7 +14720,7 @@
     {
       "product": "product6",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.599772785604281,
@@ -14733,7 +14733,7 @@
     {
       "product": "product6",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.1269384176504351,
@@ -14746,7 +14746,7 @@
     {
       "product": "product7",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6980307924554211,
@@ -14759,7 +14759,7 @@
     {
       "product": "product7",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.10377363393833747,
@@ -14772,7 +14772,7 @@
     {
       "product": "product7",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6980307924554211,
@@ -14785,7 +14785,7 @@
     {
       "product": "product7",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.10377363393833747,
@@ -14798,7 +14798,7 @@
     {
       "product": "product7",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6980307924554211,
@@ -14811,7 +14811,7 @@
     {
       "product": "product7",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.10377363393833747,
@@ -14824,7 +14824,7 @@
     {
       "product": "product8",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 9,
       "ours_mean": 0.6548499209485341,
@@ -14837,7 +14837,7 @@
     {
       "product": "product8",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 9,
       "ours_mean": 0.1943766479815862,
@@ -14850,7 +14850,7 @@
     {
       "product": "product8",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6660165388103362,
@@ -14863,7 +14863,7 @@
     {
       "product": "product8",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.18413291482290084,
@@ -14876,7 +14876,7 @@
     {
       "product": "product8",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6660165388103362,
@@ -14889,7 +14889,7 @@
     {
       "product": "product8",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.18413291482290084,
@@ -14902,7 +14902,7 @@
     {
       "product": "product9",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.6492726127415505,
@@ -14915,7 +14915,7 @@
     {
       "product": "product9",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "ARACMO",
       "n_pairs": 10,
       "ours_mean": 0.19859512524564066,
@@ -14928,7 +14928,7 @@
     {
       "product": "product9",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.6492726127415505,
@@ -14941,7 +14941,7 @@
     {
       "product": "product9",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "CMOEMT",
       "n_pairs": 10,
       "ours_mean": 0.19859512524564066,
@@ -14954,7 +14954,7 @@
     {
       "product": "product9",
       "metric": "HV",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.6492726127415505,
@@ -14967,7 +14967,7 @@
     {
       "product": "product9",
       "metric": "IGD",
-      "ours": "MOPG-NSGAII",
+      "ours": "MOA(ours)",
       "baseline": "TriP",
       "n_pairs": 10,
       "ours_mean": 0.19859512524564066,
@@ -14996,3 +14996,4 @@
     "product15": 90
   }
 }
+

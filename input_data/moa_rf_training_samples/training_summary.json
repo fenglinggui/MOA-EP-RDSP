@@ -1,5 +1,5 @@
-{
-  "dataset_dir": "F:\\方老师课题方向\\科研\\实验数据\\mdo-results\\mopg_nsga2_env\\dataset_outputs",
+﻿{
+  "dataset_dir": "F:\\方老师课题方向\\科研\\实验数据\\moa-results\\moa_nsga2_env\\dataset_outputs",
   "random_state": 42,
   "grasp_estimators": 500,
   "unscrew_estimators": 500,
@@ -79,3 +79,5 @@
     }
   }
 }
+
+

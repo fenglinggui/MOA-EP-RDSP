@@ -1,7 +1,7 @@
-{
-  "source_dir": "正式实验数据\\exp1_mopg_vs_moea_same_hv_new",
-  "hv_box": "正式实验数据\\exp1_mopg_vs_moea_same_hv\\exp1_hvbox_calibration_all_algorithms_run1\\exp1_hv_boxes_all_algorithms_minmax_ref110.json",
-  "hv_targets": "正式实验数据\\exp1_mopg_vs_moea_same_hv\\exp1_hvbox_calibration_all_algorithms_run1\\exp1_hv_targets_all_algorithms_min_reachable.json",
+﻿{
+  "source_dir": "正式实验数据\\exp1_moa_vs_moea_same_hv_new",
+  "hv_box": "正式实验数据\\exp1_moa_vs_moea_same_hv\\exp1_hvbox_calibration_all_algorithms_run1\\exp1_hv_boxes_all_algorithms_minmax_ref110.json",
+  "hv_targets": "正式实验数据\\exp1_moa_vs_moea_same_hv\\exp1_hvbox_calibration_all_algorithms_run1\\exp1_hv_targets_all_algorithms_min_reachable.json",
   "missing": [],
   "records": [
     {
@@ -2255,8 +2255,8 @@
       "n_pareto": 2
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 0,
@@ -2270,8 +2270,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 1,
@@ -2285,8 +2285,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 2,
@@ -2300,8 +2300,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 3,
@@ -2315,8 +2315,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 4,
@@ -2330,8 +2330,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 5,
@@ -2345,8 +2345,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 6,
@@ -2360,8 +2360,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 7,
@@ -2375,8 +2375,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 8,
@@ -2390,8 +2390,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 9,
@@ -2405,8 +2405,8 @@
       "n_pareto": 3
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 0,
@@ -2420,8 +2420,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 1,
@@ -2435,8 +2435,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 2,
@@ -2450,8 +2450,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 3,
@@ -2465,8 +2465,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 4,
@@ -2480,8 +2480,8 @@
       "n_pareto": 3
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 5,
@@ -2495,8 +2495,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 6,
@@ -2510,8 +2510,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 7,
@@ -2525,8 +2525,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 8,
@@ -2540,8 +2540,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 9,
@@ -2555,8 +2555,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 0,
@@ -2570,8 +2570,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 1,
@@ -2585,8 +2585,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 2,
@@ -2600,8 +2600,8 @@
       "n_pareto": 3
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 3,
@@ -2615,8 +2615,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 4,
@@ -2630,8 +2630,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 5,
@@ -2645,8 +2645,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 6,
@@ -2660,8 +2660,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 7,
@@ -2675,8 +2675,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 8,
@@ -2690,8 +2690,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 9,
@@ -2705,8 +2705,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 0,
@@ -2720,8 +2720,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 1,
@@ -2735,8 +2735,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 2,
@@ -2750,8 +2750,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 3,
@@ -2765,8 +2765,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 4,
@@ -2780,8 +2780,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 5,
@@ -2795,8 +2795,8 @@
       "n_pareto": 22
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 6,
@@ -2810,8 +2810,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 7,
@@ -2825,8 +2825,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 8,
@@ -2840,8 +2840,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 9,
@@ -2855,8 +2855,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 0,
@@ -2870,8 +2870,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 1,
@@ -2885,8 +2885,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 2,
@@ -2900,8 +2900,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 3,
@@ -2915,8 +2915,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 4,
@@ -2930,8 +2930,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 5,
@@ -2945,8 +2945,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 6,
@@ -2960,8 +2960,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 7,
@@ -2975,8 +2975,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 8,
@@ -2990,8 +2990,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 9,
@@ -3005,8 +3005,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 0,
@@ -3020,8 +3020,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 1,
@@ -3035,8 +3035,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 2,
@@ -3050,8 +3050,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 3,
@@ -3065,8 +3065,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 4,
@@ -3080,8 +3080,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 5,
@@ -3095,8 +3095,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 6,
@@ -3110,8 +3110,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 7,
@@ -3125,8 +3125,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 8,
@@ -3140,8 +3140,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 9,
@@ -3155,8 +3155,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 0,
@@ -3170,8 +3170,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 1,
@@ -3185,8 +3185,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 2,
@@ -3200,8 +3200,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 3,
@@ -3215,8 +3215,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 4,
@@ -3230,8 +3230,8 @@
       "n_pareto": 19
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 5,
@@ -3245,8 +3245,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 6,
@@ -3260,8 +3260,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 7,
@@ -3275,8 +3275,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 8,
@@ -3290,8 +3290,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 9,
@@ -3305,8 +3305,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 0,
@@ -3320,8 +3320,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 1,
@@ -3335,8 +3335,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 2,
@@ -3350,8 +3350,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 3,
@@ -3365,8 +3365,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 4,
@@ -3380,8 +3380,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 5,
@@ -3395,8 +3395,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 6,
@@ -3410,8 +3410,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 7,
@@ -3425,8 +3425,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 8,
@@ -3440,8 +3440,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 9,
@@ -3455,8 +3455,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 0,
@@ -3470,8 +3470,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 1,
@@ -3485,8 +3485,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 2,
@@ -3500,8 +3500,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 3,
@@ -3515,8 +3515,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 4,
@@ -3530,8 +3530,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 5,
@@ -3545,8 +3545,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 6,
@@ -3560,8 +3560,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 7,
@@ -3575,8 +3575,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 8,
@@ -3590,8 +3590,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 9,
@@ -3605,8 +3605,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 0,
@@ -3620,8 +3620,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 1,
@@ -3635,8 +3635,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 2,
@@ -3650,8 +3650,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 3,
@@ -3665,8 +3665,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 4,
@@ -3680,8 +3680,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 5,
@@ -3695,8 +3695,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 6,
@@ -3710,8 +3710,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 7,
@@ -3725,8 +3725,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 8,
@@ -3740,8 +3740,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 9,
@@ -3755,8 +3755,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 0,
@@ -3770,8 +3770,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 1,
@@ -3785,8 +3785,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 2,
@@ -3800,8 +3800,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 3,
@@ -3815,8 +3815,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 4,
@@ -3830,8 +3830,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 5,
@@ -3845,8 +3845,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 6,
@@ -3860,8 +3860,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 7,
@@ -3875,8 +3875,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 8,
@@ -3890,8 +3890,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 9,
@@ -3905,8 +3905,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 0,
@@ -3920,8 +3920,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 1,
@@ -3935,8 +3935,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 2,
@@ -3950,8 +3950,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 3,
@@ -3965,8 +3965,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 4,
@@ -3980,8 +3980,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 5,
@@ -3995,8 +3995,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 6,
@@ -4010,8 +4010,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 7,
@@ -4025,8 +4025,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 8,
@@ -4040,8 +4040,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 9,
@@ -4055,8 +4055,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 0,
@@ -4070,8 +4070,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 1,
@@ -4085,8 +4085,8 @@
       "n_pareto": 3
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 2,
@@ -4100,8 +4100,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 3,
@@ -4115,8 +4115,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 4,
@@ -4130,8 +4130,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 5,
@@ -4145,8 +4145,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 6,
@@ -4160,8 +4160,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 7,
@@ -4175,8 +4175,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 8,
@@ -4190,8 +4190,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 9,
@@ -4205,8 +4205,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 0,
@@ -4220,8 +4220,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 1,
@@ -4235,8 +4235,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 2,
@@ -4250,8 +4250,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 3,
@@ -4265,8 +4265,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 4,
@@ -4280,8 +4280,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 5,
@@ -4295,8 +4295,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 6,
@@ -4310,8 +4310,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 7,
@@ -4325,8 +4325,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 8,
@@ -4340,8 +4340,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 9,
@@ -4355,8 +4355,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 0,
@@ -4370,8 +4370,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 1,
@@ -4385,8 +4385,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 2,
@@ -4400,8 +4400,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 3,
@@ -4415,8 +4415,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 4,
@@ -4430,8 +4430,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 5,
@@ -4445,8 +4445,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 6,
@@ -4460,8 +4460,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 7,
@@ -4475,8 +4475,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 8,
@@ -4490,8 +4490,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 9,
@@ -6755,8 +6755,8 @@
       "n_pareto": 2
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 0,
@@ -6770,8 +6770,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 1,
@@ -6785,8 +6785,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 2,
@@ -6800,8 +6800,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 3,
@@ -6815,8 +6815,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 4,
@@ -6830,8 +6830,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 5,
@@ -6845,8 +6845,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 6,
@@ -6860,8 +6860,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 7,
@@ -6875,8 +6875,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 8,
@@ -6890,8 +6890,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 9,
@@ -6905,8 +6905,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 0,
@@ -6920,8 +6920,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 1,
@@ -6935,8 +6935,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 2,
@@ -6950,8 +6950,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 3,
@@ -6965,8 +6965,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 4,
@@ -6980,8 +6980,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 5,
@@ -6995,8 +6995,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 6,
@@ -7010,8 +7010,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 7,
@@ -7025,8 +7025,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 8,
@@ -7040,8 +7040,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 9,
@@ -7055,8 +7055,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 0,
@@ -7070,8 +7070,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 1,
@@ -7085,8 +7085,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 2,
@@ -7100,8 +7100,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 3,
@@ -7115,8 +7115,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 4,
@@ -7130,8 +7130,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 5,
@@ -7145,8 +7145,8 @@
       "n_pareto": 20
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 6,
@@ -7160,8 +7160,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 7,
@@ -7175,8 +7175,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 8,
@@ -7190,8 +7190,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 9,
@@ -7205,8 +7205,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 0,
@@ -7220,8 +7220,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 1,
@@ -7235,8 +7235,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 2,
@@ -7250,8 +7250,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 3,
@@ -7265,8 +7265,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 4,
@@ -7280,8 +7280,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 5,
@@ -7295,8 +7295,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 6,
@@ -7310,8 +7310,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 7,
@@ -7325,8 +7325,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 8,
@@ -7340,8 +7340,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 9,
@@ -7355,8 +7355,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 0,
@@ -7370,8 +7370,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 1,
@@ -7385,8 +7385,8 @@
       "n_pareto": 22
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 2,
@@ -7400,8 +7400,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 3,
@@ -7415,8 +7415,8 @@
       "n_pareto": 22
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 4,
@@ -7430,8 +7430,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 5,
@@ -7445,8 +7445,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 6,
@@ -7460,8 +7460,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 7,
@@ -7475,8 +7475,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 8,
@@ -7490,8 +7490,8 @@
       "n_pareto": 19
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 9,
@@ -7505,8 +7505,8 @@
       "n_pareto": 21
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 0,
@@ -7520,8 +7520,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 1,
@@ -7535,8 +7535,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 2,
@@ -7550,8 +7550,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 3,
@@ -7565,8 +7565,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 4,
@@ -7580,8 +7580,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 5,
@@ -7595,8 +7595,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 6,
@@ -7610,8 +7610,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 7,
@@ -7625,8 +7625,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 8,
@@ -7640,8 +7640,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 9,
@@ -7655,8 +7655,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 0,
@@ -7670,8 +7670,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 1,
@@ -7685,8 +7685,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 2,
@@ -7700,8 +7700,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 3,
@@ -7715,8 +7715,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 4,
@@ -7730,8 +7730,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 5,
@@ -7745,8 +7745,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 6,
@@ -7760,8 +7760,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 7,
@@ -7775,8 +7775,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 8,
@@ -7790,8 +7790,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 9,
@@ -7805,8 +7805,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 0,
@@ -7820,8 +7820,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 1,
@@ -7835,8 +7835,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 2,
@@ -7850,8 +7850,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 3,
@@ -7865,8 +7865,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 4,
@@ -7880,8 +7880,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 5,
@@ -7895,8 +7895,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 6,
@@ -7910,8 +7910,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 7,
@@ -7925,8 +7925,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 8,
@@ -7940,8 +7940,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 9,
@@ -7955,8 +7955,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 0,
@@ -7970,8 +7970,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 1,
@@ -7985,8 +7985,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 2,
@@ -8000,8 +8000,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 3,
@@ -8015,8 +8015,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 4,
@@ -8030,8 +8030,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 5,
@@ -8045,8 +8045,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 6,
@@ -8060,8 +8060,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 7,
@@ -8075,8 +8075,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 8,
@@ -8090,8 +8090,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 9,
@@ -8105,8 +8105,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 0,
@@ -8120,8 +8120,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 1,
@@ -8135,8 +8135,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 2,
@@ -8150,8 +8150,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 3,
@@ -8165,8 +8165,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 4,
@@ -8180,8 +8180,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 5,
@@ -8195,8 +8195,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 6,
@@ -8210,8 +8210,8 @@
       "n_pareto": 19
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 7,
@@ -8225,8 +8225,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 8,
@@ -8240,8 +8240,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 9,
@@ -8255,8 +8255,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 0,
@@ -8270,8 +8270,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 1,
@@ -8285,8 +8285,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 2,
@@ -8300,8 +8300,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 3,
@@ -8315,8 +8315,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 4,
@@ -8330,8 +8330,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 5,
@@ -8345,8 +8345,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 6,
@@ -8360,8 +8360,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 7,
@@ -8375,8 +8375,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 8,
@@ -8390,8 +8390,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 9,
@@ -8405,8 +8405,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 0,
@@ -8420,8 +8420,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 1,
@@ -8435,8 +8435,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 2,
@@ -8450,8 +8450,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 3,
@@ -8465,8 +8465,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 4,
@@ -8480,8 +8480,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 5,
@@ -8495,8 +8495,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 6,
@@ -8510,8 +8510,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 7,
@@ -8525,8 +8525,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 8,
@@ -8540,8 +8540,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 9,
@@ -8555,8 +8555,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 0,
@@ -8570,8 +8570,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 1,
@@ -8585,8 +8585,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 2,
@@ -8600,8 +8600,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 3,
@@ -8615,8 +8615,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 4,
@@ -8630,8 +8630,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 5,
@@ -8645,8 +8645,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 6,
@@ -8660,8 +8660,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 7,
@@ -8675,8 +8675,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 8,
@@ -8690,8 +8690,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 9,
@@ -8705,8 +8705,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 0,
@@ -8720,8 +8720,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 1,
@@ -8735,8 +8735,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 2,
@@ -8750,8 +8750,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 3,
@@ -8765,8 +8765,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 4,
@@ -8780,8 +8780,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 5,
@@ -8795,8 +8795,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 6,
@@ -8810,8 +8810,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 7,
@@ -8825,8 +8825,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 8,
@@ -8840,8 +8840,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 9,
@@ -8855,8 +8855,8 @@
       "n_pareto": 3
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 0,
@@ -8870,8 +8870,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 1,
@@ -8885,8 +8885,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 2,
@@ -8900,8 +8900,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 3,
@@ -8915,8 +8915,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 4,
@@ -8930,8 +8930,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 5,
@@ -8945,8 +8945,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 6,
@@ -8960,8 +8960,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 7,
@@ -8975,8 +8975,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 8,
@@ -8990,8 +8990,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 9,
@@ -11255,8 +11255,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 0,
@@ -11270,8 +11270,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 1,
@@ -11285,8 +11285,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 2,
@@ -11300,8 +11300,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 3,
@@ -11315,8 +11315,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 4,
@@ -11330,8 +11330,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 5,
@@ -11345,8 +11345,8 @@
       "n_pareto": 2
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 6,
@@ -11360,8 +11360,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 7,
@@ -11375,8 +11375,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 8,
@@ -11390,8 +11390,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "run_id": 9,
@@ -11405,8 +11405,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 0,
@@ -11420,8 +11420,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 1,
@@ -11435,8 +11435,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 2,
@@ -11450,8 +11450,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 3,
@@ -11465,8 +11465,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 4,
@@ -11480,8 +11480,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 5,
@@ -11495,8 +11495,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 6,
@@ -11510,8 +11510,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 7,
@@ -11525,8 +11525,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 8,
@@ -11540,8 +11540,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "run_id": 9,
@@ -11555,8 +11555,8 @@
       "n_pareto": 2
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 0,
@@ -11570,8 +11570,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 1,
@@ -11585,8 +11585,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 2,
@@ -11600,8 +11600,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 3,
@@ -11615,8 +11615,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 4,
@@ -11630,8 +11630,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 5,
@@ -11645,8 +11645,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 6,
@@ -11660,8 +11660,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 7,
@@ -11675,8 +11675,8 @@
       "n_pareto": 44
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 8,
@@ -11690,8 +11690,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "run_id": 9,
@@ -11705,8 +11705,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 0,
@@ -11720,8 +11720,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 1,
@@ -11735,8 +11735,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 2,
@@ -11750,8 +11750,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 3,
@@ -11765,8 +11765,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 4,
@@ -11780,8 +11780,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 5,
@@ -11795,8 +11795,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 6,
@@ -11810,8 +11810,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 7,
@@ -11825,8 +11825,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 8,
@@ -11840,8 +11840,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "run_id": 9,
@@ -11855,8 +11855,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 0,
@@ -11870,8 +11870,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 1,
@@ -11885,8 +11885,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 2,
@@ -11900,8 +11900,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 3,
@@ -11915,8 +11915,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 4,
@@ -11930,8 +11930,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 5,
@@ -11945,8 +11945,8 @@
       "n_pareto": 21
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 6,
@@ -11960,8 +11960,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 7,
@@ -11975,8 +11975,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 8,
@@ -11990,8 +11990,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "run_id": 9,
@@ -12005,8 +12005,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 0,
@@ -12020,8 +12020,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 1,
@@ -12035,8 +12035,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 2,
@@ -12050,8 +12050,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 3,
@@ -12065,8 +12065,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 4,
@@ -12080,8 +12080,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 5,
@@ -12095,8 +12095,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 6,
@@ -12110,8 +12110,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 7,
@@ -12125,8 +12125,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 8,
@@ -12140,8 +12140,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "run_id": 9,
@@ -12155,8 +12155,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 0,
@@ -12170,8 +12170,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 1,
@@ -12185,8 +12185,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 2,
@@ -12200,8 +12200,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 3,
@@ -12215,8 +12215,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 4,
@@ -12230,8 +12230,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 5,
@@ -12245,8 +12245,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 6,
@@ -12260,8 +12260,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 7,
@@ -12275,8 +12275,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 8,
@@ -12290,8 +12290,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "run_id": 9,
@@ -12305,8 +12305,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 0,
@@ -12320,8 +12320,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 1,
@@ -12335,8 +12335,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 2,
@@ -12350,8 +12350,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 3,
@@ -12365,8 +12365,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 4,
@@ -12380,8 +12380,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 5,
@@ -12395,8 +12395,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 6,
@@ -12410,8 +12410,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 7,
@@ -12425,8 +12425,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 8,
@@ -12440,8 +12440,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "run_id": 9,
@@ -12455,8 +12455,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 0,
@@ -12470,8 +12470,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 1,
@@ -12485,8 +12485,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 2,
@@ -12500,8 +12500,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 3,
@@ -12515,8 +12515,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 4,
@@ -12530,8 +12530,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 5,
@@ -12545,8 +12545,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 6,
@@ -12560,8 +12560,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 7,
@@ -12575,8 +12575,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 8,
@@ -12590,8 +12590,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "run_id": 9,
@@ -12605,8 +12605,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 0,
@@ -12620,8 +12620,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 1,
@@ -12635,8 +12635,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 2,
@@ -12650,8 +12650,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 3,
@@ -12665,8 +12665,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 4,
@@ -12680,8 +12680,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 5,
@@ -12695,8 +12695,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 6,
@@ -12710,8 +12710,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 7,
@@ -12725,8 +12725,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 8,
@@ -12740,8 +12740,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "run_id": 9,
@@ -12755,8 +12755,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 0,
@@ -12770,8 +12770,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 1,
@@ -12785,8 +12785,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 2,
@@ -12800,8 +12800,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 3,
@@ -12815,8 +12815,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 4,
@@ -12830,8 +12830,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 5,
@@ -12845,8 +12845,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 6,
@@ -12860,8 +12860,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 7,
@@ -12875,8 +12875,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 8,
@@ -12890,8 +12890,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "run_id": 9,
@@ -12905,8 +12905,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 0,
@@ -12920,8 +12920,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 1,
@@ -12935,8 +12935,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 2,
@@ -12950,8 +12950,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 3,
@@ -12965,8 +12965,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 4,
@@ -12980,8 +12980,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 5,
@@ -12995,8 +12995,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 6,
@@ -13010,8 +13010,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 7,
@@ -13025,8 +13025,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 8,
@@ -13040,8 +13040,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "run_id": 9,
@@ -13055,8 +13055,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 0,
@@ -13070,8 +13070,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 1,
@@ -13085,8 +13085,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 2,
@@ -13100,8 +13100,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 3,
@@ -13115,8 +13115,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 4,
@@ -13130,8 +13130,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 5,
@@ -13145,8 +13145,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 6,
@@ -13160,8 +13160,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 7,
@@ -13175,8 +13175,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 8,
@@ -13190,8 +13190,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "run_id": 9,
@@ -13205,8 +13205,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 0,
@@ -13220,8 +13220,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 1,
@@ -13235,8 +13235,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 2,
@@ -13250,8 +13250,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 3,
@@ -13265,8 +13265,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 4,
@@ -13280,8 +13280,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 5,
@@ -13295,8 +13295,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 6,
@@ -13310,8 +13310,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 7,
@@ -13325,8 +13325,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 8,
@@ -13340,8 +13340,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "run_id": 9,
@@ -13355,8 +13355,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 0,
@@ -13370,8 +13370,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 1,
@@ -13385,8 +13385,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 2,
@@ -13400,8 +13400,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 3,
@@ -13415,8 +13415,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 4,
@@ -13430,8 +13430,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 5,
@@ -13445,8 +13445,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 6,
@@ -13460,8 +13460,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 7,
@@ -13475,8 +13475,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 8,
@@ -13490,8 +13490,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "run_id": 9,
@@ -15755,8 +15755,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 0,
@@ -15770,8 +15770,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 1,
@@ -15785,8 +15785,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 2,
@@ -15800,8 +15800,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 3,
@@ -15815,8 +15815,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 4,
@@ -15830,8 +15830,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 5,
@@ -15845,8 +15845,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 6,
@@ -15860,8 +15860,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 7,
@@ -15875,8 +15875,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 8,
@@ -15890,8 +15890,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "run_id": 9,
@@ -15905,8 +15905,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 0,
@@ -15920,8 +15920,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 1,
@@ -15935,8 +15935,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 2,
@@ -15950,8 +15950,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 3,
@@ -15965,8 +15965,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 4,
@@ -15980,8 +15980,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 5,
@@ -15995,8 +15995,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 6,
@@ -16010,8 +16010,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 7,
@@ -16025,8 +16025,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 8,
@@ -16040,8 +16040,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "run_id": 9,
@@ -16055,8 +16055,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 0,
@@ -16070,8 +16070,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 1,
@@ -16085,8 +16085,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 2,
@@ -16100,8 +16100,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 3,
@@ -16115,8 +16115,8 @@
       "n_pareto": 19
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 4,
@@ -16130,8 +16130,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 5,
@@ -16145,8 +16145,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 6,
@@ -16160,8 +16160,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 7,
@@ -16175,8 +16175,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 8,
@@ -16190,8 +16190,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "run_id": 9,
@@ -16205,8 +16205,8 @@
       "n_pareto": 20
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 0,
@@ -16220,8 +16220,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 1,
@@ -16235,8 +16235,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 2,
@@ -16250,8 +16250,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 3,
@@ -16265,8 +16265,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 4,
@@ -16280,8 +16280,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 5,
@@ -16295,8 +16295,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 6,
@@ -16310,8 +16310,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 7,
@@ -16325,8 +16325,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 8,
@@ -16340,8 +16340,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "run_id": 9,
@@ -16355,8 +16355,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 0,
@@ -16370,8 +16370,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 1,
@@ -16385,8 +16385,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 2,
@@ -16400,8 +16400,8 @@
       "n_pareto": 30
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 3,
@@ -16415,8 +16415,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 4,
@@ -16430,8 +16430,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 5,
@@ -16445,8 +16445,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 6,
@@ -16460,8 +16460,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 7,
@@ -16475,8 +16475,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 8,
@@ -16490,8 +16490,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "run_id": 9,
@@ -16505,8 +16505,8 @@
       "n_pareto": 22
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 0,
@@ -16520,8 +16520,8 @@
       "n_pareto": 18
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 1,
@@ -16535,8 +16535,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 2,
@@ -16550,8 +16550,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 3,
@@ -16565,8 +16565,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 4,
@@ -16580,8 +16580,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 5,
@@ -16595,8 +16595,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 6,
@@ -16610,8 +16610,8 @@
       "n_pareto": 16
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 7,
@@ -16625,8 +16625,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 8,
@@ -16640,8 +16640,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "run_id": 9,
@@ -16655,8 +16655,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 0,
@@ -16670,8 +16670,8 @@
       "n_pareto": 18
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 1,
@@ -16685,8 +16685,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 2,
@@ -16700,8 +16700,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 3,
@@ -16715,8 +16715,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 4,
@@ -16730,8 +16730,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 5,
@@ -16745,8 +16745,8 @@
       "n_pareto": 18
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 6,
@@ -16760,8 +16760,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 7,
@@ -16775,8 +16775,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 8,
@@ -16790,8 +16790,8 @@
       "n_pareto": 20
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "run_id": 9,
@@ -16805,8 +16805,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 0,
@@ -16820,8 +16820,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 1,
@@ -16835,8 +16835,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 2,
@@ -16850,8 +16850,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 3,
@@ -16865,8 +16865,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 4,
@@ -16880,8 +16880,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 5,
@@ -16895,8 +16895,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 6,
@@ -16910,8 +16910,8 @@
       "n_pareto": 20
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 7,
@@ -16925,8 +16925,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 8,
@@ -16940,8 +16940,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "run_id": 9,
@@ -16955,8 +16955,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 0,
@@ -16970,8 +16970,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 1,
@@ -16985,8 +16985,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 2,
@@ -17000,8 +17000,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 3,
@@ -17015,8 +17015,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 4,
@@ -17030,8 +17030,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 5,
@@ -17045,8 +17045,8 @@
       "n_pareto": 5
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 6,
@@ -17060,8 +17060,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 7,
@@ -17075,8 +17075,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 8,
@@ -17090,8 +17090,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "run_id": 9,
@@ -17105,8 +17105,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 0,
@@ -17120,8 +17120,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 1,
@@ -17135,8 +17135,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 2,
@@ -17150,8 +17150,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 3,
@@ -17165,8 +17165,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 4,
@@ -17180,8 +17180,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 5,
@@ -17195,8 +17195,8 @@
       "n_pareto": 18
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 6,
@@ -17210,8 +17210,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 7,
@@ -17225,8 +17225,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 8,
@@ -17240,8 +17240,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "run_id": 9,
@@ -17255,8 +17255,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 0,
@@ -17270,8 +17270,8 @@
       "n_pareto": 17
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 1,
@@ -17285,8 +17285,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 2,
@@ -17300,8 +17300,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 3,
@@ -17315,8 +17315,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 4,
@@ -17330,8 +17330,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 5,
@@ -17345,8 +17345,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 6,
@@ -17360,8 +17360,8 @@
       "n_pareto": 25
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 7,
@@ -17375,8 +17375,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 8,
@@ -17390,8 +17390,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "run_id": 9,
@@ -17405,8 +17405,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 0,
@@ -17420,8 +17420,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 1,
@@ -17435,8 +17435,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 2,
@@ -17450,8 +17450,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 3,
@@ -17465,8 +17465,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 4,
@@ -17480,8 +17480,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 5,
@@ -17495,8 +17495,8 @@
       "n_pareto": 6
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 6,
@@ -17510,8 +17510,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 7,
@@ -17525,8 +17525,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 8,
@@ -17540,8 +17540,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "run_id": 9,
@@ -17555,8 +17555,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 0,
@@ -17570,8 +17570,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 1,
@@ -17585,8 +17585,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 2,
@@ -17600,8 +17600,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 3,
@@ -17615,8 +17615,8 @@
       "n_pareto": 14
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 4,
@@ -17630,8 +17630,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 5,
@@ -17645,8 +17645,8 @@
       "n_pareto": 11
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 6,
@@ -17660,8 +17660,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 7,
@@ -17675,8 +17675,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 8,
@@ -17690,8 +17690,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "run_id": 9,
@@ -17705,8 +17705,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 0,
@@ -17720,8 +17720,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 1,
@@ -17735,8 +17735,8 @@
       "n_pareto": 7
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 2,
@@ -17750,8 +17750,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 3,
@@ -17765,8 +17765,8 @@
       "n_pareto": 15
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 4,
@@ -17780,8 +17780,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 5,
@@ -17795,8 +17795,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 6,
@@ -17810,8 +17810,8 @@
       "n_pareto": 4
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 7,
@@ -17825,8 +17825,8 @@
       "n_pareto": 8
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 8,
@@ -17840,8 +17840,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "run_id": 9,
@@ -17855,8 +17855,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 0,
@@ -17870,8 +17870,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 1,
@@ -17885,8 +17885,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 2,
@@ -17900,8 +17900,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 3,
@@ -17915,8 +17915,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 4,
@@ -17930,8 +17930,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 5,
@@ -17945,8 +17945,8 @@
       "n_pareto": 13
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 6,
@@ -17960,8 +17960,8 @@
       "n_pareto": 12
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 7,
@@ -17975,8 +17975,8 @@
       "n_pareto": 10
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 8,
@@ -17990,8 +17990,8 @@
       "n_pareto": 9
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "run_id": 9,
@@ -18247,8 +18247,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product1",
       "product_label": "P1",
       "target_hv": 0.55,
@@ -18263,8 +18263,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product2",
       "product_label": "P2",
       "target_hv": 0.59,
@@ -18279,8 +18279,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product3",
       "product_label": "P3",
       "target_hv": 0.63,
@@ -18295,8 +18295,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product4",
       "product_label": "P4",
       "target_hv": 0.53,
@@ -18311,8 +18311,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product5",
       "product_label": "P5",
       "target_hv": 0.59,
@@ -18327,8 +18327,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product6",
       "product_label": "P6",
       "target_hv": 0.57,
@@ -18343,8 +18343,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product7",
       "product_label": "P7",
       "target_hv": 0.6,
@@ -18359,8 +18359,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product8",
       "product_label": "P8",
       "target_hv": 0.49,
@@ -18375,8 +18375,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product9",
       "product_label": "P9",
       "target_hv": 0.6,
@@ -18391,8 +18391,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product10",
       "product_label": "P10",
       "target_hv": 0.58,
@@ -18407,8 +18407,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product11",
       "product_label": "P11",
       "target_hv": 0.51,
@@ -18423,8 +18423,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product12",
       "product_label": "P12",
       "target_hv": 0.5,
@@ -18439,8 +18439,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product13",
       "product_label": "P13",
       "target_hv": 0.53,
@@ -18455,8 +18455,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product14",
       "product_label": "P14",
       "target_hv": 0.43,
@@ -18471,8 +18471,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_rvea",
-      "method_label": "MOPG-RVEA",
+      "method": "moa_rvea",
+      "method_label": "MOA-RVEA",
       "product": "product15",
       "product_label": "P15",
       "target_hv": 0.5,
@@ -18727,8 +18727,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product1",
       "product_label": "P1",
       "target_hv": 0.55,
@@ -18743,8 +18743,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product2",
       "product_label": "P2",
       "target_hv": 0.59,
@@ -18759,8 +18759,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product3",
       "product_label": "P3",
       "target_hv": 0.63,
@@ -18775,8 +18775,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product4",
       "product_label": "P4",
       "target_hv": 0.53,
@@ -18791,8 +18791,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product5",
       "product_label": "P5",
       "target_hv": 0.59,
@@ -18807,8 +18807,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product6",
       "product_label": "P6",
       "target_hv": 0.57,
@@ -18823,8 +18823,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product7",
       "product_label": "P7",
       "target_hv": 0.6,
@@ -18839,8 +18839,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product8",
       "product_label": "P8",
       "target_hv": 0.49,
@@ -18855,8 +18855,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product9",
       "product_label": "P9",
       "target_hv": 0.6,
@@ -18871,8 +18871,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product10",
       "product_label": "P10",
       "target_hv": 0.58,
@@ -18887,8 +18887,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product11",
       "product_label": "P11",
       "target_hv": 0.51,
@@ -18903,8 +18903,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product12",
       "product_label": "P12",
       "target_hv": 0.5,
@@ -18919,8 +18919,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product13",
       "product_label": "P13",
       "target_hv": 0.53,
@@ -18935,8 +18935,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product14",
       "product_label": "P14",
       "target_hv": 0.43,
@@ -18951,8 +18951,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_smsemoa",
-      "method_label": "MOPG-SMSEMOA",
+      "method": "moa_smsemoa",
+      "method_label": "MOA-SMSEMOA",
       "product": "product15",
       "product_label": "P15",
       "target_hv": 0.5,
@@ -19207,8 +19207,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product1",
       "product_label": "P1",
       "target_hv": 0.55,
@@ -19223,8 +19223,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product2",
       "product_label": "P2",
       "target_hv": 0.59,
@@ -19239,8 +19239,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product3",
       "product_label": "P3",
       "target_hv": 0.63,
@@ -19255,8 +19255,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product4",
       "product_label": "P4",
       "target_hv": 0.53,
@@ -19271,8 +19271,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product5",
       "product_label": "P5",
       "target_hv": 0.59,
@@ -19287,8 +19287,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product6",
       "product_label": "P6",
       "target_hv": 0.57,
@@ -19303,8 +19303,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product7",
       "product_label": "P7",
       "target_hv": 0.6,
@@ -19319,8 +19319,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product8",
       "product_label": "P8",
       "target_hv": 0.49,
@@ -19335,8 +19335,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product9",
       "product_label": "P9",
       "target_hv": 0.6,
@@ -19351,8 +19351,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product10",
       "product_label": "P10",
       "target_hv": 0.58,
@@ -19367,8 +19367,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product11",
       "product_label": "P11",
       "target_hv": 0.51,
@@ -19383,8 +19383,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product12",
       "product_label": "P12",
       "target_hv": 0.5,
@@ -19399,8 +19399,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product13",
       "product_label": "P13",
       "target_hv": 0.53,
@@ -19415,8 +19415,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product14",
       "product_label": "P14",
       "target_hv": 0.43,
@@ -19431,8 +19431,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_ctaea",
-      "method_label": "MOPG-CTAEA",
+      "method": "moa_ctaea",
+      "method_label": "MOA-CTAEA",
       "product": "product15",
       "product_label": "P15",
       "target_hv": 0.5,
@@ -19687,8 +19687,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product1",
       "product_label": "P1",
       "target_hv": 0.55,
@@ -19703,8 +19703,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product2",
       "product_label": "P2",
       "target_hv": 0.59,
@@ -19719,8 +19719,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product3",
       "product_label": "P3",
       "target_hv": 0.63,
@@ -19735,8 +19735,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product4",
       "product_label": "P4",
       "target_hv": 0.53,
@@ -19751,8 +19751,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product5",
       "product_label": "P5",
       "target_hv": 0.59,
@@ -19767,8 +19767,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product6",
       "product_label": "P6",
       "target_hv": 0.57,
@@ -19783,8 +19783,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product7",
       "product_label": "P7",
       "target_hv": 0.6,
@@ -19799,8 +19799,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product8",
       "product_label": "P8",
       "target_hv": 0.49,
@@ -19815,8 +19815,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product9",
       "product_label": "P9",
       "target_hv": 0.6,
@@ -19831,8 +19831,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product10",
       "product_label": "P10",
       "target_hv": 0.58,
@@ -19847,8 +19847,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product11",
       "product_label": "P11",
       "target_hv": 0.51,
@@ -19863,8 +19863,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product12",
       "product_label": "P12",
       "target_hv": 0.5,
@@ -19879,8 +19879,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product13",
       "product_label": "P13",
       "target_hv": 0.53,
@@ -19895,8 +19895,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product14",
       "product_label": "P14",
       "target_hv": 0.43,
@@ -19911,8 +19911,8 @@
       "success_rate": 1.0
     },
     {
-      "method": "mopg_nsgaii",
-      "method_label": "MOPG-NSGAII",
+      "method": "moa_nsgaii",
+      "method_label": "MOA-NSGAII",
       "product": "product15",
       "product_label": "P15",
       "target_hv": 0.5,
@@ -19928,3 +19928,4 @@
     }
   ]
 }
+

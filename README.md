@@ -1,4 +1,4 @@
-# MOA for Execution-Parameterized Robotic Disassembly Sequence Planning
+﻿# MOA for Execution-Parameterized Robotic Disassembly Sequence Planning
 
 This repository provides the input data and experimental results used in the paper:
 
@@ -33,3 +33,5 @@ Older local experiment folders may contain legacy names, but the released files 
 - Experiment 1 and Experiment 2 use different HV normalization bounds because they answer different experimental questions.
 - Experiment 1 evaluates the time needed to reach comparable HV levels.
 - Experiment 2 evaluates final HV and IGD under equal runtime budgets.
+
+
