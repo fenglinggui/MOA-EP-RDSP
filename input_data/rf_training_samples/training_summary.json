@@ -1,0 +1,81 @@
+{
+  "dataset_dir": "F:\\方老师课题方向\\科研\\实验数据\\mdo-results\\mopg_nsga2_env\\dataset_outputs",
+  "random_state": 42,
+  "grasp_estimators": 500,
+  "unscrew_estimators": 500,
+  "grasp_model": {
+    "features": [
+      "mass",
+      "d_grip",
+      "dependency_count",
+      "posture_alignment",
+      "front_alpha"
+    ],
+    "targets": [
+      "grasp_rate",
+      "grip_force_scale"
+    ],
+    "train_time_s": 19.777194499969482,
+    "metrics": {
+      "train": {
+        "sample_count": 7236,
+        "mae_target_1": 0.0066202449696311045,
+        "mae_target_2": 0.0038370296198431564,
+        "r2_target_1": 0.9947472372884427,
+        "r2_target_2": 0.9990464060517146
+      },
+      "val": {
+        "sample_count": 1578,
+        "mae_target_1": 0.04147735976932591,
+        "mae_target_2": 0.028273404297099985,
+        "r2_target_1": 0.9278470794074258,
+        "r2_target_2": 0.9591941452458984
+      },
+      "test": {
+        "sample_count": 1533,
+        "mae_target_1": 0.037830404684597946,
+        "mae_target_2": 0.02401763105923543,
+        "r2_target_1": 0.9441412957362925,
+        "r2_target_2": 0.9716830970914063
+      }
+    }
+  },
+  "unscrew_model": {
+    "categorical_features": [
+      "screw_type"
+    ],
+    "numeric_features": [
+      "turns",
+      "posture_alignment",
+      "front_alpha"
+    ],
+    "targets": [
+      "rpm",
+      "press_ratio"
+    ],
+    "train_time_s": 39.4679983999813,
+    "metrics": {
+      "train": {
+        "sample_count": 16215,
+        "mae_target_1": 2.008842190548878,
+        "mae_target_2": 0.02043334273528914,
+        "r2_target_1": 0.9978789463228638,
+        "r2_target_2": 0.895318246259184
+      },
+      "val": {
+        "sample_count": 3488,
+        "mae_target_1": 12.773056976150665,
+        "mae_target_2": 0.04057099223153465,
+        "r2_target_1": 0.8999638837961614,
+        "r2_target_2": 0.6803582887300114
+      },
+      "test": {
+        "sample_count": 3479,
+        "mae_target_1": 8.99017823281942,
+        "mae_target_2": 0.027380420484884663,
+        "r2_target_1": 0.9522571210653061,
+        "r2_target_2": 0.7894328059007201
+      }
+    }
+  }
+}
