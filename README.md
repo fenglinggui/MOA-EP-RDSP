@@ -4,6 +4,12 @@ Data and experimental results for **Meta-operation-assisted optimization for exe
 
 Only data and experimental results will be released here. Implementation code for the compared algorithms is not included.
 
+## Background
+
+![EP-RDSP background illustration](figures/background/fig1_ep_rdsp.png)
+
+Figure 1 illustrates the execution-parameterized expansion of robotic disassembly sequence planning, where task-level disassembly operations are coupled with feasible robot configurations and execution parameters.
+
 ## Repository structure
 
 - `input_data/product_instances/`: product instance information for the 15 experimental products.
@@ -15,4 +21,6 @@ Only data and experimental results will be released here. Implementation code fo
 - `docs/`: notes for data format, metrics, and reproduction details.
 
 The folders currently contain only placeholders. Files will be added gradually.
+
+
 
