@@ -1,0 +1,15 @@
+﻿{
+  "description": "Per-run final Pareto fronts for Experiment 1. Full logs and intermediate generations are excluded.",
+  "records": 1200,
+  "methods": [
+    "CTAEA",
+    "MOA-CTAEA",
+    "MOA-NSGAII",
+    "MOA-RVEA",
+    "MOA-SMSEMOA",
+    "NSGAII",
+    "RVEA",
+    "SMSEMOA"
+  ],
+  "products": 15
+}
