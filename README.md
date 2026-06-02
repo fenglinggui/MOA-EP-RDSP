@@ -20,7 +20,9 @@ Figure 1 illustrates the execution-parameterized expansion of robotic disassembl
 - `figures/`: paper-ready figures generated from the formal experimental results.
 - `docs/`: notes for data format, metrics, and reproduction details.
 
-The folders currently contain only placeholders. Files will be added gradually.
+The repository currently includes the released input data, formal experiment summaries, paper-ready figures, and lightweight per-run final Pareto fronts. Full logs, intermediate populations, and compared algorithm implementation code are not included.
+
+
 
 
 
