@@ -1,5 +1,5 @@
-﻿{
-  "description": "Per-run final Pareto fronts for Experiment 2. LERD is excluded; full logs and intermediate generations are excluded.",
+{
+  "description": "Per-run final Pareto fronts for Experiment 2. full logs and intermediate generations are excluded.",
   "records": 600,
   "methods": [
     "ARACMO",

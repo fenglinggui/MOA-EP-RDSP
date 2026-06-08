@@ -1,4 +1,4 @@
-﻿# Metrics and Reproduction Notes
+# Metrics and Reproduction Notes
 
 This document describes the released input data and formal experimental results for the MOA-EP-RDSP dataset.
 
@@ -88,8 +88,6 @@ Released methods:
 - ARACMO;
 - MOA(ours).
 
-LERD is excluded from the released Experiment 2 summary and raw Pareto-front data.
-
 Main settings:
 
 - 15 product instances;
@@ -115,8 +113,6 @@ Both objectives are minimization objectives:
 The summary workbooks include the normalized HV and IGD values used in the formal result tables.
 
 For Experiment 1, HV is computed using the HV-box and target settings released with the processed Experiment 1 summary.
-
-For Experiment 2, HV and IGD are computed from the released formal Experiment 2 data with LERD excluded. The reference/ideal information used for comparison is included in the summary JSON and combined result files.
 
 ## Statistical Test
 

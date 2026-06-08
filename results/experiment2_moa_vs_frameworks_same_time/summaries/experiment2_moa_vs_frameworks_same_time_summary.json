@@ -1,16 +1,13 @@
-﻿{
-  "experiment_design": "exp2: MOA-NSGAII vs CMOEMT, TriP, ARACMO under the same time budget; LERD excluded; empty Pareto fronts excluded; compare HV and IGD",
+{
+  "experiment_design": "exp2: MOA-NSGAII vs CMOEMT, TriP, ARACMO under the same time budget; empty Pareto fronts excluded; compare HV and IGD",
   "included_methods": [
     "CMOEMT",
     "TriP",
     "ARACMO",
     "MOA-NSGAII"
   ],
-  "excluded_methods": [
-    "LERD"
-  ],
-  "hv_calculation": "normalized HV using per-product min/max over CMOEMT, TriP, ARACMO, and MOA-NSGAII Pareto fronts only; LERD excluded; empty fronts excluded; expanded by 10% on both sides",
-  "igd_reference": "per-product nondominated union of CMOEMT, TriP, ARACMO, and MOA-NSGAII final fronts only; LERD excluded; empty fronts excluded; normalized by PRODUCT_HV_BOXES",
+  "hv_calculation": "normalized HV using per-product min/max over CMOEMT, TriP, ARACMO, and MOA-NSGAII Pareto fronts only; empty fronts excluded; expanded by 10% on both sides",
+  "igd_reference": "per-product nondominated union of CMOEMT, TriP, ARACMO, and MOA-NSGAII final fronts only; empty fronts excluded; normalized by PRODUCT_HV_BOXES",
   "significance_test": "paired two-sided Wilcoxon signed-rank test, alpha=0.05, comparing each remaining baseline with MOA-NSGAII by product and metric",
   "hv_boxes": {
     "product1": {
@@ -175,7 +172,7 @@
       "n_pareto": 10,
       "final_hv": 0.4150754730640777,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -196,7 +193,7 @@
       "n_pareto": 9,
       "final_hv": 0.5096541169441579,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -217,7 +214,7 @@
       "n_pareto": 6,
       "final_hv": 0.4645298920881729,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -238,7 +235,7 @@
       "n_pareto": 8,
       "final_hv": 0.44195444124066013,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -259,7 +256,7 @@
       "n_pareto": 9,
       "final_hv": 0.4471965697887824,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -280,7 +277,7 @@
       "n_pareto": 12,
       "final_hv": 0.46626426732029386,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -301,7 +298,7 @@
       "n_pareto": 4,
       "final_hv": 0.46745908260932756,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -322,7 +319,7 @@
       "n_pareto": 6,
       "final_hv": 0.44613134830751633,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -343,7 +340,7 @@
       "n_pareto": 5,
       "final_hv": 0.49781925380965636,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -364,7 +361,7 @@
       "n_pareto": 18,
       "final_hv": 0.48888053903489387,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -385,7 +382,7 @@
       "n_pareto": 62,
       "final_hv": 0.48869819253958774,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -406,7 +403,7 @@
       "n_pareto": 66,
       "final_hv": 0.45303187945449047,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -427,7 +424,7 @@
       "n_pareto": 80,
       "final_hv": 0.43561856038122937,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -448,7 +445,7 @@
       "n_pareto": 80,
       "final_hv": 0.408445720264381,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -469,7 +466,7 @@
       "n_pareto": 80,
       "final_hv": 0.4946959778180088,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -490,7 +487,7 @@
       "n_pareto": 80,
       "final_hv": 0.510579673835555,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -511,7 +508,7 @@
       "n_pareto": 80,
       "final_hv": 0.5074315310636814,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -532,7 +529,7 @@
       "n_pareto": 80,
       "final_hv": 0.458370108301504,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -553,7 +550,7 @@
       "n_pareto": 80,
       "final_hv": 0.4177141192613234,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -574,7 +571,7 @@
       "n_pareto": 62,
       "final_hv": 0.41658829196631264,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -595,7 +592,7 @@
       "n_pareto": 42,
       "final_hv": 0.6014686070572197,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -616,7 +613,7 @@
       "n_pareto": 62,
       "final_hv": 0.5670751151045665,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -637,7 +634,7 @@
       "n_pareto": 23,
       "final_hv": 0.4679221464502474,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -658,7 +655,7 @@
       "n_pareto": 24,
       "final_hv": 0.5145567259332988,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -679,7 +676,7 @@
       "n_pareto": 35,
       "final_hv": 0.5208056541983325,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -700,7 +697,7 @@
       "n_pareto": 10,
       "final_hv": 0.5102821162424919,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -721,7 +718,7 @@
       "n_pareto": 68,
       "final_hv": 0.5219526166220262,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -742,7 +739,7 @@
       "n_pareto": 16,
       "final_hv": 0.5186054352085754,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -763,7 +760,7 @@
       "n_pareto": 29,
       "final_hv": 0.5310000737462269,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -784,7 +781,7 @@
       "n_pareto": 38,
       "final_hv": 0.41099381752639347,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -805,7 +802,7 @@
       "n_pareto": 16,
       "final_hv": 0.7615695696563164,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -826,7 +823,7 @@
       "n_pareto": 12,
       "final_hv": 0.6240163200371818,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -847,7 +844,7 @@
       "n_pareto": 15,
       "final_hv": 0.6992117392484379,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -868,7 +865,7 @@
       "n_pareto": 18,
       "final_hv": 0.6305059693964988,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -889,7 +886,7 @@
       "n_pareto": 17,
       "final_hv": 0.7479966779139109,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -910,7 +907,7 @@
       "n_pareto": 14,
       "final_hv": 0.7758475499690822,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -931,7 +928,7 @@
       "n_pareto": 25,
       "final_hv": 0.703821380127409,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -952,7 +949,7 @@
       "n_pareto": 16,
       "final_hv": 0.7613507791674127,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -973,7 +970,7 @@
       "n_pareto": 15,
       "final_hv": 0.7380270660334657,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -994,7 +991,7 @@
       "n_pareto": 13,
       "final_hv": 0.7578583478649686,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         62.18539874677434,
         812.9131885438247
@@ -1015,7 +1012,7 @@
       "n_pareto": 18,
       "final_hv": 0.5175678457777464,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1036,7 +1033,7 @@
       "n_pareto": 6,
       "final_hv": 0.5250763267910141,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1057,7 +1054,7 @@
       "n_pareto": 9,
       "final_hv": 0.46447175647545713,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1078,7 +1075,7 @@
       "n_pareto": 9,
       "final_hv": 0.5005788559684583,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1099,7 +1096,7 @@
       "n_pareto": 6,
       "final_hv": 0.5002426913752013,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1120,7 +1117,7 @@
       "n_pareto": 8,
       "final_hv": 0.4845078005458354,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1141,7 +1138,7 @@
       "n_pareto": 14,
       "final_hv": 0.45221533429145466,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1162,7 +1159,7 @@
       "n_pareto": 8,
       "final_hv": 0.4680162183745314,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1183,7 +1180,7 @@
       "n_pareto": 12,
       "final_hv": 0.4469881934673123,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1204,7 +1201,7 @@
       "n_pareto": 8,
       "final_hv": 0.46671812074855573,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1225,7 +1222,7 @@
       "n_pareto": 40,
       "final_hv": 0.5549754018548044,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1246,7 +1243,7 @@
       "n_pareto": 80,
       "final_hv": 0.41986498775274056,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1267,7 +1264,7 @@
       "n_pareto": 80,
       "final_hv": 0.510899914023176,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1288,7 +1285,7 @@
       "n_pareto": 80,
       "final_hv": 0.5445335414397757,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1309,7 +1306,7 @@
       "n_pareto": 68,
       "final_hv": 0.4850962427321729,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1330,7 +1327,7 @@
       "n_pareto": 76,
       "final_hv": 0.4932769582675451,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1351,7 +1348,7 @@
       "n_pareto": 66,
       "final_hv": 0.516505536764787,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1372,7 +1369,7 @@
       "n_pareto": 80,
       "final_hv": 0.5167956743719547,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1393,7 +1390,7 @@
       "n_pareto": 35,
       "final_hv": 0.5297332494265797,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1414,7 +1411,7 @@
       "n_pareto": 80,
       "final_hv": 0.5162040696795753,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1435,7 +1432,7 @@
       "n_pareto": 37,
       "final_hv": 0.5045526703530142,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1456,7 +1453,7 @@
       "n_pareto": 39,
       "final_hv": 0.510732928281687,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1477,7 +1474,7 @@
       "n_pareto": 21,
       "final_hv": 0.5037858490986658,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1498,7 +1495,7 @@
       "n_pareto": 16,
       "final_hv": 0.5046212066450189,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1519,7 +1516,7 @@
       "n_pareto": 38,
       "final_hv": 0.5849656128608121,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1540,7 +1537,7 @@
       "n_pareto": 49,
       "final_hv": 0.4972754996056211,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1561,7 +1558,7 @@
       "n_pareto": 33,
       "final_hv": 0.5581474422722812,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1582,7 +1579,7 @@
       "n_pareto": 55,
       "final_hv": 0.6048037027648137,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1603,7 +1600,7 @@
       "n_pareto": 28,
       "final_hv": 0.5124976284872228,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1624,7 +1621,7 @@
       "n_pareto": 41,
       "final_hv": 0.5979939533661887,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1645,7 +1642,7 @@
       "n_pareto": 15,
       "final_hv": 0.790496847857825,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1666,7 +1663,7 @@
       "n_pareto": 13,
       "final_hv": 0.7111363939282282,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1687,7 +1684,7 @@
       "n_pareto": 14,
       "final_hv": 0.6257214634317012,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1708,7 +1705,7 @@
       "n_pareto": 11,
       "final_hv": 0.7099266981948367,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1729,7 +1726,7 @@
       "n_pareto": 18,
       "final_hv": 0.724093869755555,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1750,7 +1747,7 @@
       "n_pareto": 12,
       "final_hv": 0.6400729189123804,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1771,7 +1768,7 @@
       "n_pareto": 8,
       "final_hv": 0.6199242274293872,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1792,7 +1789,7 @@
       "n_pareto": 16,
       "final_hv": 0.787145857152872,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1813,7 +1810,7 @@
       "n_pareto": 11,
       "final_hv": 0.7199511723577655,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1834,7 +1831,7 @@
       "n_pareto": 12,
       "final_hv": 0.6181930367407288,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         88.51483865540212,
         1275.0040347175113
@@ -1855,7 +1852,7 @@
       "n_pareto": 9,
       "final_hv": 0.586165074517359,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -1876,7 +1873,7 @@
       "n_pareto": 13,
       "final_hv": 0.6106880137942915,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -1897,7 +1894,7 @@
       "n_pareto": 20,
       "final_hv": 0.5776169359495583,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -1918,7 +1915,7 @@
       "n_pareto": 8,
       "final_hv": 0.6408896055936405,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -1939,7 +1936,7 @@
       "n_pareto": 7,
       "final_hv": 0.5871704226531509,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -1960,7 +1957,7 @@
       "n_pareto": 10,
       "final_hv": 0.5144603572336275,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -1981,7 +1978,7 @@
       "n_pareto": 5,
       "final_hv": 0.5591412593386951,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2002,7 +1999,7 @@
       "n_pareto": 14,
       "final_hv": 0.5946697760956167,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2023,7 +2020,7 @@
       "n_pareto": 9,
       "final_hv": 0.5517433339721928,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2044,7 +2041,7 @@
       "n_pareto": 4,
       "final_hv": 0.5411658247004064,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2065,7 +2062,7 @@
       "n_pareto": 80,
       "final_hv": 0.55501325096818,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2086,7 +2083,7 @@
       "n_pareto": 80,
       "final_hv": 0.5540757122759844,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2107,7 +2104,7 @@
       "n_pareto": 80,
       "final_hv": 0.5789748024479667,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2128,7 +2125,7 @@
       "n_pareto": 39,
       "final_hv": 0.5290000361423578,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2149,7 +2146,7 @@
       "n_pareto": 80,
       "final_hv": 0.507427751458433,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2170,7 +2167,7 @@
       "n_pareto": 80,
       "final_hv": 0.5141612909625703,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2191,7 +2188,7 @@
       "n_pareto": 66,
       "final_hv": 0.5377141419555356,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2212,7 +2209,7 @@
       "n_pareto": 80,
       "final_hv": 0.5705953047989153,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2233,7 +2230,7 @@
       "n_pareto": 80,
       "final_hv": 0.5397920681326636,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2254,7 +2251,7 @@
       "n_pareto": 80,
       "final_hv": 0.5672947163707798,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2275,7 +2272,7 @@
       "n_pareto": 71,
       "final_hv": 0.6351165483990032,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2296,7 +2293,7 @@
       "n_pareto": 33,
       "final_hv": 0.682897502730775,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2317,7 +2314,7 @@
       "n_pareto": 27,
       "final_hv": 0.6583210242906483,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2338,7 +2335,7 @@
       "n_pareto": 55,
       "final_hv": 0.6336411567044,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2359,7 +2356,7 @@
       "n_pareto": 49,
       "final_hv": 0.6973208564912942,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2380,7 +2377,7 @@
       "n_pareto": 21,
       "final_hv": 0.7580924851043914,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2401,7 +2398,7 @@
       "n_pareto": 29,
       "final_hv": 0.6654941963011517,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2422,7 +2419,7 @@
       "n_pareto": 53,
       "final_hv": 0.6634695485327887,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2443,7 +2440,7 @@
       "n_pareto": 44,
       "final_hv": 0.6294425254302966,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2464,7 +2461,7 @@
       "n_pareto": 67,
       "final_hv": 0.6989192868811754,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2485,7 +2482,7 @@
       "n_pareto": 39,
       "final_hv": 0.7308739916470546,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2506,7 +2503,7 @@
       "n_pareto": 40,
       "final_hv": 0.749975200848868,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2527,7 +2524,7 @@
       "n_pareto": 56,
       "final_hv": 0.7727269939848541,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2548,7 +2545,7 @@
       "n_pareto": 33,
       "final_hv": 0.8177226640014762,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2569,7 +2566,7 @@
       "n_pareto": 55,
       "final_hv": 0.7910394964528258,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2590,7 +2587,7 @@
       "n_pareto": 43,
       "final_hv": 0.6857768860224814,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2611,7 +2608,7 @@
       "n_pareto": 20,
       "final_hv": 0.7821496408318726,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2632,7 +2629,7 @@
       "n_pareto": 24,
       "final_hv": 0.7533980788715398,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2653,7 +2650,7 @@
       "n_pareto": 35,
       "final_hv": 0.6883745406596226,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2674,7 +2671,7 @@
       "n_pareto": 39,
       "final_hv": 0.7148311489722861,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         43.33547573591567,
         746.0502788962351
@@ -2695,7 +2692,7 @@
       "n_pareto": 11,
       "final_hv": 0.5013015050855015,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2716,7 +2713,7 @@
       "n_pareto": 12,
       "final_hv": 0.5792999913598661,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2737,7 +2734,7 @@
       "n_pareto": 8,
       "final_hv": 0.5797111236845064,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2758,7 +2755,7 @@
       "n_pareto": 8,
       "final_hv": 0.5465429557817971,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2779,7 +2776,7 @@
       "n_pareto": 10,
       "final_hv": 0.49876120536377305,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2800,7 +2797,7 @@
       "n_pareto": 10,
       "final_hv": 0.5592611263602235,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2821,7 +2818,7 @@
       "n_pareto": 7,
       "final_hv": 0.5668444593210107,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2842,7 +2839,7 @@
       "n_pareto": 11,
       "final_hv": 0.5236756899415952,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2863,7 +2860,7 @@
       "n_pareto": 11,
       "final_hv": 0.5528763410888836,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2884,7 +2881,7 @@
       "n_pareto": 8,
       "final_hv": 0.5453866796483461,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2905,7 +2902,7 @@
       "n_pareto": 32,
       "final_hv": 0.630640099905702,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2926,7 +2923,7 @@
       "n_pareto": 80,
       "final_hv": 0.5123066657328653,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2947,7 +2944,7 @@
       "n_pareto": 80,
       "final_hv": 0.5855426958037236,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2968,7 +2965,7 @@
       "n_pareto": 59,
       "final_hv": 0.5876931820574971,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -2989,7 +2986,7 @@
       "n_pareto": 80,
       "final_hv": 0.5507140268333008,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3010,7 +3007,7 @@
       "n_pareto": 80,
       "final_hv": 0.5864859515251013,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3031,7 +3028,7 @@
       "n_pareto": 80,
       "final_hv": 0.5845935050460925,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3052,7 +3049,7 @@
       "n_pareto": 80,
       "final_hv": 0.4971867311229307,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3073,7 +3070,7 @@
       "n_pareto": 80,
       "final_hv": 0.5389493550199167,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3094,7 +3091,7 @@
       "n_pareto": 80,
       "final_hv": 0.5494705629957944,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3115,7 +3112,7 @@
       "n_pareto": 58,
       "final_hv": 0.5417225047684984,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3136,7 +3133,7 @@
       "n_pareto": 73,
       "final_hv": 0.6640673061664208,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3157,7 +3154,7 @@
       "n_pareto": 58,
       "final_hv": 0.5992643228985656,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3178,7 +3175,7 @@
       "n_pareto": 76,
       "final_hv": 0.5999464084033366,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3199,7 +3196,7 @@
       "n_pareto": 52,
       "final_hv": 0.6415985944010324,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3220,7 +3217,7 @@
       "n_pareto": 54,
       "final_hv": 0.6501231503018752,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3241,7 +3238,7 @@
       "n_pareto": 55,
       "final_hv": 0.6348824678751969,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3262,7 +3259,7 @@
       "n_pareto": 16,
       "final_hv": 0.6295257598375501,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3283,7 +3280,7 @@
       "n_pareto": 58,
       "final_hv": 0.5951601777530505,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3304,7 +3301,7 @@
       "n_pareto": 72,
       "final_hv": 0.6438355744046032,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3325,7 +3322,7 @@
       "n_pareto": 18,
       "final_hv": 0.7117307577772939,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3346,7 +3343,7 @@
       "n_pareto": 15,
       "final_hv": 0.7654958188338576,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3367,7 +3364,7 @@
       "n_pareto": 17,
       "final_hv": 0.7536870101288009,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3388,7 +3385,7 @@
       "n_pareto": 12,
       "final_hv": 0.749931749192335,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3409,7 +3406,7 @@
       "n_pareto": 22,
       "final_hv": 0.7483502191552304,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3430,7 +3427,7 @@
       "n_pareto": 20,
       "final_hv": 0.7094875520786609,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3451,7 +3448,7 @@
       "n_pareto": 9,
       "final_hv": 0.7478375750127977,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3472,7 +3469,7 @@
       "n_pareto": 10,
       "final_hv": 0.8148099567751665,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3493,7 +3490,7 @@
       "n_pareto": 12,
       "final_hv": 0.7930835868615538,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3514,7 +3511,7 @@
       "n_pareto": 15,
       "final_hv": 0.7665393858787052,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         68.6071698597587,
         1150.7749952289867
@@ -3535,7 +3532,7 @@
       "n_pareto": 8,
       "final_hv": 0.4559079694361514,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3556,7 +3553,7 @@
       "n_pareto": 8,
       "final_hv": 0.4926699039831025,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3577,7 +3574,7 @@
       "n_pareto": 5,
       "final_hv": 0.5076287643447095,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3598,7 +3595,7 @@
       "n_pareto": 8,
       "final_hv": 0.47708726920051264,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3619,7 +3616,7 @@
       "n_pareto": 6,
       "final_hv": 0.5501960946615845,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3640,7 +3637,7 @@
       "n_pareto": 7,
       "final_hv": 0.4965119498996965,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3661,7 +3658,7 @@
       "n_pareto": 6,
       "final_hv": 0.4768205814299168,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3682,7 +3679,7 @@
       "n_pareto": 8,
       "final_hv": 0.46939402751766335,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3703,7 +3700,7 @@
       "n_pareto": 12,
       "final_hv": 0.5144643250014898,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3724,7 +3721,7 @@
       "n_pareto": 12,
       "final_hv": 0.4738457211937601,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3745,7 +3742,7 @@
       "n_pareto": 72,
       "final_hv": 0.5418489403891493,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3766,7 +3763,7 @@
       "n_pareto": 80,
       "final_hv": 0.4305931287060381,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3787,7 +3784,7 @@
       "n_pareto": 80,
       "final_hv": 0.4973292054406397,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3808,7 +3805,7 @@
       "n_pareto": 80,
       "final_hv": 0.4806376947373965,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3829,7 +3826,7 @@
       "n_pareto": 31,
       "final_hv": 0.4798828469167232,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3850,7 +3847,7 @@
       "n_pareto": 80,
       "final_hv": 0.5354205822159779,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3871,7 +3868,7 @@
       "n_pareto": 80,
       "final_hv": 0.5057990241859269,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3892,7 +3889,7 @@
       "n_pareto": 38,
       "final_hv": 0.5253524650516973,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3913,7 +3910,7 @@
       "n_pareto": 78,
       "final_hv": 0.5091646182252055,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3934,7 +3931,7 @@
       "n_pareto": 66,
       "final_hv": 0.508251535927492,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3955,7 +3952,7 @@
       "n_pareto": 42,
       "final_hv": 0.6260785890821844,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3976,7 +3973,7 @@
       "n_pareto": 17,
       "final_hv": 0.5711146303673098,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -3997,7 +3994,7 @@
       "n_pareto": 8,
       "final_hv": 0.527431637910749,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4018,7 +4015,7 @@
       "n_pareto": 23,
       "final_hv": 0.6865575267274331,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4039,7 +4036,7 @@
       "n_pareto": 38,
       "final_hv": 0.6353421020491911,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4060,7 +4057,7 @@
       "n_pareto": 39,
       "final_hv": 0.5832404810717657,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4081,7 +4078,7 @@
       "n_pareto": 36,
       "final_hv": 0.5847213871334511,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4102,7 +4099,7 @@
       "n_pareto": 48,
       "final_hv": 0.6159119893937164,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4123,7 +4120,7 @@
       "n_pareto": 11,
       "final_hv": 0.6568767041413819,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4144,7 +4141,7 @@
       "n_pareto": 15,
       "final_hv": 0.5637928863453421,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4165,7 +4162,7 @@
       "n_pareto": 17,
       "final_hv": 0.6998603639497277,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4186,7 +4183,7 @@
       "n_pareto": 14,
       "final_hv": 0.7490692841680695,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4207,7 +4204,7 @@
       "n_pareto": 20,
       "final_hv": 0.7413092293783816,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4228,7 +4225,7 @@
       "n_pareto": 17,
       "final_hv": 0.711206405317392,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4249,7 +4246,7 @@
       "n_pareto": 16,
       "final_hv": 0.6465396372821621,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4270,7 +4267,7 @@
       "n_pareto": 11,
       "final_hv": 0.7613928870382874,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4291,7 +4288,7 @@
       "n_pareto": 16,
       "final_hv": 0.7609335285567358,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4312,7 +4309,7 @@
       "n_pareto": 13,
       "final_hv": 0.7798051821240748,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4333,7 +4330,7 @@
       "n_pareto": 16,
       "final_hv": 0.6751857169825611,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4354,7 +4351,7 @@
       "n_pareto": 17,
       "final_hv": 0.6897880471148542,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         98.60045926768143,
         1607.3045678067615
@@ -4375,7 +4372,7 @@
       "n_pareto": 7,
       "final_hv": 0.43849189793090665,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4396,7 +4393,7 @@
       "n_pareto": 7,
       "final_hv": 0.4632088516113039,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4417,7 +4414,7 @@
       "n_pareto": 6,
       "final_hv": 0.4543079297191937,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4438,7 +4435,7 @@
       "n_pareto": 6,
       "final_hv": 0.43380979902252226,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4459,7 +4456,7 @@
       "n_pareto": 14,
       "final_hv": 0.4388194753782242,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4480,7 +4477,7 @@
       "n_pareto": 18,
       "final_hv": 0.4259974690012839,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4501,7 +4498,7 @@
       "n_pareto": 13,
       "final_hv": 0.4131751309826184,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4522,7 +4519,7 @@
       "n_pareto": 7,
       "final_hv": 0.41458975117694197,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4543,7 +4540,7 @@
       "n_pareto": 7,
       "final_hv": 0.4651313508148299,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4564,7 +4561,7 @@
       "n_pareto": 10,
       "final_hv": 0.4357968353380866,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4585,7 +4582,7 @@
       "n_pareto": 40,
       "final_hv": 0.5195497881587555,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4606,7 +4603,7 @@
       "n_pareto": 80,
       "final_hv": 0.4958924258836118,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4627,7 +4624,7 @@
       "n_pareto": 80,
       "final_hv": 0.4309260968739612,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4648,7 +4645,7 @@
       "n_pareto": 80,
       "final_hv": 0.5062194861829606,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4669,7 +4666,7 @@
       "n_pareto": 80,
       "final_hv": 0.44327498469488247,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4690,7 +4687,7 @@
       "n_pareto": 68,
       "final_hv": 0.5237347354771361,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4711,7 +4708,7 @@
       "n_pareto": 80,
       "final_hv": 0.46048654039807807,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4732,7 +4729,7 @@
       "n_pareto": 80,
       "final_hv": 0.4784223687579363,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4753,7 +4750,7 @@
       "n_pareto": 80,
       "final_hv": 0.4766061410747004,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4774,7 +4771,7 @@
       "n_pareto": 67,
       "final_hv": 0.45897705672589634,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4795,7 +4792,7 @@
       "n_pareto": 16,
       "final_hv": 0.4579084746610931,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4816,7 +4813,7 @@
       "n_pareto": 23,
       "final_hv": 0.5314532997441653,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4837,7 +4834,7 @@
       "n_pareto": 31,
       "final_hv": 0.5204625834199731,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4858,7 +4855,7 @@
       "n_pareto": 36,
       "final_hv": 0.5103432571700294,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4879,7 +4876,7 @@
       "n_pareto": 24,
       "final_hv": 0.42642385494022045,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4900,7 +4897,7 @@
       "n_pareto": 42,
       "final_hv": 0.4528487863950016,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4921,7 +4918,7 @@
       "n_pareto": 26,
       "final_hv": 0.4375172992400534,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4942,7 +4939,7 @@
       "n_pareto": 16,
       "final_hv": 0.49093661397244565,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4963,7 +4960,7 @@
       "n_pareto": 28,
       "final_hv": 0.45877043449956595,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -4984,7 +4981,7 @@
       "n_pareto": 31,
       "final_hv": 0.41082690319261467,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5005,7 +5002,7 @@
       "n_pareto": 15,
       "final_hv": 0.6080469498241348,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5026,7 +5023,7 @@
       "n_pareto": 7,
       "final_hv": 0.5557923950486254,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5047,7 +5044,7 @@
       "n_pareto": 13,
       "final_hv": 0.5583376236986585,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5068,7 +5065,7 @@
       "n_pareto": 11,
       "final_hv": 0.725522447970327,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5089,7 +5086,7 @@
       "n_pareto": 10,
       "final_hv": 0.6148469292497296,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5110,7 +5107,7 @@
       "n_pareto": 10,
       "final_hv": 0.5687120084394169,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5131,7 +5128,7 @@
       "n_pareto": 8,
       "final_hv": 0.6339044775798979,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5152,7 +5149,7 @@
       "n_pareto": 17,
       "final_hv": 0.5706218217532264,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5173,7 +5170,7 @@
       "n_pareto": 16,
       "final_hv": 0.5652017284819203,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5194,7 +5191,7 @@
       "n_pareto": 16,
       "final_hv": 0.5967414739968746,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         174.109783663256,
         2178.7751272051005
@@ -5215,7 +5212,7 @@
       "n_pareto": 8,
       "final_hv": 0.46040730756274795,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5236,7 +5233,7 @@
       "n_pareto": 15,
       "final_hv": 0.47276002906141495,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5257,7 +5254,7 @@
       "n_pareto": 2,
       "final_hv": 0.5660730438045231,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5278,7 +5275,7 @@
       "n_pareto": 12,
       "final_hv": 0.4634384606258864,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5299,7 +5296,7 @@
       "n_pareto": 4,
       "final_hv": 0.4433545642548856,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5320,7 +5317,7 @@
       "n_pareto": 4,
       "final_hv": 0.5455494153026472,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5341,7 +5338,7 @@
       "n_pareto": 8,
       "final_hv": 0.49271083856617115,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5362,7 +5359,7 @@
       "n_pareto": 7,
       "final_hv": 0.45731535006227864,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5383,7 +5380,7 @@
       "n_pareto": 8,
       "final_hv": 0.4451605119663135,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5404,7 +5401,7 @@
       "n_pareto": 12,
       "final_hv": 0.45721743096983003,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5425,7 +5422,7 @@
       "n_pareto": 80,
       "final_hv": 0.48680330756407686,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5446,7 +5443,7 @@
       "n_pareto": 80,
       "final_hv": 0.564312441816185,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5467,7 +5464,7 @@
       "n_pareto": 80,
       "final_hv": 0.5291704441278112,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5488,7 +5485,7 @@
       "n_pareto": 80,
       "final_hv": 0.48794509037433625,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5509,7 +5506,7 @@
       "n_pareto": 80,
       "final_hv": 0.49588020572938113,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5530,7 +5527,7 @@
       "n_pareto": 80,
       "final_hv": 0.539459844599162,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5551,7 +5548,7 @@
       "n_pareto": 80,
       "final_hv": 0.5091775014401876,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5572,7 +5569,7 @@
       "n_pareto": 80,
       "final_hv": 0.46663217506764454,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5593,7 +5590,7 @@
       "n_pareto": 80,
       "final_hv": 0.5460375619662218,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5614,7 +5611,7 @@
       "n_pareto": 80,
       "final_hv": 0.5449174077581189,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5635,7 +5632,7 @@
       "n_pareto": 34,
       "final_hv": 0.45893707472218276,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5656,7 +5653,7 @@
       "n_pareto": 23,
       "final_hv": 0.4916675700569222,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5677,7 +5674,7 @@
       "n_pareto": 58,
       "final_hv": 0.54935984810728,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5698,7 +5695,7 @@
       "n_pareto": 59,
       "final_hv": 0.43712510749696537,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5719,7 +5716,7 @@
       "n_pareto": 30,
       "final_hv": 0.4799510916577767,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5740,7 +5737,7 @@
       "n_pareto": 58,
       "final_hv": 0.4722248069100351,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5761,7 +5758,7 @@
       "n_pareto": 62,
       "final_hv": 0.42872317250294395,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5782,7 +5779,7 @@
       "n_pareto": 25,
       "final_hv": 0.5427245493301192,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5803,7 +5800,7 @@
       "n_pareto": 41,
       "final_hv": 0.4912590304791587,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5824,7 +5821,7 @@
       "n_pareto": 39,
       "final_hv": 0.5130482354850492,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5845,7 +5842,7 @@
       "n_pareto": 24,
       "final_hv": 0.638674636828116,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5866,7 +5863,7 @@
       "n_pareto": 17,
       "final_hv": 0.7964535168578148,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5887,7 +5884,7 @@
       "n_pareto": 13,
       "final_hv": 0.6352230665267711,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5908,7 +5905,7 @@
       "n_pareto": 5,
       "final_hv": 0.7198711846009116,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5929,7 +5926,7 @@
       "n_pareto": 20,
       "final_hv": 0.7300644840051845,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5950,7 +5947,7 @@
       "n_pareto": 11,
       "final_hv": 0.6517108338392072,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5971,7 +5968,7 @@
       "n_pareto": 9,
       "final_hv": 0.7098372469404505,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -5992,7 +5989,7 @@
       "n_pareto": 14,
       "final_hv": 0.6919306579981894,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -6013,7 +6010,7 @@
       "n_pareto": 16,
       "final_hv": 0.739129415491081,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -6034,7 +6031,7 @@
       "n_pareto": 12,
       "final_hv": 0.6674128814664848,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         122.55569028939308,
         1644.9937140272737
@@ -6055,7 +6052,7 @@
       "n_pareto": 11,
       "final_hv": 0.4756423418127429,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6076,7 +6073,7 @@
       "n_pareto": 6,
       "final_hv": 0.5108280528240282,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6097,7 +6094,7 @@
       "n_pareto": 8,
       "final_hv": 0.5130492494562876,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6118,7 +6115,7 @@
       "n_pareto": 17,
       "final_hv": 0.4452874778342828,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6139,7 +6136,7 @@
       "n_pareto": 13,
       "final_hv": 0.5153192950857439,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6160,7 +6157,7 @@
       "n_pareto": 9,
       "final_hv": 0.44221927288491464,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6181,7 +6178,7 @@
       "n_pareto": 10,
       "final_hv": 0.5292228702421803,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6202,7 +6199,7 @@
       "n_pareto": 4,
       "final_hv": 0.4889017906690293,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6223,7 +6220,7 @@
       "n_pareto": 9,
       "final_hv": 0.5345916480706931,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6244,7 +6241,7 @@
       "n_pareto": 11,
       "final_hv": 0.46429837384760886,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6265,7 +6262,7 @@
       "n_pareto": 80,
       "final_hv": 0.5687548241459198,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6286,7 +6283,7 @@
       "n_pareto": 80,
       "final_hv": 0.4488329880852141,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6307,7 +6304,7 @@
       "n_pareto": 80,
       "final_hv": 0.542882943181386,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6328,7 +6325,7 @@
       "n_pareto": 73,
       "final_hv": 0.48432515216453315,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6349,7 +6346,7 @@
       "n_pareto": 80,
       "final_hv": 0.6438947571786215,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6370,7 +6367,7 @@
       "n_pareto": 79,
       "final_hv": 0.4969840927039679,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6391,7 +6388,7 @@
       "n_pareto": 80,
       "final_hv": 0.48989635129215714,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6412,7 +6409,7 @@
       "n_pareto": 80,
       "final_hv": 0.5685542247381616,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6433,7 +6430,7 @@
       "n_pareto": 79,
       "final_hv": 0.5015927742943224,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6454,7 +6451,7 @@
       "n_pareto": 80,
       "final_hv": 0.5395924072763505,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6475,7 +6472,7 @@
       "n_pareto": 33,
       "final_hv": 0.5746866131097055,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6496,7 +6493,7 @@
       "n_pareto": 44,
       "final_hv": 0.546459323030371,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6517,7 +6514,7 @@
       "n_pareto": 49,
       "final_hv": 0.5335052886686035,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6538,7 +6535,7 @@
       "n_pareto": 36,
       "final_hv": 0.4732251252121892,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6559,7 +6556,7 @@
       "n_pareto": 41,
       "final_hv": 0.4842870613223172,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6580,7 +6577,7 @@
       "n_pareto": 5,
       "final_hv": 0.4517492904627449,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6601,7 +6598,7 @@
       "n_pareto": 23,
       "final_hv": 0.5010588188718377,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6622,7 +6619,7 @@
       "n_pareto": 77,
       "final_hv": 0.5104336253007585,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6643,7 +6640,7 @@
       "n_pareto": 75,
       "final_hv": 0.49700146260740036,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6664,7 +6661,7 @@
       "n_pareto": 14,
       "final_hv": 0.637137936563578,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6685,7 +6682,7 @@
       "n_pareto": 9,
       "final_hv": 0.7235708952593874,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6706,7 +6703,7 @@
       "n_pareto": 13,
       "final_hv": 0.6091663641957387,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6727,7 +6724,7 @@
       "n_pareto": 22,
       "final_hv": 0.7025346772803643,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6748,7 +6745,7 @@
       "n_pareto": 13,
       "final_hv": 0.7665160995665559,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6769,7 +6766,7 @@
       "n_pareto": 14,
       "final_hv": 0.6415093120329742,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6790,7 +6787,7 @@
       "n_pareto": 18,
       "final_hv": 0.7583371086876142,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6811,7 +6808,7 @@
       "n_pareto": 10,
       "final_hv": 0.6760504879288046,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6832,7 +6829,7 @@
       "n_pareto": 16,
       "final_hv": 0.5970828900834521,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6853,7 +6850,7 @@
       "n_pareto": 9,
       "final_hv": 0.5482596165048927,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         159.29737281644708,
         2166.2731117949593
@@ -6874,7 +6871,7 @@
       "n_pareto": 10,
       "final_hv": 0.5383493520025356,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -6895,7 +6892,7 @@
       "n_pareto": 10,
       "final_hv": 0.46879579717654374,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -6916,7 +6913,7 @@
       "n_pareto": 5,
       "final_hv": 0.5028343707388706,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -6937,7 +6934,7 @@
       "n_pareto": 8,
       "final_hv": 0.47283512856687,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -6958,7 +6955,7 @@
       "n_pareto": 9,
       "final_hv": 0.5259601769351093,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -6979,7 +6976,7 @@
       "n_pareto": 12,
       "final_hv": 0.48319316064594636,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7000,7 +6997,7 @@
       "n_pareto": 9,
       "final_hv": 0.48310539689868653,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7021,7 +7018,7 @@
       "n_pareto": 7,
       "final_hv": 0.4747675713909733,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7042,7 +7039,7 @@
       "n_pareto": 9,
       "final_hv": 0.4841148337692111,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7063,7 +7060,7 @@
       "n_pareto": 6,
       "final_hv": 0.5160895624626671,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7084,7 +7081,7 @@
       "n_pareto": 56,
       "final_hv": 0.516451632576693,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7105,7 +7102,7 @@
       "n_pareto": 44,
       "final_hv": 0.5497821214120219,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7126,7 +7123,7 @@
       "n_pareto": 80,
       "final_hv": 0.4712949500359132,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7147,7 +7144,7 @@
       "n_pareto": 80,
       "final_hv": 0.48457075055221327,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7168,7 +7165,7 @@
       "n_pareto": 80,
       "final_hv": 0.5940182289948633,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7189,7 +7186,7 @@
       "n_pareto": 80,
       "final_hv": 0.5661117915328895,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7210,7 +7207,7 @@
       "n_pareto": 80,
       "final_hv": 0.5134214618645339,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7231,7 +7228,7 @@
       "n_pareto": 80,
       "final_hv": 0.44414199436920804,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7252,7 +7249,7 @@
       "n_pareto": 80,
       "final_hv": 0.5518149453687828,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7273,7 +7270,7 @@
       "n_pareto": 68,
       "final_hv": 0.5531530441654671,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7294,7 +7291,7 @@
       "n_pareto": 36,
       "final_hv": 0.5293134112635759,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7315,7 +7312,7 @@
       "n_pareto": 16,
       "final_hv": 0.4684457879675311,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7336,7 +7333,7 @@
       "n_pareto": 62,
       "final_hv": 0.4606432601637013,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7357,7 +7354,7 @@
       "n_pareto": 55,
       "final_hv": 0.49429124095193044,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7378,7 +7375,7 @@
       "n_pareto": 30,
       "final_hv": 0.5254046564776643,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7399,7 +7396,7 @@
       "n_pareto": 30,
       "final_hv": 0.585659572421023,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7420,7 +7417,7 @@
       "n_pareto": 22,
       "final_hv": 0.49193647672255114,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7441,7 +7438,7 @@
       "n_pareto": 21,
       "final_hv": 0.5309332685356717,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7462,7 +7459,7 @@
       "n_pareto": 24,
       "final_hv": 0.4315824514643395,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7483,7 +7480,7 @@
       "n_pareto": 27,
       "final_hv": 0.4993746780972697,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7504,7 +7501,7 @@
       "n_pareto": 15,
       "final_hv": 0.6549729238687059,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7525,7 +7522,7 @@
       "n_pareto": 19,
       "final_hv": 0.5808076419666922,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7546,7 +7543,7 @@
       "n_pareto": 15,
       "final_hv": 0.5798515828669651,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7567,7 +7564,7 @@
       "n_pareto": 6,
       "final_hv": 0.7272522179925986,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7588,7 +7585,7 @@
       "n_pareto": 12,
       "final_hv": 0.6935079711375989,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7609,7 +7606,7 @@
       "n_pareto": 18,
       "final_hv": 0.6600132684623543,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7630,7 +7627,7 @@
       "n_pareto": 21,
       "final_hv": 0.6497154055540367,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7651,7 +7648,7 @@
       "n_pareto": 11,
       "final_hv": 0.611106897781676,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7672,7 +7669,7 @@
       "n_pareto": 15,
       "final_hv": 0.7093110098286016,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7693,7 +7690,7 @@
       "n_pareto": 9,
       "final_hv": 0.6261872079562765,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         184.4678564233211,
         2538.3927862497026
@@ -7714,7 +7711,7 @@
       "n_pareto": 12,
       "final_hv": 0.49269755737755555,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7735,7 +7732,7 @@
       "n_pareto": 11,
       "final_hv": 0.5095314019210215,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7756,7 +7753,7 @@
       "n_pareto": 15,
       "final_hv": 0.5191353544721461,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7777,7 +7774,7 @@
       "n_pareto": 10,
       "final_hv": 0.4487815823375384,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7798,7 +7795,7 @@
       "n_pareto": 8,
       "final_hv": 0.49372442501708763,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7819,7 +7816,7 @@
       "n_pareto": 18,
       "final_hv": 0.4712348010223328,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7840,7 +7837,7 @@
       "n_pareto": 13,
       "final_hv": 0.4910567390677715,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7861,7 +7858,7 @@
       "n_pareto": 8,
       "final_hv": 0.5035134882709269,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7882,7 +7879,7 @@
       "n_pareto": 5,
       "final_hv": 0.49907624807018514,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7903,7 +7900,7 @@
       "n_pareto": 12,
       "final_hv": 0.5329845481652357,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7924,7 +7921,7 @@
       "n_pareto": 80,
       "final_hv": 0.5788350303708227,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7945,7 +7942,7 @@
       "n_pareto": 80,
       "final_hv": 0.46198373504958823,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7966,7 +7963,7 @@
       "n_pareto": 80,
       "final_hv": 0.48224722836045236,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -7987,7 +7984,7 @@
       "n_pareto": 51,
       "final_hv": 0.5730428544960591,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8008,7 +8005,7 @@
       "n_pareto": 80,
       "final_hv": 0.6338815117107653,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8029,7 +8026,7 @@
       "n_pareto": 80,
       "final_hv": 0.5640529447555203,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8050,7 +8047,7 @@
       "n_pareto": 80,
       "final_hv": 0.5502175956569963,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8071,7 +8068,7 @@
       "n_pareto": 80,
       "final_hv": 0.47077253580974915,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8092,7 +8089,7 @@
       "n_pareto": 80,
       "final_hv": 0.5874753939498744,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8113,7 +8110,7 @@
       "n_pareto": 80,
       "final_hv": 0.5096915628274743,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8134,7 +8131,7 @@
       "n_pareto": 49,
       "final_hv": 0.5671603446570258,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8155,7 +8152,7 @@
       "n_pareto": 32,
       "final_hv": 0.5230377885634725,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8176,7 +8173,7 @@
       "n_pareto": 15,
       "final_hv": 0.5060417427928625,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8197,7 +8194,7 @@
       "n_pareto": 13,
       "final_hv": 0.47799990725498254,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8218,7 +8215,7 @@
       "n_pareto": 36,
       "final_hv": 0.5676902291478803,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8239,7 +8236,7 @@
       "n_pareto": 46,
       "final_hv": 0.621752505170136,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8260,7 +8257,7 @@
       "n_pareto": 62,
       "final_hv": 0.534290870626743,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8281,7 +8278,7 @@
       "n_pareto": 31,
       "final_hv": 0.5162610808537411,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8302,7 +8299,7 @@
       "n_pareto": 7,
       "final_hv": 0.41413035711182605,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8323,7 +8320,7 @@
       "n_pareto": 38,
       "final_hv": 0.5445149952002006,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8344,7 +8341,7 @@
       "n_pareto": 13,
       "final_hv": 0.6681218596626911,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8365,7 +8362,7 @@
       "n_pareto": 18,
       "final_hv": 0.6376815506491957,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8386,7 +8383,7 @@
       "n_pareto": 18,
       "final_hv": 0.6522891521590387,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8407,7 +8404,7 @@
       "n_pareto": 12,
       "final_hv": 0.6578648815787155,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8428,7 +8425,7 @@
       "n_pareto": 10,
       "final_hv": 0.6705120124846072,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8449,7 +8446,7 @@
       "n_pareto": 11,
       "final_hv": 0.6941021817250879,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8470,7 +8467,7 @@
       "n_pareto": 13,
       "final_hv": 0.623795225976708,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8491,7 +8488,7 @@
       "n_pareto": 15,
       "final_hv": 0.7317192816301266,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8512,7 +8509,7 @@
       "n_pareto": 13,
       "final_hv": 0.670435730448253,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8533,7 +8530,7 @@
       "n_pareto": 13,
       "final_hv": 0.7189677478955611,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         151.32058111709674,
         2286.7867326771707
@@ -8554,7 +8551,7 @@
       "n_pareto": 13,
       "final_hv": 0.45621890204077953,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8575,7 +8572,7 @@
       "n_pareto": 10,
       "final_hv": 0.4487295347849477,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8596,7 +8593,7 @@
       "n_pareto": 8,
       "final_hv": 0.45317137006901304,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8617,7 +8614,7 @@
       "n_pareto": 6,
       "final_hv": 0.4450796976048306,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8638,7 +8635,7 @@
       "n_pareto": 8,
       "final_hv": 0.48357977131229457,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8659,7 +8656,7 @@
       "n_pareto": 8,
       "final_hv": 0.5753488309105268,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8680,7 +8677,7 @@
       "n_pareto": 14,
       "final_hv": 0.5060554134200759,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8701,7 +8698,7 @@
       "n_pareto": 10,
       "final_hv": 0.46310903612528365,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8722,7 +8719,7 @@
       "n_pareto": 12,
       "final_hv": 0.43657622501527016,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8743,7 +8740,7 @@
       "n_pareto": 6,
       "final_hv": 0.45525987652685446,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8764,7 +8761,7 @@
       "n_pareto": 80,
       "final_hv": 0.49913408348064114,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8785,7 +8782,7 @@
       "n_pareto": 80,
       "final_hv": 0.562322943833752,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8806,7 +8803,7 @@
       "n_pareto": 73,
       "final_hv": 0.5933831533271288,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8827,7 +8824,7 @@
       "n_pareto": 80,
       "final_hv": 0.5041336903989988,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8848,7 +8845,7 @@
       "n_pareto": 79,
       "final_hv": 0.5085191529043621,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8869,7 +8866,7 @@
       "n_pareto": 80,
       "final_hv": 0.4686892351235952,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8890,7 +8887,7 @@
       "n_pareto": 80,
       "final_hv": 0.49507870957929606,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8911,7 +8908,7 @@
       "n_pareto": 80,
       "final_hv": 0.4626108788419964,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8932,7 +8929,7 @@
       "n_pareto": 80,
       "final_hv": 0.57392081489349,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8953,7 +8950,7 @@
       "n_pareto": 80,
       "final_hv": 0.4741543414896326,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8974,7 +8971,7 @@
       "n_pareto": 25,
       "final_hv": 0.5675594866222542,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -8995,7 +8992,7 @@
       "n_pareto": 66,
       "final_hv": 0.550916060251192,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9016,7 +9013,7 @@
       "n_pareto": 27,
       "final_hv": 0.42334752270152204,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9037,7 +9034,7 @@
       "n_pareto": 61,
       "final_hv": 0.520474345926399,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9058,7 +9055,7 @@
       "n_pareto": 20,
       "final_hv": 0.5299458891009415,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9079,7 +9076,7 @@
       "n_pareto": 23,
       "final_hv": 0.5282988192136295,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9100,7 +9097,7 @@
       "n_pareto": 54,
       "final_hv": 0.4565740550605272,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9121,7 +9118,7 @@
       "n_pareto": 33,
       "final_hv": 0.47718555176970306,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9142,7 +9139,7 @@
       "n_pareto": 18,
       "final_hv": 0.46372657934735273,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9163,7 +9160,7 @@
       "n_pareto": 44,
       "final_hv": 0.4992338039812906,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9184,7 +9181,7 @@
       "n_pareto": 10,
       "final_hv": 0.6222013552937362,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9205,7 +9202,7 @@
       "n_pareto": 10,
       "final_hv": 0.6812872122510015,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9226,7 +9223,7 @@
       "n_pareto": 17,
       "final_hv": 0.6525111223008389,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9247,7 +9244,7 @@
       "n_pareto": 12,
       "final_hv": 0.6620887066419777,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9268,7 +9265,7 @@
       "n_pareto": 11,
       "final_hv": 0.68180728388034,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9289,7 +9286,7 @@
       "n_pareto": 10,
       "final_hv": 0.6782939875817474,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9310,7 +9307,7 @@
       "n_pareto": 13,
       "final_hv": 0.6863284663413699,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9331,7 +9328,7 @@
       "n_pareto": 13,
       "final_hv": 0.7149893467455675,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9352,7 +9349,7 @@
       "n_pareto": 13,
       "final_hv": 0.7523829186675051,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9373,7 +9370,7 @@
       "n_pareto": 12,
       "final_hv": 0.6786082859153593,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         182.85879697975614,
         2672.8173551483646
@@ -9394,7 +9391,7 @@
       "n_pareto": 7,
       "final_hv": 0.48409130905402836,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9415,7 +9412,7 @@
       "n_pareto": 13,
       "final_hv": 0.5032241475481025,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9436,7 +9433,7 @@
       "n_pareto": 9,
       "final_hv": 0.5205009082287808,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9457,7 +9454,7 @@
       "n_pareto": 8,
       "final_hv": 0.5048791586364927,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9478,7 +9475,7 @@
       "n_pareto": 6,
       "final_hv": 0.5085094968022349,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9499,7 +9496,7 @@
       "n_pareto": 9,
       "final_hv": 0.48336069477454496,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9520,7 +9517,7 @@
       "n_pareto": 8,
       "final_hv": 0.580847903516162,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9541,7 +9538,7 @@
       "n_pareto": 14,
       "final_hv": 0.455617548890186,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9562,7 +9559,7 @@
       "n_pareto": 5,
       "final_hv": 0.5242929324900865,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9583,7 +9580,7 @@
       "n_pareto": 9,
       "final_hv": 0.5195722021674755,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9604,7 +9601,7 @@
       "n_pareto": 80,
       "final_hv": 0.459246506149233,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9625,7 +9622,7 @@
       "n_pareto": 80,
       "final_hv": 0.5546152418930606,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9646,7 +9643,7 @@
       "n_pareto": 80,
       "final_hv": 0.5048945763364637,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9667,7 +9664,7 @@
       "n_pareto": 80,
       "final_hv": 0.4772731203177109,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9688,7 +9685,7 @@
       "n_pareto": 80,
       "final_hv": 0.5095905781277527,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9709,7 +9706,7 @@
       "n_pareto": 80,
       "final_hv": 0.4750177126865472,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9730,7 +9727,7 @@
       "n_pareto": 80,
       "final_hv": 0.5971448520632998,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9751,7 +9748,7 @@
       "n_pareto": 80,
       "final_hv": 0.49050709882371496,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9772,7 +9769,7 @@
       "n_pareto": 80,
       "final_hv": 0.517223218902746,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9793,7 +9790,7 @@
       "n_pareto": 80,
       "final_hv": 0.4651321761371498,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9814,7 +9811,7 @@
       "n_pareto": 45,
       "final_hv": 0.5404094681199866,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9835,7 +9832,7 @@
       "n_pareto": 41,
       "final_hv": 0.5318983236893369,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9856,7 +9853,7 @@
       "n_pareto": 16,
       "final_hv": 0.7289788410866986,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9877,7 +9874,7 @@
       "n_pareto": 19,
       "final_hv": 0.5162606734130293,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9898,7 +9895,7 @@
       "n_pareto": 43,
       "final_hv": 0.5729500605479634,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9919,7 +9916,7 @@
       "n_pareto": 55,
       "final_hv": 0.5442186600267893,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9940,7 +9937,7 @@
       "n_pareto": 24,
       "final_hv": 0.5521245079412627,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9961,7 +9958,7 @@
       "n_pareto": 49,
       "final_hv": 0.5197935458616569,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -9982,7 +9979,7 @@
       "n_pareto": 29,
       "final_hv": 0.5002472284668071,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10003,7 +10000,7 @@
       "n_pareto": 18,
       "final_hv": 0.5556967090169807,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10024,7 +10021,7 @@
       "n_pareto": 15,
       "final_hv": 0.6884911664579952,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10045,7 +10042,7 @@
       "n_pareto": 17,
       "final_hv": 0.7327996479463339,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10066,7 +10063,7 @@
       "n_pareto": 8,
       "final_hv": 0.6249240382159884,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10087,7 +10084,7 @@
       "n_pareto": 13,
       "final_hv": 0.7639103975513863,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10108,7 +10105,7 @@
       "n_pareto": 15,
       "final_hv": 0.6533220785345358,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10129,7 +10126,7 @@
       "n_pareto": 4,
       "final_hv": 0.698669818057496,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10150,7 +10147,7 @@
       "n_pareto": 13,
       "final_hv": 0.6625785719929241,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10171,7 +10168,7 @@
       "n_pareto": 10,
       "final_hv": 0.6648932558262789,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10192,7 +10189,7 @@
       "n_pareto": 14,
       "final_hv": 0.6634762873733658,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10213,7 +10210,7 @@
       "n_pareto": 12,
       "final_hv": 0.7376043945170142,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         158.22979553286382,
         2466.0732774581247
@@ -10234,7 +10231,7 @@
       "n_pareto": 16,
       "final_hv": 0.4423310369599378,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10255,7 +10252,7 @@
       "n_pareto": 9,
       "final_hv": 0.5075725197922274,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10276,7 +10273,7 @@
       "n_pareto": 11,
       "final_hv": 0.4980208245571184,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10297,7 +10294,7 @@
       "n_pareto": 8,
       "final_hv": 0.5089105537565922,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10318,7 +10315,7 @@
       "n_pareto": 8,
       "final_hv": 0.44675168906075324,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10339,7 +10336,7 @@
       "n_pareto": 12,
       "final_hv": 0.46088514791381907,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10360,7 +10357,7 @@
       "n_pareto": 13,
       "final_hv": 0.44102740258840795,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10381,7 +10378,7 @@
       "n_pareto": 14,
       "final_hv": 0.48315263791616153,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10402,7 +10399,7 @@
       "n_pareto": 11,
       "final_hv": 0.4922458358433106,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10423,7 +10420,7 @@
       "n_pareto": 16,
       "final_hv": 0.4816777911841636,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10444,7 +10441,7 @@
       "n_pareto": 80,
       "final_hv": 0.45807962521450374,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10465,7 +10462,7 @@
       "n_pareto": 72,
       "final_hv": 0.5814274049293333,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10486,7 +10483,7 @@
       "n_pareto": 80,
       "final_hv": 0.5130239483961232,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10507,7 +10504,7 @@
       "n_pareto": 80,
       "final_hv": 0.4797452405625672,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10528,7 +10525,7 @@
       "n_pareto": 80,
       "final_hv": 0.47744106857430385,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10549,7 +10546,7 @@
       "n_pareto": 80,
       "final_hv": 0.4913786095771542,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10570,7 +10567,7 @@
       "n_pareto": 80,
       "final_hv": 0.515588001764428,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10591,7 +10588,7 @@
       "n_pareto": 80,
       "final_hv": 0.508781224195956,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10612,7 +10609,7 @@
       "n_pareto": 80,
       "final_hv": 0.5690324717010048,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10633,7 +10630,7 @@
       "n_pareto": 80,
       "final_hv": 0.5120876549158185,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10654,7 +10651,7 @@
       "n_pareto": 31,
       "final_hv": 0.46822433482576936,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10675,7 +10672,7 @@
       "n_pareto": 29,
       "final_hv": 0.45263311732912975,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10696,7 +10693,7 @@
       "n_pareto": 11,
       "final_hv": 0.49866046918062973,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10717,7 +10714,7 @@
       "n_pareto": 54,
       "final_hv": 0.514145229629784,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10738,7 +10735,7 @@
       "n_pareto": 36,
       "final_hv": 0.5849213888480873,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10759,7 +10756,7 @@
       "n_pareto": 51,
       "final_hv": 0.4895198694929955,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10780,7 +10777,7 @@
       "n_pareto": 47,
       "final_hv": 0.5056502658684807,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10801,7 +10798,7 @@
       "n_pareto": 40,
       "final_hv": 0.43297616183544796,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10822,7 +10819,7 @@
       "n_pareto": 42,
       "final_hv": 0.4531694794650649,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10843,7 +10840,7 @@
       "n_pareto": 21,
       "final_hv": 0.330750493231713,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10864,7 +10861,7 @@
       "n_pareto": 16,
       "final_hv": 0.6214722512131987,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10885,7 +10882,7 @@
       "n_pareto": 15,
       "final_hv": 0.6071768642633618,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10906,7 +10903,7 @@
       "n_pareto": 15,
       "final_hv": 0.5878832990626031,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10927,7 +10924,7 @@
       "n_pareto": 13,
       "final_hv": 0.6975489971002184,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10948,7 +10945,7 @@
       "n_pareto": 19,
       "final_hv": 0.6652860613698146,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10969,7 +10966,7 @@
       "n_pareto": 13,
       "final_hv": 0.6060685509214628,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -10990,7 +10987,7 @@
       "n_pareto": 13,
       "final_hv": 0.6124960032993048,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -11011,7 +11008,7 @@
       "n_pareto": 11,
       "final_hv": 0.688256090708973,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -11032,7 +11029,7 @@
       "n_pareto": 10,
       "final_hv": 0.6248725369244255,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -11053,7 +11050,7 @@
       "n_pareto": 12,
       "final_hv": 0.6400518058712866,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         229.96685469774982,
         3311.86973694162
@@ -11074,7 +11071,7 @@
       "n_pareto": 11,
       "final_hv": 0.465526243905662,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11095,7 +11092,7 @@
       "n_pareto": 8,
       "final_hv": 0.45612979649007435,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11116,7 +11113,7 @@
       "n_pareto": 9,
       "final_hv": 0.42477999469367894,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11137,7 +11134,7 @@
       "n_pareto": 13,
       "final_hv": 0.4248477792577444,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11158,7 +11155,7 @@
       "n_pareto": 10,
       "final_hv": 0.4456199701655586,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11179,7 +11176,7 @@
       "n_pareto": 12,
       "final_hv": 0.4317452860559747,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11200,7 +11197,7 @@
       "n_pareto": 9,
       "final_hv": 0.4176219471319596,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11221,7 +11218,7 @@
       "n_pareto": 10,
       "final_hv": 0.4103186456682895,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11242,7 +11239,7 @@
       "n_pareto": 11,
       "final_hv": 0.44268175911600366,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11263,7 +11260,7 @@
       "n_pareto": 12,
       "final_hv": 0.43852746279441185,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11284,7 +11281,7 @@
       "n_pareto": 80,
       "final_hv": 0.5005045779517971,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11305,7 +11302,7 @@
       "n_pareto": 80,
       "final_hv": 0.497587155495348,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11326,7 +11323,7 @@
       "n_pareto": 80,
       "final_hv": 0.4698838507391235,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11347,7 +11344,7 @@
       "n_pareto": 80,
       "final_hv": 0.4975466262717841,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11368,7 +11365,7 @@
       "n_pareto": 80,
       "final_hv": 0.6091213234410924,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11389,7 +11386,7 @@
       "n_pareto": 80,
       "final_hv": 0.5047364818987641,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11410,7 +11407,7 @@
       "n_pareto": 80,
       "final_hv": 0.5361243286640287,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11431,7 +11428,7 @@
       "n_pareto": 80,
       "final_hv": 0.4450635812206083,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11452,7 +11449,7 @@
       "n_pareto": 80,
       "final_hv": 0.5193480861041989,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11473,7 +11470,7 @@
       "n_pareto": 69,
       "final_hv": 0.5220481658705695,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11494,7 +11491,7 @@
       "n_pareto": 51,
       "final_hv": 0.4327478850511757,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11515,7 +11512,7 @@
       "n_pareto": 29,
       "final_hv": 0.48937798980587033,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11536,7 +11533,7 @@
       "n_pareto": 35,
       "final_hv": 0.4414832723700143,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11557,7 +11554,7 @@
       "n_pareto": 45,
       "final_hv": 0.4722738736534072,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11578,7 +11575,7 @@
       "n_pareto": 29,
       "final_hv": 0.44260667430898176,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11599,7 +11596,7 @@
       "n_pareto": 21,
       "final_hv": 0.299787441260676,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11620,7 +11617,7 @@
       "n_pareto": 26,
       "final_hv": 0.42867098141000537,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11641,7 +11638,7 @@
       "n_pareto": 12,
       "final_hv": 0.41927453286992844,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11662,7 +11659,7 @@
       "n_pareto": 17,
       "final_hv": 0.3465755970080748,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11683,7 +11680,7 @@
       "n_pareto": 46,
       "final_hv": 0.4489948027280279,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11704,7 +11701,7 @@
       "n_pareto": 14,
       "final_hv": 0.5826399061328478,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11725,7 +11722,7 @@
       "n_pareto": 15,
       "final_hv": 0.6578872600547759,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11746,7 +11743,7 @@
       "n_pareto": 14,
       "final_hv": 0.6381404588041466,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11767,7 +11764,7 @@
       "n_pareto": 10,
       "final_hv": 0.5890950872596867,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11788,7 +11785,7 @@
       "n_pareto": 7,
       "final_hv": 0.6124524104111615,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11809,7 +11806,7 @@
       "n_pareto": 16,
       "final_hv": 0.6658769711301067,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11830,7 +11827,7 @@
       "n_pareto": 12,
       "final_hv": 0.5643216946284817,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11851,7 +11848,7 @@
       "n_pareto": 22,
       "final_hv": 0.6891981341151263,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11872,7 +11869,7 @@
       "n_pareto": 14,
       "final_hv": 0.6178359897358697,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11893,7 +11890,7 @@
       "n_pareto": 17,
       "final_hv": 0.5888994584132354,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         386.4531368819386,
         5389.267780519807
@@ -11914,7 +11911,7 @@
       "n_pareto": 10,
       "final_hv": 0.4004635521686569,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -11935,7 +11932,7 @@
       "n_pareto": 6,
       "final_hv": 0.3426184763441368,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -11956,7 +11953,7 @@
       "n_pareto": 10,
       "final_hv": 0.37026798570244984,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -11977,7 +11974,7 @@
       "n_pareto": 7,
       "final_hv": 0.3792351685702792,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -11998,7 +11995,7 @@
       "n_pareto": 15,
       "final_hv": 0.4035646229526044,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12019,7 +12016,7 @@
       "n_pareto": 21,
       "final_hv": 0.4080378544512831,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12040,7 +12037,7 @@
       "n_pareto": 10,
       "final_hv": 0.36123388152652824,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12061,7 +12058,7 @@
       "n_pareto": 12,
       "final_hv": 0.4042520828542192,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12082,7 +12079,7 @@
       "n_pareto": 17,
       "final_hv": 0.3485341711261012,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12103,7 +12100,7 @@
       "n_pareto": 10,
       "final_hv": 0.39463010758268185,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12124,7 +12121,7 @@
       "n_pareto": 80,
       "final_hv": 0.44357639420963146,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12145,7 +12142,7 @@
       "n_pareto": 80,
       "final_hv": 0.46955823056313517,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12166,7 +12163,7 @@
       "n_pareto": 80,
       "final_hv": 0.42395818191611984,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12187,7 +12184,7 @@
       "n_pareto": 66,
       "final_hv": 0.4478136633258167,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12208,7 +12205,7 @@
       "n_pareto": 70,
       "final_hv": 0.49519476693717956,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12229,7 +12226,7 @@
       "n_pareto": 80,
       "final_hv": 0.43073353679315957,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12250,7 +12247,7 @@
       "n_pareto": 80,
       "final_hv": 0.5104517904418994,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12271,7 +12268,7 @@
       "n_pareto": 80,
       "final_hv": 0.4317645899588667,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12292,7 +12289,7 @@
       "n_pareto": 80,
       "final_hv": 0.4730604208205674,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12313,7 +12310,7 @@
       "n_pareto": 80,
       "final_hv": 0.4926429854192727,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12334,7 +12331,7 @@
       "n_pareto": 12,
       "final_hv": 0.2647319971719513,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12355,7 +12352,7 @@
       "n_pareto": 1,
       "final_hv": 0.2953861515381649,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12376,7 +12373,7 @@
       "n_pareto": 11,
       "final_hv": 0.25735873244067947,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12397,7 +12394,7 @@
       "n_pareto": 24,
       "final_hv": 0.41897786985505797,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12418,7 +12415,7 @@
       "n_pareto": 17,
       "final_hv": 0.32817606523721626,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12439,7 +12436,7 @@
       "n_pareto": 41,
       "final_hv": 0.3476458752200485,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12460,7 +12457,7 @@
       "n_pareto": 9,
       "final_hv": 0.306348010946618,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12481,7 +12478,7 @@
       "n_pareto": 28,
       "final_hv": 0.5070201103180144,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12502,7 +12499,7 @@
       "n_pareto": 24,
       "final_hv": 0.44339402893341767,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12523,7 +12520,7 @@
       "n_pareto": 11,
       "final_hv": 0.5383404861215874,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12544,7 +12541,7 @@
       "n_pareto": 10,
       "final_hv": 0.5572159461632437,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12565,7 +12562,7 @@
       "n_pareto": 13,
       "final_hv": 0.5270500363661565,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12586,7 +12583,7 @@
       "n_pareto": 10,
       "final_hv": 0.565281831977014,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12607,7 +12604,7 @@
       "n_pareto": 8,
       "final_hv": 0.5980348087905153,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12628,7 +12625,7 @@
       "n_pareto": 9,
       "final_hv": 0.5165210692991725,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12649,7 +12646,7 @@
       "n_pareto": 11,
       "final_hv": 0.58933994152443,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12670,7 +12667,7 @@
       "n_pareto": 16,
       "final_hv": 0.5549420143633114,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12691,7 +12688,7 @@
       "n_pareto": 8,
       "final_hv": 0.6527272933451689,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398
@@ -12712,7 +12709,7 @@
       "n_pareto": 8,
       "final_hv": 0.6082639039309301,
       "hv_box_expand_ratio": 0.1,
-      "hv_box_source": "experiment2_front_minmax_no_lerd",
+      "hv_box_source": "experiment2_front_minmax",
       "hv_ideal_point": [
         469.19158652129136,
         6354.801296653398

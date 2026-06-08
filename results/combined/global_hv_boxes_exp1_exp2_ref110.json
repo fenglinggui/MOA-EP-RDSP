@@ -1,4 +1,4 @@
-﻿{
+{
   "product1": {
     "ideal_time": 72.99738946927268,
     "ideal_energy": 892.66315319473,
@@ -9,7 +9,7 @@
     "source_front_max_time": 185.00007185616371,
     "source_front_max_energy": 1640.4923653163946,
     "front_point_count": 676,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product2": {
     "ideal_time": 107.73128724869431,
@@ -21,7 +21,7 @@
     "source_front_max_time": 272.33944573935094,
     "source_front_max_energy": 2254.691776970638,
     "front_point_count": 659,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product3": {
     "ideal_time": 54.399247437056864,
@@ -33,7 +33,7 @@
     "source_front_max_time": 146.47903348856437,
     "source_front_max_energy": 1412.4196423536105,
     "front_point_count": 797,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product4": {
     "ideal_time": 84.16054919340817,
@@ -45,7 +45,7 @@
     "source_front_max_time": 174.6398190606942,
     "source_front_max_energy": 1843.7806672046909,
     "front_point_count": 596,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product5": {
     "ideal_time": 114.26554439239271,
@@ -57,7 +57,7 @@
     "source_front_max_time": 221.9367448057204,
     "source_front_max_energy": 2439.9108473161878,
     "front_point_count": 675,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product6": {
     "ideal_time": 195.62818322148718,
@@ -69,7 +69,7 @@
     "source_front_max_time": 412.9255160814608,
     "source_front_max_energy": 4020.5278441523556,
     "front_point_count": 638,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product7": {
     "ideal_time": 142.26893643011707,
@@ -81,7 +81,7 @@
     "source_front_max_time": 330.8134720011043,
     "source_front_max_energy": 3118.107304551254,
     "front_point_count": 577,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product8": {
     "ideal_time": 174.56884580328327,
@@ -93,7 +93,7 @@
     "source_front_max_time": 380.7276962736012,
     "source_front_max_energy": 3611.5187812045997,
     "front_point_count": 625,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product9": {
     "ideal_time": 201.86546010849924,
@@ -105,7 +105,7 @@
     "source_front_max_time": 407.4983872895056,
     "source_front_max_energy": 3914.970211693523,
     "front_point_count": 697,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product10": {
     "ideal_time": 178.21610437698212,
@@ -117,7 +117,7 @@
     "source_front_max_time": 403.92789824670706,
     "source_front_max_energy": 3599.709719108431,
     "front_point_count": 715,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product11": {
     "ideal_time": 202.99255878981154,
@@ -129,7 +129,7 @@
     "source_front_max_time": 433.20155940881835,
     "source_front_max_energy": 4182.045769212492,
     "front_point_count": 643,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product12": {
     "ideal_time": 189.6791399887549,
@@ -141,7 +141,7 @@
     "source_front_max_time": 371.5848881358694,
     "source_front_max_energy": 3779.015063422792,
     "front_point_count": 627,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product13": {
     "ideal_time": 265.5889000702603,
@@ -153,7 +153,7 @@
     "source_front_max_time": 525.0278342990889,
     "source_front_max_energy": 5176.468003490339,
     "front_point_count": 683,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product14": {
     "ideal_time": 408.43108618995035,
@@ -165,7 +165,7 @@
     "source_front_max_time": 742.9407091922245,
     "source_front_max_energy": 7836.7344131262225,
     "front_point_count": 758,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   },
   "product15": {
     "ideal_time": 484.3667585361685,
@@ -177,6 +177,6 @@
     "source_front_max_time": 956.856683028219,
     "source_front_max_energy": 9146.350798059324,
     "front_point_count": 720,
-    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, LERD excluded, ref=1.1*max(all fronts)"
+    "source": "deduplicated exp1 run fronts + exp2 CMOEMT/TriP/ARACMO/MOA-NSGAII run fronts, excluded, ref=1.1*max(all fronts)"
   }
 }
